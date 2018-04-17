@@ -1,0 +1,30 @@
+@objects
+  masthead                  id    shs-mlb-boxscore-masthead
+  player_namefield-*        css   .player-name.show-for-large
+  substitute_namefield-*    css   .player-name.show-for-large.substitute-player
+  player_stat_ab-*          css   .player-stat-line div:nth-child(3)
+  stat_header_avg-*         css   .stat-header.show-for-large.has-left-border.medium-stat-column
+  player_stat_avg-*         css   .player-stat.show-for-large.has-left-border.medium-stat-column
+  player_stat_bb-*          css   .player-stat-line div:nth-child(10)
+
+= Masthead =
+  masthead:
+      height 409px
+      count any masthead is 1
+
+= BoxscorePlayerStats =
+  global:
+      count visible player_namefield-* is 31
+      count visible substitute_namefield-* is 2
+
+  substitute_namefield-1:
+      aligned vertically all substitute_namefield-2
+      text is "Incorrect Name!"
+
+  stat_header_avg-1:
+      aligned vertically left player_stat_avg-1
+
+  @forEach [player_stat_bb-*] as item, prev as previousItem
+      @if ${isVisible(item)}
+          ${item}:
+              aligned vertically left ${previousItem}
