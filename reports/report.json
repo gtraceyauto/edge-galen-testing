@@ -1,0 +1,33 @@
+{
+  "tests" : [ {
+    "name" : "Boxscore Stats Layout on mobile",
+    "startedAt" : 1524174800158,
+    "endedAt" : 1524174810020,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 7
+    },
+    "testId" : "1-boxscore-stats-layout-on-mobile",
+    "groups" : [ ],
+    "duration" : 9862,
+    "failed" : true
+  }, {
+    "name" : "Boxscore Stats Layout on desktop",
+    "startedAt" : 1524174810130,
+    "endedAt" : 1524174821127,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 30,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 37
+    },
+    "testId" : "2-boxscore-stats-layout-on-desktop",
+    "groups" : [ ],
+    "duration" : 10997,
+    "failed" : true
+  } ]
+}

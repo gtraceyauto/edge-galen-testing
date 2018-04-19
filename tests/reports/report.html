@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "Boxscore Stats Layout on mobile",
+    "startedAt" : 1524169528651,
+    "endedAt" : 1524169552370,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-boxscore-stats-layout-on-mobile",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.NullPointerException (<cmd>#229)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.NullPointerException (<cmd>#229)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)\n\tat org.mozilla.javascript.gen._cmd__18._c_resize_23(<cmd>:229)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_boxscore_stats_test_js_20._c_anonymous_3(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/boxscore_stats.test.js:13)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_boxscore_stats_test_js_20.call(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/boxscore_stats.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:33)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter2.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.NullPointerException\n\tat com.galenframework.utils.GalenUtils.resizeDriver(GalenUtils.java:308)\n\tat com.galenframework.utils.GalenUtils.resizeDriver(GalenUtils.java:300)\n\tat com.galenframework.javascript.GalenJsApi.resizeDriver(GalenJsApi.java:201)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 31 more\n",
+    "duration" : 23719
+  }, {
+    "name" : "Boxscore Stats Layout on desktop",
+    "startedAt" : 1524169552376,
+    "endedAt" : 1524169559626,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-boxscore-stats-layout-on-desktop",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.NullPointerException (<cmd>#229)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.NullPointerException (<cmd>#229)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)\n\tat org.mozilla.javascript.gen._cmd__18._c_resize_23(<cmd>:229)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_boxscore_stats_test_js_20._c_anonymous_3(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/boxscore_stats.test.js:13)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_boxscore_stats_test_js_20.call(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/boxscore_stats.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:33)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter2.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.NullPointerException\n\tat com.galenframework.utils.GalenUtils.resizeDriver(GalenUtils.java:308)\n\tat com.galenframework.utils.GalenUtils.resizeDriver(GalenUtils.java:300)\n\tat com.galenframework.javascript.GalenJsApi.resizeDriver(GalenJsApi.java:201)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 31 more\n",
+    "duration" : 7250
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

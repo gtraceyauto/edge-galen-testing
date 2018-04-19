@@ -9,18 +9,18 @@
   "author": "Tim Lantz",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^2.37.0",
     "npm": "^5.8.0",
     "save-dev": "^2.0.0"
   },
   "devDependencies": {
     "async": "^2.6.0",
     "del": "^3.0.0",
-    "galenframework-cli": "^2.3.5-develop-55",
-    "gulp": "^3.9.1",
+    "galenframework-cli": "^2.3.6",
+    "gulp": "^4.0.0",
     "gulp-galen": "^1.1.1",
     "gulp-serve": "^1.4.0",
     "gulp-tap": "^1.0.1",
-    "serve-index": "^1.9.1"
+    "serve-index": "^1.9.1",
+    "yargs": "^11.1.0"
   }
 }

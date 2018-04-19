@@ -1,0 +1,8 @@
+@objects
+  header-container     css    .header-container
+  header               css    .header
+
+= Header =
+  header:
+    text is "MLB Standings"
+    centered horizontally inside header-container
