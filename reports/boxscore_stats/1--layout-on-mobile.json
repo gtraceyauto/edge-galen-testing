@@ -1,0 +1,107 @@
+{
+  "testId" : "1--layout-on-mobile",
+  "name" : " Layout on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/boxscore_stats.gspec included tags: ",
+      "status" : "error",
+      "time" : 1524503179729,
+      "sections" : [ {
+        "name" : "Masthead",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "masthead",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 409px",
+            "errors" : [ "\"masthead\" height is 413px instead of 409px" ],
+            "highlight" : [ "masthead" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "count any masthead is 1",
+            "highlight" : [ "masthead" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BoxscorePlayerStats",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 15
+        },
+        "objects" : [ {
+          "name" : "global",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "count visible player_namefield-* is 31",
+            "errors" : [ "There are 0 visible objects matching \"player_namefield-*\" instead of 31" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "count visible substitute_namefield-* is 2",
+            "errors" : [ "There are 0 visible objects matching \"substitute_namefield-*\" instead of 2" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "substitute_namefield-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "aligned vertically all substitute_namefield-2",
+            "errors" : [ "\"substitute_namefield-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "text is \"Incorrect Name!\"",
+            "errors" : [ "\"substitute_namefield-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "stat_header_avg-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "aligned vertically left player_stat_avg-1",
+            "errors" : [ "\"stat_header_avg-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "masthead" : {
+          "area" : [ 0, 128, 450, 413 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

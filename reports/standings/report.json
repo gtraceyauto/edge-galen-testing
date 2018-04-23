@@ -1,0 +1,33 @@
+{
+  "tests" : [ {
+    "name" : " Layout on mobile",
+    "startedAt" : 1524503190839,
+    "endedAt" : 1524503194436,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1--layout-on-mobile",
+    "groups" : [ ],
+    "duration" : 3597,
+    "failed" : false
+  }, {
+    "name" : " Layout on desktop",
+    "startedAt" : 1524503194526,
+    "endedAt" : 1524503197405,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "2--layout-on-desktop",
+    "groups" : [ ],
+    "duration" : 2879,
+    "failed" : false
+  } ]
+}

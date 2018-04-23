@@ -1,6 +1,7 @@
 load('/devices.js');
 load('/widgets.js');
 var widgetToTest = widgets.standings;
+var widgetName = widgetToTest.name;
 
 beforeTest(function() {
   var driver = createDriver(widgetToTest.url, '1366x768');
@@ -8,10 +9,10 @@ beforeTest(function() {
 });
 
 forAll(devices, function() {
-  test('Standings Layout on ${deviceName}', function(device) {
+  test('${widgetName} Layout on ${deviceName}', function(device) {
     var driver = session.get('driver');
     resize(driver, device.size);
-    checkLayout(driver, 'specs/standings.gspec', device.tag);
+    checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
   });
 });
 
