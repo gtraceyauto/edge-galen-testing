@@ -1,10 +1,10 @@
-function Device(deviceName, size, tags) {
+function Device(deviceName, size, tag) {
     this.deviceName = deviceName;
     this.size = size;
-    this.tags = tags;
+    this.tag = tag;
 }
 
 var devices = {
     mobile:  new Device('mobile', '450x796', ['mobile']),
-    desktop: new Device('desktop', '1366x768', ['desktop'])
+    desktop: new Device('desktop', '1980x1080', ['desktop'])
 };

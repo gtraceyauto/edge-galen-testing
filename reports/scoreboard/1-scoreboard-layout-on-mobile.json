@@ -1,0 +1,55 @@
+{
+  "testId" : "1-scoreboard-layout-on-mobile",
+  "name" : "scoreboard layout on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/scoreboard.gspec included tags: mobile",
+      "status" : "error",
+      "time" : 1524581678641,
+      "includedTags" : [ "mobile" ],
+      "sections" : [ {
+        "name" : "Main",
+        "place" : {
+          "filePath" : "specs/scoreboard.gspec",
+          "lineNumber" : 4
+        },
+        "objects" : [ ],
+        "sections" : [ {
+          "name" : "Snapshot Button",
+          "place" : {
+            "filePath" : "specs/scoreboard.gspec",
+            "lineNumber" : 5
+          },
+          "objects" : [ {
+            "name" : "snapshot_button",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 7
+              },
+              "name" : "height 32px",
+              "highlight" : [ "snapshot_button" ]
+            }, {
+              "status" : "error",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 8
+              },
+              "name" : "width  122px",
+              "errors" : [ "\"snapshot_button\" width is 164px instead of 122px" ],
+              "highlight" : [ "snapshot_button" ]
+            } ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "snapshot_button" : {
+          "area" : [ 44, 424, 164, 32 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

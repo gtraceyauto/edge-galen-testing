@@ -13,27 +13,17 @@ var widgetToTest = argv.w ? argv.w : '*';
 var reportsDir = 'reports';
 var port = 3333;
 
-//Tasks for testing one widget
-gulp.task('cleanDir', function(done) {
-  del([reportsDir + '/' + widgetToTest]);
-  done();
-});
-
-gulp.task('testOneWidget', function(done) {
-  gulp
-    .src(`tests/${widgetToTest}.test.js`)
-    .pipe(gulpGalen.test({
-      htmlreport: reportsDir + '/' + widgetToTest
-    }, done()));
-});
-
 //Tasks for testing all widgets
-gulp.task('cleanAll', function(done) {
-  del ([reportsDir]);
+gulp.task('clean', function(done) {
+  if (widgetToTest == '*') {
+    del ([reportsDir]);
+  } else {
+    del([reportsDir + '/' + widgetToTest]);
+  };
   done();
 });
 
-gulp.task('testAllWidgets', function(done) {
+gulp.task('testWidgets', function(done) {
   var files = [];
   var galen = function galen(file, callback) {
     spawn('galen', [
@@ -46,7 +36,7 @@ gulp.task('testAllWidgets', function(done) {
     });
   };
 
-  return gulp.src(['tests/*.test.js'])
+  return gulp.src([`tests/${widgetToTest}.test.js`])
     .pipe(tap(function(file) {
       files.push(file);
     }))
@@ -81,5 +71,8 @@ gulp.task('serve', serve({
     'root' : reportsDir
 }));
 
-gulp.task('testOne', gulp.series('cleanDir', 'testOneWidget', 'serve'));
-gulp.task('testAll', gulp.series('cleanAll', 'testAllWidgets', 'serve'));
+gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
+  done();
+}));
+
+gulp.task('default', gulp.series('test'));

@@ -1,6 +1,6 @@
 load('/devices.js');
 load('/widgets.js');
-var widgetToTest = widgets.boxscoreStats;
+var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;
 
 beforeTest(function() {

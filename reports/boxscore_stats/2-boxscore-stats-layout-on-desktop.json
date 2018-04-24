@@ -1,0 +1,637 @@
+{
+  "testId" : "2-boxscore-stats-layout-on-desktop",
+  "name" : "boxscore_stats layout on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/boxscore_stats.gspec included tags: desktop",
+      "status" : "error",
+      "time" : 1524581672955,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Masthead",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "masthead",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "count any masthead is 1",
+            "highlight" : [ "masthead" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "height ~410px",
+            "highlight" : [ "masthead" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BoxscorePlayerStats",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 25
+        },
+        "objects" : [ {
+          "name" : "global",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "count visible player_namefield-* is 31",
+            "highlight" : [ "player_namefield-31", "player_namefield-10", "player_namefield-30", "player_namefield-13", "player_namefield-14", "player_namefield-11", "player_namefield-12", "player_namefield-28", "player_namefield-29", "player_namefield-26", "player_namefield-27", "player_namefield-5", "player_namefield-20", "player_namefield-4", "player_namefield-21", "player_namefield-7", "player_namefield-6", "player_namefield-9", "player_namefield-24", "player_namefield-8", "player_namefield-25", "player_namefield-22", "player_namefield-23", "player_namefield-1", "player_namefield-3", "player_namefield-2", "player_namefield-17", "player_namefield-18", "player_namefield-15", "player_namefield-16", "player_namefield-19" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count visible substitute_namefield-* is 2",
+            "highlight" : [ "substitute_namefield-2", "substitute_namefield-1" ]
+          } ]
+        }, {
+          "name" : "substitute_namefield-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 41
+            },
+            "name" : "aligned vertically all substitute_namefield-2",
+            "highlight" : [ "substitute_namefield-1", "substitute_namefield-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 42
+            },
+            "name" : "text is \"Joe Baseball Dude\"",
+            "errors" : [ "\"substitute_namefield-1\" text is \"Jake Marisnick, PH\" but should be \"Joe Baseball Dude\"" ],
+            "highlight" : [ "substitute_namefield-1" ]
+          } ]
+        }, {
+          "name" : "stat_header_avg-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "aligned vertically left player_stat_avg-1",
+            "errors" : [ "\"player_stat_avg-1\" is not aligned vertically left with \"stat_header_avg-1\". Offset is 1px" ],
+            "highlight" : [ "stat_header_avg-1", "player_stat_avg-1" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-1",
+            "highlight" : [ "player_stat_bb-2", "player_stat_bb-1" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-2",
+            "highlight" : [ "player_stat_bb-3", "player_stat_bb-2" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-3",
+            "highlight" : [ "player_stat_bb-4", "player_stat_bb-3" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-4",
+            "highlight" : [ "player_stat_bb-5", "player_stat_bb-4" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-5",
+            "highlight" : [ "player_stat_bb-6", "player_stat_bb-5" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-6",
+            "highlight" : [ "player_stat_bb-7", "player_stat_bb-6" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-7",
+            "highlight" : [ "player_stat_bb-8", "player_stat_bb-7" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-8",
+            "highlight" : [ "player_stat_bb-9", "player_stat_bb-8" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-9",
+            "highlight" : [ "player_stat_bb-10", "player_stat_bb-9" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-10",
+            "highlight" : [ "player_stat_bb-11", "player_stat_bb-10" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-12",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-11",
+            "errors" : [ "\"player_stat_bb-11\" is not aligned vertically left with \"player_stat_bb-12\". Offset is 33px" ],
+            "highlight" : [ "player_stat_bb-12", "player_stat_bb-11" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-12",
+            "highlight" : [ "player_stat_bb-13", "player_stat_bb-12" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-13",
+            "highlight" : [ "player_stat_bb-14", "player_stat_bb-13" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-14",
+            "highlight" : [ "player_stat_bb-15", "player_stat_bb-14" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-15",
+            "highlight" : [ "player_stat_bb-16", "player_stat_bb-15" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-16",
+            "highlight" : [ "player_stat_bb-17", "player_stat_bb-16" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-18",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-17",
+            "errors" : [ "\"player_stat_bb-17\" is not aligned vertically left with \"player_stat_bb-18\". Offset is 618px" ],
+            "highlight" : [ "player_stat_bb-18", "player_stat_bb-17" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-18",
+            "highlight" : [ "player_stat_bb-19", "player_stat_bb-18" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-19",
+            "highlight" : [ "player_stat_bb-20", "player_stat_bb-19" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-20",
+            "highlight" : [ "player_stat_bb-21", "player_stat_bb-20" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-21",
+            "highlight" : [ "player_stat_bb-22", "player_stat_bb-21" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-22",
+            "highlight" : [ "player_stat_bb-23", "player_stat_bb-22" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-23",
+            "highlight" : [ "player_stat_bb-24", "player_stat_bb-23" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-24",
+            "highlight" : [ "player_stat_bb-25", "player_stat_bb-24" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-25",
+            "highlight" : [ "player_stat_bb-26", "player_stat_bb-25" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-27",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-26",
+            "errors" : [ "\"player_stat_bb-26\" is not aligned vertically left with \"player_stat_bb-27\". Offset is 33px" ],
+            "highlight" : [ "player_stat_bb-27", "player_stat_bb-26" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-27",
+            "highlight" : [ "player_stat_bb-28", "player_stat_bb-27" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-29",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-28",
+            "errors" : [ "\"player_stat_bb-28\" is not aligned vertically left with \"player_stat_bb-29\". Offset is 4px" ],
+            "highlight" : [ "player_stat_bb-29", "player_stat_bb-28" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-30",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-29",
+            "errors" : [ "\"player_stat_bb-29\" is not aligned vertically left with \"player_stat_bb-30\". Offset is 4px" ],
+            "highlight" : [ "player_stat_bb-30", "player_stat_bb-29" ]
+          } ]
+        }, {
+          "name" : "player_stat_bb-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically left player_stat_bb-30",
+            "highlight" : [ "player_stat_bb-31", "player_stat_bb-30" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "player_namefield-31" : {
+          "area" : [ 1050, 1273, 144, 30 ]
+        },
+        "player_namefield-30" : {
+          "area" : [ 1050, 1243, 144, 30 ]
+        },
+        "player_stat_bb-21" : {
+          "area" : [ 1395, 698, 32, 30 ]
+        },
+        "player_stat_bb-20" : {
+          "area" : [ 1395, 668, 32, 30 ]
+        },
+        "player_stat_bb-12" : {
+          "area" : [ 777, 1229, 32, 30 ]
+        },
+        "player_stat_bb-11" : {
+          "area" : [ 810, 908, 32, 30 ]
+        },
+        "player_stat_bb-14" : {
+          "area" : [ 777, 1289, 32, 30 ]
+        },
+        "player_stat_bb-13" : {
+          "area" : [ 777, 1259, 32, 30 ]
+        },
+        "player_stat_bb-16" : {
+          "area" : [ 777, 1349, 32, 30 ]
+        },
+        "player_stat_bb-15" : {
+          "area" : [ 777, 1319, 32, 30 ]
+        },
+        "player_stat_bb-18" : {
+          "area" : [ 1395, 608, 32, 30 ]
+        },
+        "player_stat_bb-17" : {
+          "area" : [ 777, 1379, 32, 30 ]
+        },
+        "player_namefield-28" : {
+          "area" : [ 1050, 1183, 144, 30 ]
+        },
+        "player_namefield-29" : {
+          "area" : [ 1050, 1213, 144, 30 ]
+        },
+        "player_stat_bb-19" : {
+          "area" : [ 1395, 638, 32, 30 ]
+        },
+        "player_namefield-26" : {
+          "area" : [ 1050, 848, 144, 30 ]
+        },
+        "player_namefield-27" : {
+          "area" : [ 1050, 1153, 144, 30 ]
+        },
+        "player_namefield-5" : {
+          "area" : [ 465, 728, 144, 30 ]
+        },
+        "player_namefield-20" : {
+          "area" : [ 1050, 668, 144, 30 ]
+        },
+        "player_namefield-4" : {
+          "area" : [ 465, 698, 144, 30 ]
+        },
+        "player_namefield-21" : {
+          "area" : [ 1050, 698, 144, 30 ]
+        },
+        "player_namefield-7" : {
+          "area" : [ 465, 788, 144, 30 ]
+        },
+        "player_namefield-6" : {
+          "area" : [ 465, 758, 144, 30 ]
+        },
+        "player_namefield-9" : {
+          "area" : [ 465, 848, 144, 30 ]
+        },
+        "player_namefield-24" : {
+          "area" : [ 1050, 788, 144, 30 ]
+        },
+        "player_stat_avg-1" : {
+          "area" : [ 765, 608, 45, 30 ]
+        },
+        "player_namefield-8" : {
+          "area" : [ 465, 818, 144, 30 ]
+        },
+        "player_namefield-25" : {
+          "area" : [ 1050, 818, 144, 30 ]
+        },
+        "player_namefield-22" : {
+          "area" : [ 1050, 728, 144, 30 ]
+        },
+        "player_namefield-23" : {
+          "area" : [ 1050, 758, 144, 30 ]
+        },
+        "player_namefield-1" : {
+          "area" : [ 465, 608, 144, 30 ]
+        },
+        "player_stat_bb-30" : {
+          "area" : [ 1362, 1243, 32, 30 ]
+        },
+        "player_namefield-3" : {
+          "area" : [ 465, 668, 144, 30 ]
+        },
+        "player_namefield-2" : {
+          "area" : [ 465, 638, 144, 30 ]
+        },
+        "player_stat_bb-31" : {
+          "area" : [ 1362, 1273, 32, 30 ]
+        },
+        "player_stat_bb-23" : {
+          "area" : [ 1395, 758, 32, 30 ]
+        },
+        "player_stat_bb-22" : {
+          "area" : [ 1395, 728, 32, 30 ]
+        },
+        "player_stat_bb-25" : {
+          "area" : [ 1395, 818, 32, 30 ]
+        },
+        "player_stat_bb-24" : {
+          "area" : [ 1395, 788, 32, 30 ]
+        },
+        "player_stat_bb-27" : {
+          "area" : [ 1362, 1153, 32, 30 ]
+        },
+        "player_stat_bb-26" : {
+          "area" : [ 1395, 848, 32, 30 ]
+        },
+        "player_stat_bb-29" : {
+          "area" : [ 1358, 1213, 32, 30 ]
+        },
+        "player_stat_bb-28" : {
+          "area" : [ 1362, 1183, 32, 30 ]
+        },
+        "masthead" : {
+          "area" : [ 0, 128, 1980, 409 ]
+        },
+        "player_namefield-17" : {
+          "area" : [ 465, 1379, 144, 30 ]
+        },
+        "player_namefield-18" : {
+          "area" : [ 1050, 608, 144, 30 ]
+        },
+        "player_namefield-15" : {
+          "area" : [ 465, 1319, 144, 30 ]
+        },
+        "player_namefield-16" : {
+          "area" : [ 465, 1349, 144, 30 ]
+        },
+        "player_namefield-19" : {
+          "area" : [ 1050, 638, 144, 30 ]
+        },
+        "player_namefield-10" : {
+          "area" : [ 465, 878, 144, 30 ]
+        },
+        "player_namefield-13" : {
+          "area" : [ 465, 1259, 144, 30 ]
+        },
+        "player_namefield-14" : {
+          "area" : [ 465, 1289, 144, 30 ]
+        },
+        "player_namefield-11" : {
+          "area" : [ 465, 908, 144, 30 ]
+        },
+        "player_namefield-12" : {
+          "area" : [ 465, 1229, 144, 30 ]
+        },
+        "stat_header_avg-1" : {
+          "area" : [ 766, 592, 45, 16 ]
+        },
+        "player_stat_bb-10" : {
+          "area" : [ 810, 878, 32, 30 ]
+        },
+        "player_stat_bb-5" : {
+          "area" : [ 810, 728, 32, 30 ]
+        },
+        "player_stat_bb-4" : {
+          "area" : [ 810, 698, 32, 30 ]
+        },
+        "player_stat_bb-7" : {
+          "area" : [ 810, 788, 32, 30 ]
+        },
+        "player_stat_bb-6" : {
+          "area" : [ 810, 758, 32, 30 ]
+        },
+        "player_stat_bb-1" : {
+          "area" : [ 810, 608, 32, 30 ]
+        },
+        "substitute_namefield-2" : {
+          "area" : [ 465, 908, 144, 30 ]
+        },
+        "player_stat_bb-3" : {
+          "area" : [ 810, 668, 32, 30 ]
+        },
+        "substitute_namefield-1" : {
+          "area" : [ 465, 878, 144, 30 ]
+        },
+        "player_stat_bb-2" : {
+          "area" : [ 810, 638, 32, 30 ]
+        },
+        "player_stat_bb-9" : {
+          "area" : [ 810, 848, 32, 30 ]
+        },
+        "player_stat_bb-8" : {
+          "area" : [ 810, 818, 32, 30 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

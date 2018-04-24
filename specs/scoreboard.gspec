@@ -1,0 +1,8 @@
+@objects
+  snapshot_button       css       #shs-mlb-scoreboard div div.game-section-container div div:nth-child(1) div div.event-body div.event-card-buttons div.scoreboard-button
+
+= Main =
+  = Snapshot Button =
+    snapshot_button:
+      height 32px
+      width  122px
