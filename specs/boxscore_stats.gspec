@@ -30,7 +30,7 @@
 
     substitute_namefield_m-3:
         aligned vertically all substitute_namefield_m-4
-        text is "J. Marisnick, PPH"
+        text is "J. Marisnick, PH"
 
   @on desktop
     global:

@@ -1,8 +1,99 @@
 @objects
-  snapshot_button       css       #shs-mlb-scoreboard div div.game-section-container div div:nth-child(1) div div.event-body div.event-card-buttons div.scoreboard-button
+  scorecard                      .game-section-container div.game-section:nth-child(1) div.event div.unstarted-card.expanded
+      event_body                 .event-body
+      team_logo-*                .team-logo
+      team_name-*                .team-name
+      pitcher_name-*             .probable-pitcher div.name
+      pitcher_stats-*            .probable-pitcher div.stats
+      scoreboard_button          .scoreboard-button
+      probables_header           .pitching-probables-header
+      prob_pitcher_container-*   .pitcher-container
+      prob_team_abbreviation-*   .team-abbreviation
+      prob_pitcher_headshot-*    .headshot-container
+      prob_pitcher_name-*        .pitcher-name
+      batter_container-*         .batter
+      batter_slot-*              .batting-slot
+      batter_position-*          .position
+      batter_name-*              .batter div.name
+      batter_stat_hr-*           .batter div:nth-child(4)
+      batter_stat_rbi-*          .batter div:nth-child(5)
+      batter_stat_avg-*          .batter div:nth-child(6)
 
-= Main =
-  = Snapshot Button =
-    snapshot_button:
-      height 32px
-      width  122px
+= Scorecard =
+  @on *
+    scorecard.team_logo-1:
+      height 25px
+      width 25px
+
+    scorecard.team_logo-2:
+      height 25px
+      width 25px
+      aligned vertically centered scorecard.team_logo-1
+
+    scorecard.team_name-1:
+      height 19px
+
+    scorecard.team_name-2:
+      height 19px
+      aligned vertically left scorecard.team_name-1
+
+    scorecard.pitcher_name-1:
+      aligned vertically right scorecard.pitcher_stats-1
+      aligned vertically right scorecard.pitcher_name-2
+      aligned vertically right scorecard.pitcher_stats-2
+
+    scorecard.scoreboard_button:
+      on top left edge scorecard.event_body 24px right, 113px bottom
+
+    scorecard.probables_header:
+      centered horizontally inside scorecard.event_body
+      text is "Pitching Probables"
+
+    scorecard.prob_pitcher_container-1:
+      centered horizontally inside scorecard.event_body
+      aligned vertically all scorecard.prob_pitcher_container-2
+
+    scorecard.prob_team_abbreviation-1:
+      aligned vertically all scorecard.prob_team_abbreviation-2
+
+    scorecard.prob_pitcher_headshot-1:
+      aligned vertically all scorecard.prob_pitcher_headshot-2
+
+    scorecard.prob_pitcher_name-1:
+      aligned vertically left scorecard.prob_pitcher_name-2
+
+    @forEach [scorecard.batter_container-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                centered horizontally inside scorecard.event_body
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_slot-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_slot-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_name-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_stat_hr-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_stat_rbi-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}
+
+    @forEach [scorecard.batter_stat_avg-*] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                aligned vertically all ${previousItem}

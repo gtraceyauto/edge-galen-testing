@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/boxscore_stats.gspec included tags: desktop",
       "status" : "error",
-      "time" : 1524581672955,
+      "time" : 1524592062544,
       "includedTags" : [ "desktop" ],
       "sections" : [ {
         "name" : "Masthead",

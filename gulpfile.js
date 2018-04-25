@@ -76,3 +76,4 @@ gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
 }));
 
 gulp.task('default', gulp.series('test'));
+gulp.task('t', gulp.series('testWidgets'));
