@@ -1,12 +1,10 @@
 load('/devices.js');
 load('/widgets.js');
 load('/platforms.js');
+load('/cloud-service.conf.js');
+
 var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;
-
-var bstackUser = 'timlantz2';
-var bstackKey = 'ss66ANCVQ8yXydAKkyUp';
-var browserstackUrl = 'http://' + bstackUser + ':' + bstackKey + '@hub.browserstack.com/wd/hub';
 
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {
@@ -19,14 +17,13 @@ forAll(platforms, function() {
   forAll(devices, function() {
     test(widgetName + ' layout on ${deviceName} - ${browser} - ${os}', function(platform, device) {
       var testName = widgetName + ' layout on ' + device.deviceName;
-      var capabilities = {
-        browser: platform.browser,
-        os: platform.os,
-        name: testName.toString(),
-        'browserstack.debug': 'true'
-      };
-      var driver = createGridDriver(browserstackUrl, {
-        desiredCapabilities: capabilities
+      var driver = createGridDriver(config.browserstack.url, {
+        desiredCapabilities: {
+          browser: platform.browser,
+          os: platform.os,
+          name: testName.toString(),
+          'browserstack.debug': 'true'
+        }
       });
       session.put('driver', driver);
       driver.get(widgetToTest.url);
@@ -39,7 +36,6 @@ forAll(platforms, function() {
     });
   });
 });
-
 
 afterTest(function() {
   var driver = session.get('driver');

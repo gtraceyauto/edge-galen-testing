@@ -1,12 +1,13 @@
 load('/devices.js');
 load('/widgets.js');
 load('/platforms.js');
+
 var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;
 
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {
-    snapshotButton: '.game-section-container > div.game-section:nth-child(2) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button',
+    snapshotButton: '.game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button',
     mlbPreview: '#mlb-game-preview'
   });
 };

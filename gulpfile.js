@@ -1,6 +1,5 @@
 var
   gulp = require('gulp'),
-  gulpGalen = require('gulp-galen'),
   del = require('del'),
   tap = require('gulp-tap'),
   index = require('serve-index'),
@@ -110,20 +109,7 @@ gulp.task('serve', serve({
     'root' : reportsDir
 }));
 
-//Serialized tasks
-gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
-  done();
-}));
-
-gulp.task('testRemote', gulp.series('clean', 'testWidgetsRemote', 'serve', function(done) {
-  done();
-}));
-
-gulp.task('t', gulp.series('testWidgets'));
-gulp.task('tr', gulp.series('testWidgetsRemote'));
-
-gulp.task('default', gulp.series('test'));
-
+//Selenium grid tasks
 gulp.task('grid-hub', function(done) {
   spawn('java', ['-jar', jar.path, '-role', 'hub']);
   done();
@@ -135,3 +121,16 @@ gulp.task('grid-node', function(done) {
     '-role', 'node',
     '-hub', gridHubUrl])
 });
+
+//Serialized tasks
+gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
+  done();
+}));
+
+gulp.task('testRemote', gulp.series('clean', 'testWidgetsRemote', 'serve', function(done) {
+  done();
+}));
+
+gulp.task('t', gulp.series('testWidgets'));
+gulp.task('tr', gulp.series('testWidgetsRemote'));
+gulp.task('default', gulp.series('test'));
