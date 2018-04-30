@@ -1,3 +1,5 @@
+@script js-functions/wrap.function.js
+
 @objects
   masthead                    id    shs-mlb-boxscore-masthead
   player_namefield-*          css   .player-name.show-for-large
@@ -44,7 +46,8 @@
     stat_header_avg-1:
         aligned vertically left player_stat_avg-1
 
-  @forEach [player_stat_bb-*] as item, prev as previousItem
-      @if ${isVisible(item)}
-          ${item}:
-              aligned vertically left ${previousItem}
+
+    @forEach [${wrap("substitute_namefield-*")}] as item, prev as previousItem
+        @if ${isVisible(item)}
+            ${item}:
+                width 25px

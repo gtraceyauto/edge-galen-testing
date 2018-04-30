@@ -1,6 +1,6 @@
 load('/devices.js');
 load('/widgets.js');
-load('/platforms.js');
+load('/remote-platforms.js');
 load('/cloud-service.conf.js');
 
 var widgetToTest = widgets.scoreboard;
@@ -21,6 +21,7 @@ forAll(platforms, function() {
         desiredCapabilities: {
           browser: platform.browser,
           os: platform.os,
+          os_version: platform.osVersion,
           name: testName.toString(),
           'browserstack.debug': 'true'
         }
@@ -29,9 +30,9 @@ forAll(platforms, function() {
       driver.get(widgetToTest.url);
       var scorecardPage = new ScorecardPage(driver);
       resize(driver, device.size);
-      scorecardPage.snapshotButton.waitToBeShown('2s');
+      scorecardPage.snapshotButton.waitToBeShown('5s');
       scorecardPage.snapshotButton.clickAt(10, 10);
-      scorecardPage.mlbPreview.waitToBeShown('2s');
+      scorecardPage.mlbPreview.waitToBeShown('5s');
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
     });
   });

@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "scoreboard layout on mobile",
+    "startedAt" : 1525124659825,
+    "endedAt" : 1525124671905,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "1-scoreboard-layout-on-mobile",
+    "groups" : [ ],
+    "failed" : true,
+    "duration" : 12080
+  }, {
+    "name" : "scoreboard layout on tablet",
+    "startedAt" : 1525124671997,
+    "endedAt" : 1525124681290,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "2-scoreboard-layout-on-tablet",
+    "groups" : [ ],
+    "failed" : true,
+    "duration" : 9293
+  }, {
+    "name" : "scoreboard layout on desktop",
+    "startedAt" : 1525124681379,
+    "endedAt" : 1525124690605,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "3-scoreboard-layout-on-desktop",
+    "groups" : [ ],
+    "failed" : true,
+    "duration" : 9226
+  } ]
+}

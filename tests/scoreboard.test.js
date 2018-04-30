@@ -1,6 +1,5 @@
 load('/devices.js');
 load('/widgets.js');
-load('/platforms.js');
 
 var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;

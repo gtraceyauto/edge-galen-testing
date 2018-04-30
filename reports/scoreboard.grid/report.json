@@ -1,0 +1,93 @@
+{
+  "tests" : [ {
+    "name" : "scoreboard layout on mobile - firefox - WINDOWS",
+    "startedAt" : 1525124014258,
+    "endedAt" : 1525124042875,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "1-scoreboard-layout-on-mobile---firefox---windows",
+    "groups" : [ ],
+    "duration" : 28617,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - firefox - WINDOWS",
+    "startedAt" : 1525124014263,
+    "endedAt" : 1525124042863,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 71,
+      "errors" : 11,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "2-scoreboard-layout-on-desktop---firefox---windows",
+    "groups" : [ ],
+    "duration" : 28600,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - firefox - WINDOWS",
+    "startedAt" : 1525124014259,
+    "endedAt" : 1525124043472,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "3-scoreboard-layout-on-tablet---firefox---windows",
+    "groups" : [ ],
+    "duration" : 29213,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - chrome - WINDOWS",
+    "startedAt" : 1525124044229,
+    "endedAt" : 1525124063060,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "4-scoreboard-layout-on-mobile---chrome---windows",
+    "groups" : [ ],
+    "duration" : 18831,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - chrome - WINDOWS",
+    "startedAt" : 1525124044537,
+    "endedAt" : 1525124063406,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "5-scoreboard-layout-on-desktop---chrome---windows",
+    "groups" : [ ],
+    "duration" : 18869,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - chrome - WINDOWS",
+    "startedAt" : 1525124044241,
+    "endedAt" : 1525124064196,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 9,
+      "warnings" : 0,
+      "total" : 82
+    },
+    "testId" : "6-scoreboard-layout-on-tablet---chrome---windows",
+    "groups" : [ ],
+    "duration" : 19955,
+    "failed" : true
+  } ]
+}

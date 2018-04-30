@@ -1,0 +1,1104 @@
+{
+  "testId" : "3-scoreboard-layout-on-tablet---firefox---windows",
+  "name" : "scoreboard layout on tablet - firefox - WINDOWS",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Click snapshotButton on ScoreboardPage with offset [10, 10]",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
+        "type" : "text"
+      } ],
+      "time" : 1525124024004,
+      "type" : "node"
+    }, {
+      "name" : "Check layout: specs/scoreboard.gspec included tags: tablet",
+      "status" : "error",
+      "time" : 1525124043472,
+      "includedTags" : [ "tablet" ],
+      "sections" : [ {
+        "name" : "Scorecard",
+        "place" : {
+          "filePath" : "specs/scoreboard.gspec",
+          "lineNumber" : 24
+        },
+        "objects" : [ {
+          "name" : "scorecard.team_logo-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "height 25px",
+            "errors" : [ "\"scorecard.team_logo-1\" height is 24px instead of 25px" ],
+            "highlight" : [ "scorecard.team_logo-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "width 25px",
+            "errors" : [ "\"scorecard.team_logo-1\" width is 24px instead of 25px" ],
+            "highlight" : [ "scorecard.team_logo-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_logo-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "height 25px",
+            "errors" : [ "\"scorecard.team_logo-2\" height is 24px instead of 25px" ],
+            "highlight" : [ "scorecard.team_logo-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "width 25px",
+            "errors" : [ "\"scorecard.team_logo-2\" width is 24px instead of 25px" ],
+            "highlight" : [ "scorecard.team_logo-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "aligned vertically centered scorecard.team_logo-1",
+            "highlight" : [ "scorecard.team_logo-2", "scorecard.team_logo-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_name-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "height 19px",
+            "errors" : [ "\"scorecard.team_name-1\" height is 24px instead of 19px" ],
+            "highlight" : [ "scorecard.team_name-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_name-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "height 19px",
+            "errors" : [ "\"scorecard.team_name-2\" height is 24px instead of 19px" ],
+            "highlight" : [ "scorecard.team_name-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "aligned vertically left scorecard.team_name-1",
+            "highlight" : [ "scorecard.team_name-2", "scorecard.team_name-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_record-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 43
+            },
+            "name" : "below scorecard.team_name-1",
+            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "aligned vertically left scorecard.team_name-1",
+            "errors" : [ "\"scorecard.team_name-1\" is not aligned vertically left with \"scorecard.team_record-1\". Offset is 8px" ],
+            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_record-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 47
+            },
+            "name" : "below scorecard.team_name-2",
+            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned vertically left scorecard.team_name-2",
+            "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically left with \"scorecard.team_record-2\". Offset is 8px" ],
+            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.pitcher_name-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 51
+            },
+            "name" : "aligned vertically right scorecard.pitcher_stats-1",
+            "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned vertically right scorecard.pitcher_name-2",
+            "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_name-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 53
+            },
+            "name" : "aligned vertically right scorecard.pitcher_stats-2",
+            "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.scoreboard_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 56
+            },
+            "name" : "on top left edge scorecard.event_body 24px right, 113px bottom",
+            "errors" : [ "\"scorecard.scoreboard_button\" is 12px right instead of 24px, is 116px bottom instead of 113px" ],
+            "highlight" : [ "scorecard.scoreboard_button", "scorecard.event_body" ]
+          } ]
+        }, {
+          "name" : "scorecard.probables_header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.probables_header", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "text is \"Pitching Probables\"",
+            "highlight" : [ "scorecard.probables_header" ]
+          } ]
+        }, {
+          "name" : "scorecard.prob_pitcher_container-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 63
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.prob_pitcher_container-1", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 64
+            },
+            "name" : "aligned vertically all scorecard.prob_pitcher_container-2",
+            "highlight" : [ "scorecard.prob_pitcher_container-1", "scorecard.prob_pitcher_container-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.prob_team_abbreviation-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 67
+            },
+            "name" : "aligned vertically all scorecard.prob_team_abbreviation-2",
+            "highlight" : [ "scorecard.prob_team_abbreviation-1", "scorecard.prob_team_abbreviation-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.prob_pitcher_headshot-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "aligned vertically all scorecard.prob_pitcher_headshot-2",
+            "highlight" : [ "scorecard.prob_pitcher_headshot-1", "scorecard.prob_pitcher_headshot-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.prob_pitcher_name-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 73
+            },
+            "name" : "aligned vertically left scorecard.prob_pitcher_name-2",
+            "highlight" : [ "scorecard.prob_pitcher_name-1", "scorecard.prob_pitcher_name-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batting_header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 76
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batting_header", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 77
+            },
+            "name" : "text is \"Batting Order\"",
+            "highlight" : [ "scorecard.batting_header" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-2", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-1",
+            "highlight" : [ "scorecard.batter_container-2", "scorecard.batter_container-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-3", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-2",
+            "highlight" : [ "scorecard.batter_container-3", "scorecard.batter_container-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-4", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-3",
+            "highlight" : [ "scorecard.batter_container-4", "scorecard.batter_container-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-5", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-4",
+            "highlight" : [ "scorecard.batter_container-5", "scorecard.batter_container-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-6", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-5",
+            "highlight" : [ "scorecard.batter_container-6", "scorecard.batter_container-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-7", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-6",
+            "highlight" : [ "scorecard.batter_container-7", "scorecard.batter_container-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-8", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-7",
+            "highlight" : [ "scorecard.batter_container-8", "scorecard.batter_container-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_container-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "centered horizontally inside scorecard.event_body",
+            "highlight" : [ "scorecard.batter_container-9", "scorecard.event_body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "aligned vertically all scorecard.batter_container-8",
+            "highlight" : [ "scorecard.batter_container-9", "scorecard.batter_container-8" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-1",
+            "highlight" : [ "scorecard.batter_slot-2", "scorecard.batter_slot-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-2",
+            "highlight" : [ "scorecard.batter_slot-3", "scorecard.batter_slot-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-3",
+            "highlight" : [ "scorecard.batter_slot-4", "scorecard.batter_slot-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-4",
+            "highlight" : [ "scorecard.batter_slot-5", "scorecard.batter_slot-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-5",
+            "highlight" : [ "scorecard.batter_slot-6", "scorecard.batter_slot-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-6",
+            "highlight" : [ "scorecard.batter_slot-7", "scorecard.batter_slot-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-7",
+            "highlight" : [ "scorecard.batter_slot-8", "scorecard.batter_slot-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_slot-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically all scorecard.batter_slot-8",
+            "highlight" : [ "scorecard.batter_slot-9", "scorecard.batter_slot-8" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-1",
+            "highlight" : [ "scorecard.batter_position-2", "scorecard.batter_position-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-2",
+            "highlight" : [ "scorecard.batter_position-3", "scorecard.batter_position-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-3",
+            "highlight" : [ "scorecard.batter_position-4", "scorecard.batter_position-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-4",
+            "highlight" : [ "scorecard.batter_position-5", "scorecard.batter_position-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-5",
+            "highlight" : [ "scorecard.batter_position-6", "scorecard.batter_position-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-6",
+            "highlight" : [ "scorecard.batter_position-7", "scorecard.batter_position-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-7",
+            "highlight" : [ "scorecard.batter_position-8", "scorecard.batter_position-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_position-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "aligned vertically all scorecard.batter_position-8",
+            "highlight" : [ "scorecard.batter_position-9", "scorecard.batter_position-8" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-1",
+            "highlight" : [ "scorecard.batter_stat_hr-2", "scorecard.batter_stat_hr-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-2",
+            "highlight" : [ "scorecard.batter_stat_hr-3", "scorecard.batter_stat_hr-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-3",
+            "highlight" : [ "scorecard.batter_stat_hr-4", "scorecard.batter_stat_hr-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-4",
+            "highlight" : [ "scorecard.batter_stat_hr-5", "scorecard.batter_stat_hr-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-5",
+            "highlight" : [ "scorecard.batter_stat_hr-6", "scorecard.batter_stat_hr-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-6",
+            "highlight" : [ "scorecard.batter_stat_hr-7", "scorecard.batter_stat_hr-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-7",
+            "highlight" : [ "scorecard.batter_stat_hr-8", "scorecard.batter_stat_hr-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_hr-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_hr-8",
+            "highlight" : [ "scorecard.batter_stat_hr-9", "scorecard.batter_stat_hr-8" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-1",
+            "highlight" : [ "scorecard.batter_stat_rbi-2", "scorecard.batter_stat_rbi-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-2",
+            "highlight" : [ "scorecard.batter_stat_rbi-3", "scorecard.batter_stat_rbi-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-3",
+            "highlight" : [ "scorecard.batter_stat_rbi-4", "scorecard.batter_stat_rbi-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-4",
+            "highlight" : [ "scorecard.batter_stat_rbi-5", "scorecard.batter_stat_rbi-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-5",
+            "highlight" : [ "scorecard.batter_stat_rbi-6", "scorecard.batter_stat_rbi-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-6",
+            "highlight" : [ "scorecard.batter_stat_rbi-7", "scorecard.batter_stat_rbi-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-7",
+            "highlight" : [ "scorecard.batter_stat_rbi-8", "scorecard.batter_stat_rbi-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_rbi-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_rbi-8",
+            "highlight" : [ "scorecard.batter_stat_rbi-9", "scorecard.batter_stat_rbi-8" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-1",
+            "highlight" : [ "scorecard.batter_stat_avg-2", "scorecard.batter_stat_avg-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-2",
+            "highlight" : [ "scorecard.batter_stat_avg-3", "scorecard.batter_stat_avg-2" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-3",
+            "highlight" : [ "scorecard.batter_stat_avg-4", "scorecard.batter_stat_avg-3" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-4",
+            "highlight" : [ "scorecard.batter_stat_avg-5", "scorecard.batter_stat_avg-4" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-5",
+            "highlight" : [ "scorecard.batter_stat_avg-6", "scorecard.batter_stat_avg-5" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-6",
+            "highlight" : [ "scorecard.batter_stat_avg-7", "scorecard.batter_stat_avg-6" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-7",
+            "highlight" : [ "scorecard.batter_stat_avg-8", "scorecard.batter_stat_avg-7" ]
+          } ]
+        }, {
+          "name" : "scorecard.batter_stat_avg-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "aligned vertically all scorecard.batter_stat_avg-8",
+            "highlight" : [ "scorecard.batter_stat_avg-9", "scorecard.batter_stat_avg-8" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "scorecard.team_record-1" : {
+          "area" : [ 71, 370, 44, 15 ]
+        },
+        "scorecard.team_record-2" : {
+          "area" : [ 71, 409, 44, 15 ]
+        },
+        "scorecard.prob_pitcher_name-2" : {
+          "area" : [ 205, 626, 110, 17 ]
+        },
+        "scorecard.batter_position-1" : {
+          "area" : [ 79, 795, 32, 32 ]
+        },
+        "scorecard.event_body" : {
+          "area" : [ 22, 324, 336, 760 ]
+        },
+        "scorecard.batter_position-2" : {
+          "area" : [ 79, 827, 32, 32 ]
+        },
+        "scorecard.batter_position-3" : {
+          "area" : [ 79, 859, 32, 32 ]
+        },
+        "scorecard.batter_position-4" : {
+          "area" : [ 79, 891, 32, 32 ]
+        },
+        "scorecard.batter_container-2" : {
+          "area" : [ 63, 827, 255, 32 ]
+        },
+        "scorecard.batter_position-5" : {
+          "area" : [ 79, 923, 32, 32 ]
+        },
+        "scorecard.batter_stat_rbi-5" : {
+          "area" : [ 250, 923, 30, 32 ]
+        },
+        "scorecard.batter_container-1" : {
+          "area" : [ 63, 795, 255, 32 ]
+        },
+        "scorecard.batter_position-6" : {
+          "area" : [ 79, 955, 32, 32 ]
+        },
+        "scorecard.batter_stat_rbi-4" : {
+          "area" : [ 250, 891, 30, 32 ]
+        },
+        "scorecard.batter_position-7" : {
+          "area" : [ 79, 987, 32, 32 ]
+        },
+        "scorecard.batter_stat_rbi-7" : {
+          "area" : [ 250, 987, 30, 32 ]
+        },
+        "scorecard.batter_position-8" : {
+          "area" : [ 79, 1019, 32, 32 ]
+        },
+        "scorecard.batter_stat_rbi-6" : {
+          "area" : [ 250, 955, 30, 32 ]
+        },
+        "scorecard.batter_position-9" : {
+          "area" : [ 79, 1051, 32, 32 ]
+        },
+        "scorecard.batter_stat_rbi-1" : {
+          "area" : [ 250, 795, 30, 32 ]
+        },
+        "scorecard.batter_stat_rbi-3" : {
+          "area" : [ 250, 859, 30, 32 ]
+        },
+        "scorecard.batter_stat_rbi-2" : {
+          "area" : [ 250, 827, 30, 32 ]
+        },
+        "scorecard.batter_container-9" : {
+          "area" : [ 63, 1051, 255, 32 ]
+        },
+        "scorecard.batter_container-8" : {
+          "area" : [ 63, 1019, 255, 32 ]
+        },
+        "scorecard.batter_container-7" : {
+          "area" : [ 63, 987, 255, 32 ]
+        },
+        "scorecard.batter_container-6" : {
+          "area" : [ 63, 955, 255, 32 ]
+        },
+        "scorecard.batter_stat_rbi-9" : {
+          "area" : [ 250, 1051, 30, 32 ]
+        },
+        "scorecard.pitcher_stats-1" : {
+          "area" : [ 206, 366, 105, 15 ]
+        },
+        "scorecard.batter_container-5" : {
+          "area" : [ 63, 923, 255, 32 ]
+        },
+        "scorecard.batter_stat_rbi-8" : {
+          "area" : [ 250, 1019, 30, 32 ]
+        },
+        "scorecard.pitcher_stats-2" : {
+          "area" : [ 202, 405, 109, 15 ]
+        },
+        "scorecard.batter_container-4" : {
+          "area" : [ 63, 891, 255, 32 ]
+        },
+        "scorecard.batter_container-3" : {
+          "area" : [ 63, 859, 255, 32 ]
+        },
+        "scorecard.prob_team_abbreviation-1" : {
+          "area" : [ 65, 529, 60, 52 ]
+        },
+        "scorecard.prob_team_abbreviation-2" : {
+          "area" : [ 65, 610, 60, 52 ]
+        },
+        "scorecard.prob_pitcher_name-1" : {
+          "area" : [ 205, 545, 110, 17 ]
+        },
+        "scorecard.pitcher_name-1" : {
+          "area" : [ 206, 349, 105, 15 ]
+        },
+        "scorecard.pitcher_name-2" : {
+          "area" : [ 202, 388, 109, 15 ]
+        },
+        "scorecard.scoreboard_button" : {
+          "area" : [ 34, 440, 133, 32 ]
+        },
+        "scorecard.batter_stat_hr-5" : {
+          "area" : [ 221, 923, 29, 32 ]
+        },
+        "scorecard.prob_pitcher_container-1" : {
+          "area" : [ 65, 529, 250, 81 ]
+        },
+        "scorecard.batter_stat_hr-6" : {
+          "area" : [ 221, 955, 29, 32 ]
+        },
+        "scorecard.prob_pitcher_container-2" : {
+          "area" : [ 65, 610, 250, 81 ]
+        },
+        "scorecard.batter_stat_hr-3" : {
+          "area" : [ 221, 859, 29, 32 ]
+        },
+        "scorecard.batter_stat_hr-4" : {
+          "area" : [ 221, 891, 29, 32 ]
+        },
+        "scorecard.team_logo-2" : {
+          "area" : [ 55, 385, 24, 24 ]
+        },
+        "scorecard.batter_stat_hr-1" : {
+          "area" : [ 221, 795, 29, 32 ]
+        },
+        "scorecard.batter_stat_hr-2" : {
+          "area" : [ 221, 827, 29, 32 ]
+        },
+        "scorecard.batter_stat_avg-9" : {
+          "area" : [ 280, 1051, 38, 32 ]
+        },
+        "scorecard.batter_stat_avg-8" : {
+          "area" : [ 280, 1019, 38, 32 ]
+        },
+        "scorecard.team_logo-1" : {
+          "area" : [ 55, 346, 24, 24 ]
+        },
+        "scorecard.batter_stat_avg-7" : {
+          "area" : [ 280, 987, 38, 32 ]
+        },
+        "scorecard.batter_slot-1" : {
+          "area" : [ 63, 795, 16, 32 ]
+        },
+        "scorecard.batter_stat_avg-6" : {
+          "area" : [ 280, 955, 38, 32 ]
+        },
+        "scorecard.batting_header" : {
+          "area" : [ 23, 691, 334, 25 ]
+        },
+        "scorecard.batter_stat_avg-5" : {
+          "area" : [ 280, 923, 38, 32 ]
+        },
+        "scorecard.batter_slot-3" : {
+          "area" : [ 63, 859, 16, 32 ]
+        },
+        "scorecard.batter_stat_avg-4" : {
+          "area" : [ 280, 891, 38, 32 ]
+        },
+        "scorecard.batter_slot-2" : {
+          "area" : [ 63, 827, 16, 32 ]
+        },
+        "scorecard.batter_stat_avg-3" : {
+          "area" : [ 280, 859, 38, 32 ]
+        },
+        "scorecard.team_name-1" : {
+          "area" : [ 79, 346, 61, 24 ]
+        },
+        "scorecard.batter_slot-5" : {
+          "area" : [ 63, 923, 16, 32 ]
+        },
+        "scorecard.batter_stat_hr-9" : {
+          "area" : [ 221, 1051, 29, 32 ]
+        },
+        "scorecard.batter_stat_avg-2" : {
+          "area" : [ 280, 827, 38, 32 ]
+        },
+        "scorecard.batter_slot-4" : {
+          "area" : [ 63, 891, 16, 32 ]
+        },
+        "scorecard.batter_stat_avg-1" : {
+          "area" : [ 280, 795, 38, 32 ]
+        },
+        "scorecard.batter_slot-7" : {
+          "area" : [ 63, 987, 16, 32 ]
+        },
+        "scorecard.batter_stat_hr-7" : {
+          "area" : [ 221, 987, 29, 32 ]
+        },
+        "scorecard.team_name-2" : {
+          "area" : [ 79, 385, 55, 24 ]
+        },
+        "scorecard.batter_slot-6" : {
+          "area" : [ 63, 955, 16, 32 ]
+        },
+        "scorecard.batter_stat_hr-8" : {
+          "area" : [ 221, 1019, 29, 32 ]
+        },
+        "scorecard.prob_pitcher_headshot-1" : {
+          "area" : [ 125, 529, 64, 52 ]
+        },
+        "scorecard.batter_slot-9" : {
+          "area" : [ 63, 1051, 16, 32 ]
+        },
+        "scorecard.prob_pitcher_headshot-2" : {
+          "area" : [ 125, 610, 64, 52 ]
+        },
+        "scorecard.batter_slot-8" : {
+          "area" : [ 63, 1019, 16, 32 ]
+        },
+        "scorecard.probables_header" : {
+          "area" : [ 23, 488, 334, 41 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
