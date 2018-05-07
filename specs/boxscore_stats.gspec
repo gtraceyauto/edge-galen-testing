@@ -1,5 +1,3 @@
-@script js-functions/wrap.function.js
-
 @objects
   masthead                    id    shs-mlb-boxscore-masthead
   player_namefield-*          css   .player-name.show-for-large
@@ -18,11 +16,11 @@
 
   @on mobile
     masthead:
-        height 413px
+      height 413px
 
   @on desktop
     masthead:
-        height ~410px
+      height ~410px
 
 = BoxscorePlayerStats =
   @on mobile
@@ -45,9 +43,3 @@
 
     stat_header_avg-1:
         aligned vertically left player_stat_avg-1
-
-
-    @forEach [${wrap("substitute_namefield-*")}] as item, prev as previousItem
-        @if ${isVisible(item)}
-            ${item}:
-                width 25px

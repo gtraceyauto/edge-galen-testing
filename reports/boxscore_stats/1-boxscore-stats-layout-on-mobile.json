@@ -1,0 +1,148 @@
+{
+  "testId" : "1-boxscore-stats-layout-on-mobile",
+  "name" : "boxscore_stats layout on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/boxscore_stats.gspec included tags: mobile",
+      "status" : "info",
+      "time" : 1525291590258,
+      "includedTags" : [ "mobile" ],
+      "sections" : [ {
+        "name" : "Masthead",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "masthead",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "count any masthead is 1",
+            "highlight" : [ "masthead" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "height 413px",
+            "highlight" : [ "masthead" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BoxscorePlayerStats",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 25
+        },
+        "objects" : [ {
+          "name" : "global",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "count visible player_namefield_m-* is 17",
+            "highlight" : [ "player_namefield_m-40", "player_namefield_m-41", "player_namefield_m-42", "player_namefield_m-32", "player_namefield_m-43", "player_namefield_m-33", "player_namefield_m-44", "player_namefield_m-34", "player_namefield_m-45", "player_namefield_m-35", "player_namefield_m-46", "player_namefield_m-36", "player_namefield_m-47", "player_namefield_m-37", "player_namefield_m-48", "player_namefield_m-38", "player_namefield_m-39" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 29
+            },
+            "name" : "count visible substitute_namefield_m-* is 2",
+            "highlight" : [ "substitute_namefield_m-4", "substitute_namefield_m-3" ]
+          } ]
+        }, {
+          "name" : "substitute_namefield_m-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned vertically all substitute_namefield_m-4",
+            "highlight" : [ "substitute_namefield_m-3", "substitute_namefield_m-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "text is \"J. Marisnick, PH\"",
+            "highlight" : [ "substitute_namefield_m-3" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "player_namefield_m-40" : {
+          "area" : [ 75, 879, 144, 30 ]
+        },
+        "player_namefield_m-41" : {
+          "area" : [ 75, 909, 144, 30 ]
+        },
+        "player_namefield_m-42" : {
+          "area" : [ 75, 939, 144, 30 ]
+        },
+        "player_namefield_m-32" : {
+          "area" : [ 75, 639, 144, 30 ]
+        },
+        "player_namefield_m-43" : {
+          "area" : [ 75, 1244, 144, 30 ]
+        },
+        "player_namefield_m-33" : {
+          "area" : [ 75, 669, 144, 30 ]
+        },
+        "player_namefield_m-44" : {
+          "area" : [ 75, 1274, 144, 30 ]
+        },
+        "player_namefield_m-34" : {
+          "area" : [ 75, 699, 144, 30 ]
+        },
+        "player_namefield_m-45" : {
+          "area" : [ 75, 1304, 144, 30 ]
+        },
+        "substitute_namefield_m-4" : {
+          "area" : [ 75, 939, 144, 30 ]
+        },
+        "substitute_namefield_m-3" : {
+          "area" : [ 75, 909, 144, 30 ]
+        },
+        "masthead" : {
+          "area" : [ 0, 128, 450, 413 ]
+        },
+        "player_namefield_m-35" : {
+          "area" : [ 75, 729, 144, 30 ]
+        },
+        "player_namefield_m-46" : {
+          "area" : [ 75, 1334, 144, 30 ]
+        },
+        "player_namefield_m-36" : {
+          "area" : [ 75, 759, 144, 30 ]
+        },
+        "player_namefield_m-47" : {
+          "area" : [ 75, 1364, 144, 30 ]
+        },
+        "player_namefield_m-37" : {
+          "area" : [ 75, 789, 144, 30 ]
+        },
+        "player_namefield_m-48" : {
+          "area" : [ 75, 1394, 144, 30 ]
+        },
+        "player_namefield_m-38" : {
+          "area" : [ 75, 819, 144, 30 ]
+        },
+        "player_namefield_m-39" : {
+          "area" : [ 75, 849, 144, 30 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

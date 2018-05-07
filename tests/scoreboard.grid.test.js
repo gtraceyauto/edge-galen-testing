@@ -1,11 +1,10 @@
 load('/devices.js');
 load('/widgets.js');
 load('/grid-platforms.js');
-load('/cloud-service.conf.js');
 
 var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;
-var gridNodeUrl = 'http://10.203.225.84:4444/wd/hub/';
+var gridNodeUrl = 'http://10.203.225.94:4444/wd/hub/';
 
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {

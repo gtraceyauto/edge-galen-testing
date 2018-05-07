@@ -11,7 +11,6 @@ var
 
 var widgetToTest = argv.w ? argv.w : '*';
 var reportsDir = 'reports';
-var port = 3333;
 var gridHubUrl = 'http://10.203.220.61:4444/grid/register/';
 
 //Task to erase previous test reports
@@ -32,7 +31,8 @@ gulp.task('testWidgets', function(done) {
       'test',
       file.path,
       '--htmlreport',
-      reportsDir + '/' + file.relative.replace(/\.test.js/, '')
+      reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
+      '--parallel-tests', 3
     ], {'stdio' : 'inherit'}).on('close', function(code) {
       callback(code === 0);
     });
@@ -140,7 +140,7 @@ gulp.task('serve', serve({
             'view'       : 'details'
         })(req, res, next);
     },
-    'port' : port,
+    'port' : 3333,
     'root' : reportsDir
 }));
 

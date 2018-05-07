@@ -1,0 +1,454 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "3-boxscore-stats-layout-on-desktop",
+  "name" : "boxscore_stats layout on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/boxscore_stats.gspec included tags: desktop",
+      "status" : "error",
+      "time" : 1525291610491,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Masthead",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "masthead",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "count any masthead is 1",
+            "highlight" : [ "masthead" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "height ~410px",
+            "highlight" : [ "masthead" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BoxscorePlayerStats",
+        "place" : {
+          "filePath" : "specs/boxscore_stats.gspec",
+          "lineNumber" : 25
+        },
+        "objects" : [ {
+          "name" : "global",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "count visible player_namefield-* is 31",
+            "highlight" : [ "player_namefield-31", "player_namefield-10", "player_namefield-30", "player_namefield-13", "player_namefield-14", "player_namefield-11", "player_namefield-12", "player_namefield-28", "player_namefield-29", "player_namefield-26", "player_namefield-27", "player_namefield-5", "player_namefield-20", "player_namefield-4", "player_namefield-21", "player_namefield-7", "player_namefield-6", "player_namefield-9", "player_namefield-24", "player_namefield-8", "player_namefield-25", "player_namefield-22", "player_namefield-23", "player_namefield-1", "player_namefield-3", "player_namefield-2", "player_namefield-17", "player_namefield-18", "player_namefield-15", "player_namefield-16", "player_namefield-19" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count visible substitute_namefield-* is 2",
+            "highlight" : [ "substitute_namefield-2", "substitute_namefield-1" ]
+          } ]
+        }, {
+          "name" : "substitute_namefield-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 41
+            },
+            "name" : "aligned vertically all substitute_namefield-2",
+            "highlight" : [ "substitute_namefield-1", "substitute_namefield-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 42
+            },
+            "name" : "text is \"Joe Baseball Dude\"",
+            "errors" : [ "\"substitute_namefield-1\" text is \"Jake Marisnick, PH\" but should be \"Joe Baseball Dude\"" ],
+            "highlight" : [ "substitute_namefield-1" ]
+          } ]
+        }, {
+          "name" : "stat_header_avg-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/boxscore_stats.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "aligned vertically left player_stat_avg-1",
+            "errors" : [ "\"player_stat_avg-1\" is not aligned vertically left with \"stat_header_avg-1\". Offset is 1px" ],
+            "highlight" : [ "stat_header_avg-1", "player_stat_avg-1" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "player_namefield-31" : {
+          "area" : [ 1020, 1273, 144, 30 ]
+        },
+        "player_namefield-10" : {
+          "area" : [ 435, 878, 144, 30 ]
+        },
+        "player_namefield-30" : {
+          "area" : [ 1020, 1243, 144, 30 ]
+        },
+        "player_namefield-13" : {
+          "area" : [ 435, 1259, 144, 30 ]
+        },
+        "player_namefield-14" : {
+          "area" : [ 435, 1289, 144, 30 ]
+        },
+        "player_namefield-11" : {
+          "area" : [ 435, 908, 144, 30 ]
+        },
+        "player_namefield-12" : {
+          "area" : [ 435, 1229, 144, 30 ]
+        },
+        "player_namefield-28" : {
+          "area" : [ 1020, 1183, 144, 30 ]
+        },
+        "player_namefield-29" : {
+          "area" : [ 1020, 1213, 144, 30 ]
+        },
+        "player_namefield-26" : {
+          "area" : [ 1020, 848, 144, 30 ]
+        },
+        "player_namefield-27" : {
+          "area" : [ 1020, 1153, 144, 30 ]
+        },
+        "player_namefield-5" : {
+          "area" : [ 435, 728, 144, 30 ]
+        },
+        "player_namefield-20" : {
+          "area" : [ 1020, 668, 144, 30 ]
+        },
+        "player_namefield-4" : {
+          "area" : [ 435, 698, 144, 30 ]
+        },
+        "player_namefield-21" : {
+          "area" : [ 1020, 698, 144, 30 ]
+        },
+        "player_namefield-7" : {
+          "area" : [ 435, 788, 144, 30 ]
+        },
+        "player_namefield-6" : {
+          "area" : [ 435, 758, 144, 30 ]
+        },
+        "player_namefield-9" : {
+          "area" : [ 435, 848, 144, 30 ]
+        },
+        "player_namefield-24" : {
+          "area" : [ 1020, 788, 144, 30 ]
+        },
+        "player_stat_avg-1" : {
+          "area" : [ 735, 608, 45, 30 ]
+        },
+        "player_namefield-8" : {
+          "area" : [ 435, 818, 144, 30 ]
+        },
+        "player_namefield-25" : {
+          "area" : [ 1020, 818, 144, 30 ]
+        },
+        "player_namefield-22" : {
+          "area" : [ 1020, 728, 144, 30 ]
+        },
+        "player_namefield-23" : {
+          "area" : [ 1020, 758, 144, 30 ]
+        },
+        "stat_header_avg-1" : {
+          "area" : [ 736, 592, 45, 16 ]
+        },
+        "player_namefield-1" : {
+          "area" : [ 435, 608, 144, 30 ]
+        },
+        "player_namefield-3" : {
+          "area" : [ 435, 668, 144, 30 ]
+        },
+        "player_namefield-2" : {
+          "area" : [ 435, 638, 144, 30 ]
+        },
+        "substitute_namefield-2" : {
+          "area" : [ 435, 908, 144, 30 ]
+        },
+        "substitute_namefield-1" : {
+          "area" : [ 435, 878, 144, 30 ]
+        },
+        "masthead" : {
+          "area" : [ 0, 128, 1920, 409 ]
+        },
+        "player_namefield-17" : {
+          "area" : [ 435, 1379, 144, 30 ]
+        },
+        "player_namefield-18" : {
+          "area" : [ 1020, 608, 144, 30 ]
+        },
+        "player_namefield-15" : {
+          "area" : [ 435, 1319, 144, 30 ]
+        },
+        "player_namefield-16" : {
+          "area" : [ 435, 1349, 144, 30 ]
+        },
+        "player_namefield-19" : {
+          "area" : [ 1020, 638, 144, 30 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" {{#if screenshot}}data-screenshot="{{screenshot}}"{{/if}}>
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#" title="{{place.filePath}}#{{place.lineNumber}}">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.html">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>boxscore_stats layout on desktop</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

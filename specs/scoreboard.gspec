@@ -1,5 +1,7 @@
+@import galen-extras/galen-extras-rules.gspec
+
 @objects
-  scorecard                      .game-section-container div.game-section:nth-child(1) div.event:nth-child(1) div
+  scorecard                      .game-section-container div.game-section:nth-child(2) div.event:nth-child(1) div
       event_body                 .event-body
       team_logo-*                .team-logo
       team_name-*                .team-name
@@ -57,7 +59,7 @@
 
     scorecard.probables_header:
       centered horizontally inside scorecard.event_body
-      text is "Pitching Probables"
+      % text is "Pitching Probables"
 
     scorecard.prob_pitcher_container-1:
       centered horizontally inside scorecard.event_body

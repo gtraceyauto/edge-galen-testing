@@ -6,8 +6,10 @@ var widgetName = widgetToTest.name;
 
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {
-    snapshotButton: '.game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button',
-    mlbPreview: '#mlb-game-preview'
+    snapshotButton: '.game-section-container > div.game-section:nth-child(2) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button',
+    inProgressHeader: '.header-team-and-runners-on-base-container',
+    mlbPreview: '#mlb-game-preview',
+    eventBodyBottom: '.event-body-bottom'
   });
 };
 
