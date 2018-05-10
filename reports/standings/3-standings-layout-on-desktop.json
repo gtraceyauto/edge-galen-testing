@@ -1,0 +1,38 @@
+{
+  "testId" : "3-standings-layout-on-desktop",
+  "name" : "standings layout on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/standings.gspec included tags: desktop",
+      "status" : "info",
+      "time" : 1525896013859,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Conferences",
+        "place" : {
+          "filePath" : "specs/standings.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "conference_container-1.conference_name",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "text uppercase is \"AMERICAN LEAGUE\"",
+            "highlight" : [ "conference_container-1.conference_name" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "conference_container-1.conference_name" : {
+          "area" : [ 376, 268, 1168, 19 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

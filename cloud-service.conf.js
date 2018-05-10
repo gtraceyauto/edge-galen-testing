@@ -5,5 +5,6 @@ function Config(user, key, url) {
 }
 
 var config = {
-  browserstack: new Config('timlantz2', 'ss66ANCVQ8yXydAKkyUp')
+  browserstack: new Config('stephenmoran3', 'CFYUKpfCmcoFTQXRZzXQ')
+  //browserstack: new Config('timlantz2', 'ss66ANCVQ8yXydAKkyUp')
 }

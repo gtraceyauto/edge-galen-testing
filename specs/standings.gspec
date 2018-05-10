@@ -1,0 +1,19 @@
+@import galen-extras/galen-extras-rules.gspec
+
+@objects
+  widget_container             #mlb-league-standings
+  header                       .header
+  toggle-container             .toggle-container
+      tab-*                    .toggle
+  conference_container-*       .conference-container
+      conference_name          .conference-name
+
+= Header =
+  @on *
+    header:
+      height 40 px
+
+= Conferences =
+  @on *
+    conference_container-1.conference_name:
+      text uppercase is "AMERICAN LEAGUE"

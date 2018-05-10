@@ -17,21 +17,20 @@
   team_logo-*                     .team-logo
   team_name_large-*               .team-name div.show-for-large
   team_name_small-*               .team-name div.hide-for-large
-  stat_g-*                        .multi-stat-row div.statistic:nth-child(4)
-  stat_ab-*                       .multi-stat-row div.statistic:nth-child(5)
-  stat_r-*                        .multi-stat-row div.statistic:nth-child(6)
-  stat_h-*                        .multi-stat-row div.statistic:nth-child(7)
-  stat_2b-*                       .multi-stat-row div.statistic:nth-child(8)
-  stat_3b-*                       .multi-stat-row div.statistic:nth-child(9)
-  stat_hr-*                       .multi-stat-row div.statistic:nth-child(10)
-  stat_rbi-*                      .multi-stat-row div.statistic:nth-child(11)
-  stat_bb-*                       .multi-stat-row div.statistic:nth-child(12)
-  stat_k-*                        .multi-stat-row div.statistic:nth-child(13)
-  stat_sb-*                       .multi-stat-row div.statistic:nth-child(14)
-  stat_divider-*                  .multi-stat-row div.statistic:nth-child(15)
-  stat_avg-*                      .multi-stat-row div.statistic:nth-child(16)
-  stat_obp-*                      .multi-stat-row div.statistic:nth-child(17)
-  stat_slg-*                      .multi-stat-row div.statistic:nth-child(18)
+  stat_g-*                        .statistic.gamesPlayed
+  stat_ab-*                       .statistic.atBats
+  stat_r-*                        .statistic.runs
+  stat_h-*                        .statistic.hits
+  stat_2b-*                       .statistic.doubles
+  stat_3b-*                       .statistic.triples
+  stat_hr-*                       .statistic.homeRuns
+  stat_rbi-*                      .statistic.runsBattedIn
+  stat_bb-*                       .statistic.walks
+  stat_k-*                        .statistic.strikeouts
+  stat_sb-*                       .statistic.stolenBases
+  stat_avg-*                      .statistic.battingAverage
+  stat_obp-*                      .statistic.onBasePercentage
+  stat_slg-*                      .statistic.sluggingPercentage
 
 @groups
   column_g           stats_header.category-1, stat_g-*
@@ -45,10 +44,9 @@
   column_bb          stats_header.category-9, stat_bb-*
   column_k           stats_header.category-10, stat_k-*
   column_sb          stats_header.category-11, stat_sb-*
-  column_divider     stats_header.category-12, stat_divider-*
-  column_avg         stats_header.category-13, stat_avg-*
-  column_obp         stats_header.category-14, stat_obp-*
-  column_slg         stats_header.category-15, stat_slg-*
+  column_avg         stats_header.category-12, stat_avg-*
+  column_obp         stats_header.category-13, stat_obp-*
+  column_slg         stats_header.category-14, stat_slg-*
 
 = Header =
   @on *
@@ -110,13 +108,11 @@
     @on mobile
       player_category_toggle:
         centered horizontally inside widget_container
-        inside widget_container ~56 px top
-        above conference_toggle ~16px
+        below header ~16px
         aligned vertically centered conference_toggle
 
       conference_toggle:
         centered horizontally inside widget_container
-        inside widget_container ~96 px top
         below player_category_toggle ~16px
 
 = Statistics Table =
@@ -136,10 +132,15 @@
     | &column_avg are aligned vertically above each other with equal distance
 
   @on desktop
-    | team_name_large-* are aligned vertically above each other with equal distance
+    | team_name_large-* are aligned vertically on left above each other with equal distance
+
+    @forEach [team_name_large-*] as teamName, index as i
+      ${teamName}:
+        centered vertically inside stat_row_container-${i}
+
 
   @on desktop, tablet
-    | amount of visible stats_header.category-* should be 15
+    | amount of visible stats_header.category-* should be 14
     | stats_header.category-* are aligned horizontally next to each other with equal distance
     | &column_ab are aligned vertically above each other with equal distance
     | &column_2b are aligned vertically above each other with equal distance
@@ -152,8 +153,12 @@
     | &column_slg are aligned vertically above each other with equal distance
 
   @on mobile
-    | amount of visible stats_header.category_mobile-* should be 6
+    | amount of visible stats_header.category_mobile-* should be 5
     | stats_header.category_mobile-* are aligned horizontally next to each other with equal distance
 
   @on mobile, tablet
-    | team_name_small-* are aligned vertically above each other with equal distance
+    | team_name_small-* are aligned vertically on left above each other with equal distance
+
+    @forEach [team_name_small-*] as teamName, index as i
+      ${teamName}:
+        centered vertically inside stat_row_container-${i}

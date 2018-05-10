@@ -12,6 +12,7 @@ var
 var widgetToTest = argv.w ? argv.w : '*';
 var reportsDir = 'reports';
 var gridHubUrl = 'http://10.203.220.61:4444/grid/register/';
+var parallelTests = 3;
 
 //Task to erase previous test reports
 gulp.task('clean', function(done) {
@@ -32,7 +33,7 @@ gulp.task('testWidgets', function(done) {
       file.path,
       '--htmlreport',
       reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
-      '--parallel-tests', 3
+      '--parallel-tests', parallelTests
     ], {'stdio' : 'inherit'}).on('close', function(code) {
       callback(code === 0);
     });
@@ -67,7 +68,7 @@ gulp.task('testWidgetsRemote', function(done) {
       file.path,
       '--htmlreport',
       reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
-      '--parallel-tests', 3
+      '--parallel-tests', parallelTests
     ], {'stdio' : 'inherit'}).on('close', function(code) {
       callback(code === 0);
     });
@@ -102,7 +103,7 @@ gulp.task('testWidgetsGrid', function(done) {
       file.path,
       '--htmlreport',
       reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
-      '--parallel-tests', 3
+      '--parallel-tests', parallelTests
     ], {'stdio' : 'inherit'}).on('close', function(code) {
       callback(code === 0);
     });

@@ -4,10 +4,6 @@ function Widget(name, url) {
 }
 
 var widgets = {
-  boxscoreStats: new Widget(
-    'boxscore_stats',
-    'http://prod-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/boxscores/1996445'
-  ),
   multistat: new Widget(
     'multistat',
     'http://dev-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/teams/multistat'
@@ -15,5 +11,9 @@ var widgets = {
   scoreboard: new Widget(
     'scoreboard',
     'http://prod-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/scores'
+  ),
+  standings: new Widget(
+    'standings',
+    'http://prod-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/standings'
   )
 }

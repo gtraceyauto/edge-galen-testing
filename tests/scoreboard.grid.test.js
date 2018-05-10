@@ -4,7 +4,7 @@ load('/grid-platforms.js');
 
 var widgetToTest = widgets.scoreboard;
 var widgetName = widgetToTest.name;
-var gridNodeUrl = 'http://10.203.225.94:4444/wd/hub/';
+var gridHubUrl = 'http://10.203.225.105:4444/wd/hub/';
 
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {
@@ -17,7 +17,7 @@ forAll(platforms, function() {
   forAll(devices, function() {
     test(widgetName + ' layout on ${deviceName} - ${browser} - ${os}', function(platform, device) {
       var testName = widgetName + ' layout on ' + device.deviceName;
-      var driver = createGridDriver(gridNodeUrl, {
+      var driver = createGridDriver(gridHubUrl, {
         desiredCapabilities: {
           browserName: platform.browser,
           platform: platform.os
@@ -29,7 +29,7 @@ forAll(platforms, function() {
       resize(driver, device.size);
       scorecardPage.snapshotButton.waitToBeShown('5s');
       scorecardPage.snapshotButton.clickAt(10, 10);
-      scorecardPage.mlbPreview.waitToBeShown('5s');
+      GalenPages.sleep(2000);
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
     });
   });

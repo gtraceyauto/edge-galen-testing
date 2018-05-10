@@ -32,7 +32,7 @@ forAll(platforms, function() {
       resize(driver, device.size);
       scorecardPage.snapshotButton.waitToBeShown('5s');
       scorecardPage.snapshotButton.clickAt(10, 10);
-      scorecardPage.mlbPreview.waitToBeShown('5s');
+      GalenPages.sleep(3000);
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
     });
   });
