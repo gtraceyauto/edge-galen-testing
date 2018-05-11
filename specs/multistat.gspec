@@ -123,7 +123,7 @@
     | stat_row_container-* are aligned vertically above each other with equal distance
     | rank-* are aligned vertically above each other with equal distance
     | team_logo-* are aligned vertically above each other with equal distance
-    | every team_logo-* has height ~24px and has width ~24px
+    | every team_logo-* has height 24px and has width 24px
     | &column_g are aligned vertically above each other with equal distance
     | &column_r are aligned vertically above each other with equal distance
     | &column_h are aligned vertically above each other with equal distance
@@ -137,7 +137,6 @@
     @forEach [team_name_large-*] as teamName, index as i
       ${teamName}:
         centered vertically inside stat_row_container-${i}
-
 
   @on desktop, tablet
     | amount of visible stats_header.category-* should be 14

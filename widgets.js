@@ -14,6 +14,6 @@ var widgets = {
   ),
   standings: new Widget(
     'standings',
-    'http://prod-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/standings'
+    'http://dev-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/standings'
   )
 }

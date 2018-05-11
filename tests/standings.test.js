@@ -6,7 +6,8 @@ var widgetName = widgetToTest.name;
 
 this.StandingsPage = function(driver) {
   GalenPages.extendPage(this, driver, 'StandingsPage', {
-    widgetContainer: '#mlb-league-standings'
+    widgetContainer: '#mlb-league-standings',
+    divisionsContainer: '#mlb-league-standings > div:nth-child(3) > div.divisions'
   });
 };
 
@@ -16,7 +17,7 @@ forAll(devices, function() {
     session.put('driver', driver);
     var standingsPage = new StandingsPage(driver);
     resize(driver, device.size);
-    standingsPage.widgetContainer.waitToBeShown('5');
+    standingsPage.divisionsContainer.waitToBeShown('5s');
     checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
   });
 });
