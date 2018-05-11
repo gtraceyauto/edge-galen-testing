@@ -1,20 +1,11 @@
-<html>
-    <head>
-        <title>Galen Reports</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="report.css"></link>
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="handlebars-v2.0.0.js"></script>
-        <script src="galen-report.js"></script>
-        <script>
-var reportData = {
-  "testId" : "2-standings-layout-on-tablet",
-  "name" : "standings layout on tablet",
+{
+  "testId" : "5-standings-layout-on-tablet---safari---os-x",
+  "name" : "standings layout on tablet - safari - OS X",
   "report" : {
     "nodes" : [ {
       "name" : "Check layout: specs/standings.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1526053064989,
+      "time" : 1526054497752,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Header",
@@ -7046,7 +7037,7 @@ var reportData = {
           "area" : [ 370, 427, 30, 32 ]
         },
         "toggle_container" : {
-          "area" : [ 301, 208, 165, 40 ]
+          "area" : [ 302, 208, 164, 40 ]
         },
         "stat_losses-9" : {
           "area" : [ 370, 579, 30, 32 ]
@@ -7061,7 +7052,7 @@ var reportData = {
           "area" : [ 370, 1482, 30, 32 ]
         },
         "full_team_name-30" : {
-          "area" : [ 48, 1586, 97, 16 ]
+          "area" : [ 48, 1586, 96, 16 ]
         },
         "stat_losses-32" : {
           "area" : [ 370, 1450, 30, 32 ]
@@ -7106,7 +7097,7 @@ var reportData = {
           "area" : [ 48, 1554, 116, 16 ]
         },
         "full_team_name-22" : {
-          "area" : [ 48, 1274, 106, 16 ]
+          "area" : [ 48, 1274, 105, 16 ]
         },
         "full_team_name-23" : {
           "area" : [ 48, 1306, 97, 16 ]
@@ -7133,7 +7124,7 @@ var reportData = {
           "area" : [ 370, 1146, 30, 32 ]
         },
         "full_team_name-21" : {
-          "area" : [ 48, 1242, 100, 16 ]
+          "area" : [ 48, 1242, 99, 16 ]
         },
         "stat_losses-23" : {
           "area" : [ 370, 1114, 30, 32 ]
@@ -7163,7 +7154,7 @@ var reportData = {
           "area" : [ 514, 1450, 30, 32 ]
         },
         "full_team_name-19" : {
-          "area" : [ 48, 1122, 85, 16 ]
+          "area" : [ 48, 1122, 83, 16 ]
         },
         "stat_streak-33" : {
           "area" : [ 514, 1482, 30, 32 ]
@@ -7178,7 +7169,7 @@ var reportData = {
           "area" : [ 514, 1578, 30, 32 ]
         },
         "full_team_name-15" : {
-          "area" : [ 48, 899, 79, 16 ]
+          "area" : [ 48, 899, 78, 16 ]
         },
         "full_team_name-16" : {
           "area" : [ 48, 1026, 79, 16 ]
@@ -7202,22 +7193,22 @@ var reportData = {
           "area" : [ 48, 867, 97, 16 ]
         },
         "full_team_name-10" : {
-          "area" : [ 48, 683, 104, 16 ]
+          "area" : [ 48, 683, 103, 16 ]
         },
         "full_team_name-1" : {
-          "area" : [ 48, 339, 87, 16 ]
+          "area" : [ 48, 339, 86, 16 ]
         },
         "nl_conference.division-3" : {
           "area" : [ 16, 1426, 736, 184 ]
         },
         "full_team_name-3" : {
-          "area" : [ 48, 403, 97, 16 ]
+          "area" : [ 48, 403, 95, 16 ]
         },
         "stat_streak-20" : {
           "area" : [ 514, 1018, 30, 32 ]
         },
         "full_team_name-2" : {
-          "area" : [ 48, 371, 101, 16 ]
+          "area" : [ 48, 371, 99, 16 ]
         },
         "stat_streak-21" : {
           "area" : [ 514, 1050, 30, 32 ]
@@ -7229,7 +7220,7 @@ var reportData = {
           "area" : [ 514, 1082, 30, 32 ]
         },
         "full_team_name-4" : {
-          "area" : [ 48, 435, 89, 16 ]
+          "area" : [ 48, 435, 88, 16 ]
         },
         "stat_streak-23" : {
           "area" : [ 514, 1114, 30, 32 ]
@@ -7238,7 +7229,7 @@ var reportData = {
           "area" : [ 16, 1210, 736, 184 ]
         },
         "full_team_name-7" : {
-          "area" : [ 48, 587, 93, 16 ]
+          "area" : [ 48, 587, 92, 16 ]
         },
         "stat_streak-24" : {
           "area" : [ 514, 1146, 30, 32 ]
@@ -7301,10 +7292,10 @@ var reportData = {
           "area" : [ 514, 994, 30, 24 ]
         },
         "toggle_container.tab-2" : {
-          "area" : [ 379, 208, 87, 40 ]
+          "area" : [ 380, 208, 87, 40 ]
         },
         "toggle_container.tab-1" : {
-          "area" : [ 301, 208, 78, 40 ]
+          "area" : [ 302, 208, 78, 40 ]
         },
         "stat_west_record-2" : {
           "area" : [ 704, 331, 48, 32 ]
@@ -7805,244 +7796,8 @@ var reportData = {
           "area" : [ 16, 955, 736, 19 ]
         }
       },
-      "screenshot" : "layout-2-screenshot.png",
+      "screenshot" : "layout-5-screenshot.png",
       "type" : "layout"
     } ]
   }
-};
-        </script>
-        <script>
-
-            $(function () {
-                var galenReport = createGalenReport();
-                galenReport.render("main", reportData);
-            });
-        </script>
-    </head>
-    <body>
-        <script id="report-tpl" type="text/x-handlebars-template">
-            <ul class="report-nodes">
-            {{#each report.nodes}}
-                {{renderNode this}}
-            {{/each}}
-            </ul>
-        </script>
-        <script id="report-node-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
-                <div class="node-name node-status-{{status}}">{{name}}</div>
-                {{#if extras}}
-                    {{renderNodeExtras extras}}
-                {{/if}}
-                {{#if stacktrace}}
-                    <div class="stacktrace">{{stacktrace}}</div>
-                {{/if}}
-                {{#if attachments}}
-                    <ul class="report-node-attachments">
-                        {{#each attachments}}
-                            <li>
-                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
-                            </li>
-                        {{/each}}
-                    </ul>
-                {{/if}}
-                <div class="node-details expand-container">
-                    {{#if nodes}}
-                        <ul class="report-nodes">
-                            {{#each nodes}}
-                                {{renderNode this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-        <script id="report-node-text-tpl" type="text/x-handlebars-template">
-            <li>
-                <div class="node-simple-text">
-                    {{name}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
-                <div class="node-name">{{name}}</div>
-                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
-                <div class="node-details expand-container">
-                    {{renderSublayout this}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
-            <div class="layout-report" data-layout-id="{{layoutId}}" {{#if screenshot}}data-screenshot="{{screenshot}}"{{/if}}>
-                <ul class="layout-sections">
-                    {{#each sections}}
-                        {{renderLayoutSection this}}
-                    {{/each}}
-                </ul>
-            </div>
-        </script>
-        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#" title="{{place.filePath}}#{{place.lineNumber}}">{{name}}</a>
-                <div class="layout-details expand-container">
-                    {{#if sections}}
-                        <ul class="layout-sections">
-                        {{#each sections}}
-                            {{renderLayoutSection this}}
-                        {{/each}}
-                        </ul>
-                    {{/if}}
-                    {{#if objects}}
-                        <ul class="layout-objects">
-                            {{#each objects}}
-                                {{renderLayoutObject this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-
-        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                <ul class="layout-checks expand-container">
-                    {{#each specs}}
-                        {{renderLayoutCheck this}}
-                    {{/each}}
-                    {{#each specGroups}}
-                    <li>
-                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                        <ul class="layout-checks expand-container">
-                            {{#each specs}}
-                                {{renderLayoutCheck this}}
-                            {{/each}}
-                        </ul>
-                    </li>
-                    {{/each}}
-                </ul>
-            </li>
-        </script>
-        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
-            <li>
-            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
-                data-highlight-objects="{{commaSeparated highlight}}"
-                title="{{place.filePath}}#{{place.lineNumber}}"
-                >{{name}}</a>
-
-                {{#if errors}}
-                    <div class="layout-check-error-message">
-                        {{#if imageComparison}}
-                        <a class="image-comparison-link"
-                            data-actual-image="{{imageComparison.actualImage}}"
-                            data-expected-image="{{imageComparison.expectedImage}}"
-                            data-map-image="{{imageComparison.comparisonMapImage}}"
-                            href="#">Show image comparison</a>
-                        {{/if}}
-                        <div class="layout-check-error-message-text">
-                            <ul>
-                            {{#each errors}}
-                                <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                    </div>
-                </div>
-                {{/if}}
-
-                {{#if subLayout}}
-                {{renderSublayout subLayout}}
-                {{/if}}
-            </li>
-        </script>
-        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
-            <div class="screenshot-canvas">
-                {{#if screenshot}}
-                <img src="{{screenshot}}"/>
-                {{else}}
-                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
-                {{/if}}
-                {{#each objects}}
-                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
-                    <div class="canvas-rect-wrapper">
-                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-        </script>
-        <script id="image-comparison-tpl" type="text/x-handlebars-template">
-            <div class="image-comparison image-comparison-layout-{{layout}}">
-                <div class="actual-image">
-                    <h5>Actual</h5>
-                    <img src="{{actual}}"/>
-                </div>
-
-                <div class="expected-image">
-                    <h5>Expected</h5>
-                    <img src="{{expected}}"/>
-                </div>
-
-                <div class="comparison-map">
-                    <h5>Comparison map</h5>
-                    <img src="{{map}}"/>
-                </div>
-            </div>
-        </script>
-        <script id="node-extras-tpl" type="text/x-handlebars-template">
-            <div class="node-extras">
-                <a class="node-extras" href="#">extras</a>
-                <div class="node-extras-content">
-                    <table class="node-extras-table">
-                        <tbody>
-                        {{#each this}}
-                        <tr>
-                            <td><label>{{@key}}</label></td>
-                            {{#ifCond type 'text'}}
-                            <td>{{value}}</td>
-                            {{/ifCond}}
-                            {{#ifCond type 'link'}}
-                            <td><a href="{{value}}">{{value}}</a></td>
-                            {{/ifCond}}
-                            {{#ifCond type 'image'}}
-                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
-                            {{/ifCond}}
-                        </tr>
-                        {{/each}}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </script>
-
-
-
-        <div id="menu">
-            <ul>
-                <li><a href="report.html">Back to Test Overview</a></li>
-                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
-                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
-                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
-            </ul>
-        </div>
-        <h2>standings layout on tablet</h2>
-        <div id="main"></div>
-        <div id="screen-shadow"></div>
-        <div id="popup" class="popup">
-            <div class="popup-wrapper">
-                <a class="popup-close-link" href="#">close</a>
-                <div class="popup-content"></div>
-            </div>
-        </div>
-        <div id="notification" class="notification">
-            <div class="notification-wrapper">
-                <a class="notification-close-link" href="#">close</a>
-                <div class="notification-summary"></div>
-                <div class="notification-message"></div>
-            </div>
-        </div>
-    </body>
-</html>
+}

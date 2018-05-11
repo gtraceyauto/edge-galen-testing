@@ -1,12 +1,12 @@
 {
-  "testId" : "1-standings-layout-on-mobile",
-  "name" : "standings layout on mobile",
+  "testId" : "2-standings-layout-on-tablet---chrome---os-x",
+  "name" : "standings layout on tablet - chrome - OS X",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/standings.gspec included tags: mobile",
+      "name" : "Check layout: specs/standings.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1526053053075,
-      "includedTags" : [ "mobile" ],
+      "time" : 1526054376535,
+      "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Header",
         "place" : {
@@ -19,15 +19,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 56
+              "lineNumber" : 51
             },
-            "name" : "height 24 px",
+            "name" : "height 40 px",
             "highlight" : [ "header" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 57
+              "lineNumber" : 52
             },
             "name" : "text uppercase is \"MLB STANDINGS\"",
             "highlight" : [ "header" ]
@@ -147,10 +147,10 @@
           } ]
         } ],
         "sections" : [ {
-          "name" : "every &conference_names is inside widget_container 16 px left",
+          "name" : "every &conference_names is inside widget_container 24 px left",
           "place" : {
             "filePath" : "specs/standings.gspec",
-            "lineNumber" : 86
+            "lineNumber" : 83
           },
           "objects" : [ {
             "name" : "al_conference.name",
@@ -160,8 +160,8 @@
                 "filePath" : "specs/galen-extras/galen-extras-rules.gspec",
                 "lineNumber" : 293
               },
-              "name" : "inside widget_container 16 px left",
-              "errors" : [ "\"al_conference.name\" is 8px left instead of 16px" ],
+              "name" : "inside widget_container 24 px left",
+              "errors" : [ "\"al_conference.name\" is 16px left instead of 24px" ],
               "highlight" : [ "al_conference.name", "widget_container" ]
             } ]
           }, {
@@ -172,8 +172,8 @@
                 "filePath" : "specs/galen-extras/galen-extras-rules.gspec",
                 "lineNumber" : 293
               },
-              "name" : "inside widget_container 16 px left",
-              "errors" : [ "\"nl_conference.name\" is 8px left instead of 16px" ],
+              "name" : "inside widget_container 24 px left",
+              "errors" : [ "\"nl_conference.name\" is 16px left instead of 24px" ],
               "highlight" : [ "nl_conference.name", "widget_container" ]
             } ]
           } ]
@@ -332,7 +332,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-2 1px",
             "highlight" : [ "team_logo-1", "team_logo-2" ]
@@ -351,7 +351,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-3 1px",
             "highlight" : [ "team_logo-2", "team_logo-3" ]
@@ -370,7 +370,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-4 1px",
             "highlight" : [ "team_logo-3", "team_logo-4" ]
@@ -389,7 +389,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-5 1px",
             "highlight" : [ "team_logo-4", "team_logo-5" ]
@@ -408,7 +408,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-6 1px",
             "highlight" : [ "team_logo-5", "team_logo-6" ]
@@ -427,7 +427,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-7 1px",
             "highlight" : [ "team_logo-6", "team_logo-7" ]
@@ -446,7 +446,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-8 1px",
             "highlight" : [ "team_logo-7", "team_logo-8" ]
@@ -465,7 +465,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-9 1px",
             "highlight" : [ "team_logo-8", "team_logo-9" ]
@@ -484,7 +484,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-10 1px",
             "highlight" : [ "team_logo-9", "team_logo-10" ]
@@ -503,7 +503,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-11 1px",
             "highlight" : [ "team_logo-10", "team_logo-11" ]
@@ -522,7 +522,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-12 1px",
             "highlight" : [ "team_logo-11", "team_logo-12" ]
@@ -541,7 +541,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-13 1px",
             "highlight" : [ "team_logo-12", "team_logo-13" ]
@@ -560,7 +560,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-14 1px",
             "highlight" : [ "team_logo-13", "team_logo-14" ]
@@ -579,7 +579,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-15 1px",
             "highlight" : [ "team_logo-14", "team_logo-15" ]
@@ -598,7 +598,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-16 1px",
             "highlight" : [ "team_logo-15", "team_logo-16" ]
@@ -617,7 +617,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-17 1px",
             "highlight" : [ "team_logo-16", "team_logo-17" ]
@@ -636,7 +636,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-18 1px",
             "highlight" : [ "team_logo-17", "team_logo-18" ]
@@ -655,7 +655,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-19 1px",
             "highlight" : [ "team_logo-18", "team_logo-19" ]
@@ -674,7 +674,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-20 1px",
             "highlight" : [ "team_logo-19", "team_logo-20" ]
@@ -693,7 +693,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-21 1px",
             "highlight" : [ "team_logo-20", "team_logo-21" ]
@@ -712,7 +712,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-22 1px",
             "highlight" : [ "team_logo-21", "team_logo-22" ]
@@ -731,7 +731,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-23 1px",
             "highlight" : [ "team_logo-22", "team_logo-23" ]
@@ -750,7 +750,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-24 1px",
             "highlight" : [ "team_logo-23", "team_logo-24" ]
@@ -769,7 +769,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-25 1px",
             "highlight" : [ "team_logo-24", "team_logo-25" ]
@@ -788,7 +788,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-26 1px",
             "highlight" : [ "team_logo-25", "team_logo-26" ]
@@ -807,7 +807,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-27 1px",
             "highlight" : [ "team_logo-26", "team_logo-27" ]
@@ -826,7 +826,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-28 1px",
             "highlight" : [ "team_logo-27", "team_logo-28" ]
@@ -845,7 +845,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-29 1px",
             "highlight" : [ "team_logo-28", "team_logo-29" ]
@@ -864,7 +864,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 118
+              "lineNumber" : 110
             },
             "name" : "aligned vertically all team_logo-30 1px",
             "highlight" : [ "team_logo-29", "team_logo-30" ]
@@ -881,323 +881,323 @@
             "highlight" : [ "team_logo-30", "team_row-30" ]
           } ]
         }, {
-          "name" : "team_abbreviation-1",
+          "name" : "full_team_name-1",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-2 1px",
-            "highlight" : [ "team_abbreviation-1", "team_abbreviation-2" ]
+            "name" : "aligned vertically left full_team_name-2 1px",
+            "highlight" : [ "full_team_name-1", "full_team_name-2" ]
           } ]
         }, {
-          "name" : "team_abbreviation-2",
+          "name" : "full_team_name-2",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-3 1px",
-            "highlight" : [ "team_abbreviation-2", "team_abbreviation-3" ]
+            "name" : "aligned vertically left full_team_name-3 1px",
+            "highlight" : [ "full_team_name-2", "full_team_name-3" ]
           } ]
         }, {
-          "name" : "team_abbreviation-3",
+          "name" : "full_team_name-3",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-4 1px",
-            "highlight" : [ "team_abbreviation-3", "team_abbreviation-4" ]
+            "name" : "aligned vertically left full_team_name-4 1px",
+            "highlight" : [ "full_team_name-3", "full_team_name-4" ]
           } ]
         }, {
-          "name" : "team_abbreviation-4",
+          "name" : "full_team_name-4",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-5 1px",
-            "highlight" : [ "team_abbreviation-4", "team_abbreviation-5" ]
+            "name" : "aligned vertically left full_team_name-5 1px",
+            "highlight" : [ "full_team_name-4", "full_team_name-5" ]
           } ]
         }, {
-          "name" : "team_abbreviation-5",
+          "name" : "full_team_name-5",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-6 1px",
-            "highlight" : [ "team_abbreviation-5", "team_abbreviation-6" ]
+            "name" : "aligned vertically left full_team_name-6 1px",
+            "highlight" : [ "full_team_name-5", "full_team_name-6" ]
           } ]
         }, {
-          "name" : "team_abbreviation-6",
+          "name" : "full_team_name-6",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-7 1px",
-            "highlight" : [ "team_abbreviation-6", "team_abbreviation-7" ]
+            "name" : "aligned vertically left full_team_name-7 1px",
+            "highlight" : [ "full_team_name-6", "full_team_name-7" ]
           } ]
         }, {
-          "name" : "team_abbreviation-7",
+          "name" : "full_team_name-7",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-8 1px",
-            "highlight" : [ "team_abbreviation-7", "team_abbreviation-8" ]
+            "name" : "aligned vertically left full_team_name-8 1px",
+            "highlight" : [ "full_team_name-7", "full_team_name-8" ]
           } ]
         }, {
-          "name" : "team_abbreviation-8",
+          "name" : "full_team_name-8",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-9 1px",
-            "highlight" : [ "team_abbreviation-8", "team_abbreviation-9" ]
+            "name" : "aligned vertically left full_team_name-9 1px",
+            "highlight" : [ "full_team_name-8", "full_team_name-9" ]
           } ]
         }, {
-          "name" : "team_abbreviation-9",
+          "name" : "full_team_name-9",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-10 1px",
-            "highlight" : [ "team_abbreviation-9", "team_abbreviation-10" ]
+            "name" : "aligned vertically left full_team_name-10 1px",
+            "highlight" : [ "full_team_name-9", "full_team_name-10" ]
           } ]
         }, {
-          "name" : "team_abbreviation-10",
+          "name" : "full_team_name-10",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-11 1px",
-            "highlight" : [ "team_abbreviation-10", "team_abbreviation-11" ]
+            "name" : "aligned vertically left full_team_name-11 1px",
+            "highlight" : [ "full_team_name-10", "full_team_name-11" ]
           } ]
         }, {
-          "name" : "team_abbreviation-11",
+          "name" : "full_team_name-11",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-12 1px",
-            "highlight" : [ "team_abbreviation-11", "team_abbreviation-12" ]
+            "name" : "aligned vertically left full_team_name-12 1px",
+            "highlight" : [ "full_team_name-11", "full_team_name-12" ]
           } ]
         }, {
-          "name" : "team_abbreviation-12",
+          "name" : "full_team_name-12",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-13 1px",
-            "highlight" : [ "team_abbreviation-12", "team_abbreviation-13" ]
+            "name" : "aligned vertically left full_team_name-13 1px",
+            "highlight" : [ "full_team_name-12", "full_team_name-13" ]
           } ]
         }, {
-          "name" : "team_abbreviation-13",
+          "name" : "full_team_name-13",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-14 1px",
-            "highlight" : [ "team_abbreviation-13", "team_abbreviation-14" ]
+            "name" : "aligned vertically left full_team_name-14 1px",
+            "highlight" : [ "full_team_name-13", "full_team_name-14" ]
           } ]
         }, {
-          "name" : "team_abbreviation-14",
+          "name" : "full_team_name-14",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-15 1px",
-            "highlight" : [ "team_abbreviation-14", "team_abbreviation-15" ]
+            "name" : "aligned vertically left full_team_name-15 1px",
+            "highlight" : [ "full_team_name-14", "full_team_name-15" ]
           } ]
         }, {
-          "name" : "team_abbreviation-15",
+          "name" : "full_team_name-15",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-16 1px",
-            "highlight" : [ "team_abbreviation-15", "team_abbreviation-16" ]
+            "name" : "aligned vertically left full_team_name-16 1px",
+            "highlight" : [ "full_team_name-15", "full_team_name-16" ]
           } ]
         }, {
-          "name" : "team_abbreviation-16",
+          "name" : "full_team_name-16",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-17 1px",
-            "highlight" : [ "team_abbreviation-16", "team_abbreviation-17" ]
+            "name" : "aligned vertically left full_team_name-17 1px",
+            "highlight" : [ "full_team_name-16", "full_team_name-17" ]
           } ]
         }, {
-          "name" : "team_abbreviation-17",
+          "name" : "full_team_name-17",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-18 1px",
-            "highlight" : [ "team_abbreviation-17", "team_abbreviation-18" ]
+            "name" : "aligned vertically left full_team_name-18 1px",
+            "highlight" : [ "full_team_name-17", "full_team_name-18" ]
           } ]
         }, {
-          "name" : "team_abbreviation-18",
+          "name" : "full_team_name-18",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-19 1px",
-            "highlight" : [ "team_abbreviation-18", "team_abbreviation-19" ]
+            "name" : "aligned vertically left full_team_name-19 1px",
+            "highlight" : [ "full_team_name-18", "full_team_name-19" ]
           } ]
         }, {
-          "name" : "team_abbreviation-19",
+          "name" : "full_team_name-19",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-20 1px",
-            "highlight" : [ "team_abbreviation-19", "team_abbreviation-20" ]
+            "name" : "aligned vertically left full_team_name-20 1px",
+            "highlight" : [ "full_team_name-19", "full_team_name-20" ]
           } ]
         }, {
-          "name" : "team_abbreviation-20",
+          "name" : "full_team_name-20",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-21 1px",
-            "highlight" : [ "team_abbreviation-20", "team_abbreviation-21" ]
+            "name" : "aligned vertically left full_team_name-21 1px",
+            "highlight" : [ "full_team_name-20", "full_team_name-21" ]
           } ]
         }, {
-          "name" : "team_abbreviation-21",
+          "name" : "full_team_name-21",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-22 1px",
-            "highlight" : [ "team_abbreviation-21", "team_abbreviation-22" ]
+            "name" : "aligned vertically left full_team_name-22 1px",
+            "highlight" : [ "full_team_name-21", "full_team_name-22" ]
           } ]
         }, {
-          "name" : "team_abbreviation-22",
+          "name" : "full_team_name-22",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-23 1px",
-            "highlight" : [ "team_abbreviation-22", "team_abbreviation-23" ]
+            "name" : "aligned vertically left full_team_name-23 1px",
+            "highlight" : [ "full_team_name-22", "full_team_name-23" ]
           } ]
         }, {
-          "name" : "team_abbreviation-23",
+          "name" : "full_team_name-23",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-24 1px",
-            "highlight" : [ "team_abbreviation-23", "team_abbreviation-24" ]
+            "name" : "aligned vertically left full_team_name-24 1px",
+            "highlight" : [ "full_team_name-23", "full_team_name-24" ]
           } ]
         }, {
-          "name" : "team_abbreviation-24",
+          "name" : "full_team_name-24",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-25 1px",
-            "highlight" : [ "team_abbreviation-24", "team_abbreviation-25" ]
+            "name" : "aligned vertically left full_team_name-25 1px",
+            "highlight" : [ "full_team_name-24", "full_team_name-25" ]
           } ]
         }, {
-          "name" : "team_abbreviation-25",
+          "name" : "full_team_name-25",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-26 1px",
-            "highlight" : [ "team_abbreviation-25", "team_abbreviation-26" ]
+            "name" : "aligned vertically left full_team_name-26 1px",
+            "highlight" : [ "full_team_name-25", "full_team_name-26" ]
           } ]
         }, {
-          "name" : "team_abbreviation-26",
+          "name" : "full_team_name-26",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-27 1px",
-            "highlight" : [ "team_abbreviation-26", "team_abbreviation-27" ]
+            "name" : "aligned vertically left full_team_name-27 1px",
+            "highlight" : [ "full_team_name-26", "full_team_name-27" ]
           } ]
         }, {
-          "name" : "team_abbreviation-27",
+          "name" : "full_team_name-27",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-28 1px",
-            "highlight" : [ "team_abbreviation-27", "team_abbreviation-28" ]
+            "name" : "aligned vertically left full_team_name-28 1px",
+            "highlight" : [ "full_team_name-27", "full_team_name-28" ]
           } ]
         }, {
-          "name" : "team_abbreviation-28",
+          "name" : "full_team_name-28",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-29 1px",
-            "highlight" : [ "team_abbreviation-28", "team_abbreviation-29" ]
+            "name" : "aligned vertically left full_team_name-29 1px",
+            "highlight" : [ "full_team_name-28", "full_team_name-29" ]
           } ]
         }, {
-          "name" : "team_abbreviation-29",
+          "name" : "full_team_name-29",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 115
+              "lineNumber" : 107
             },
-            "name" : "aligned vertically left team_abbreviation-30 1px",
-            "highlight" : [ "team_abbreviation-29", "team_abbreviation-30" ]
+            "name" : "aligned vertically left full_team_name-30 1px",
+            "highlight" : [ "full_team_name-29", "full_team_name-30" ]
           } ]
         } ],
         "sections" : [ {
@@ -1803,118 +1803,213 @@
           "lineNumber" : 120
         },
         "objects" : [ {
-          "name" : "division_header.category_mobile-1",
+          "name" : "division_header.category_tablet-1",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"W\"",
-            "highlight" : [ "division_header.category_mobile-1" ]
+            "highlight" : [ "division_header.category_tablet-1" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-1", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-1", "division_header.name_large" ]
           } ]
         }, {
-          "name" : "division_header.category_mobile-2",
+          "name" : "division_header.category_tablet-2",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"L\"",
-            "highlight" : [ "division_header.category_mobile-2" ]
+            "highlight" : [ "division_header.category_tablet-2" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-2", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-2", "division_header.name_large" ]
           } ]
         }, {
-          "name" : "division_header.category_mobile-3",
+          "name" : "division_header.category_tablet-3",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"PCT\"",
-            "highlight" : [ "division_header.category_mobile-3" ]
+            "highlight" : [ "division_header.category_tablet-3" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-3", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-3", "division_header.name_large" ]
           } ]
         }, {
-          "name" : "division_header.category_mobile-4",
+          "name" : "division_header.category_tablet-4",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"GB\"",
-            "highlight" : [ "division_header.category_mobile-4" ]
+            "highlight" : [ "division_header.category_tablet-4" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-4", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-4", "division_header.name_large" ]
           } ]
         }, {
-          "name" : "division_header.category_mobile-5",
+          "name" : "division_header.category_tablet-5",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"L10\"",
-            "highlight" : [ "division_header.category_mobile-5" ]
+            "highlight" : [ "division_header.category_tablet-5" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-5", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-5", "division_header.name_large" ]
           } ]
         }, {
-          "name" : "division_header.category_mobile-6",
+          "name" : "division_header.category_tablet-6",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 130
             },
             "name" : "text uppercase is \"STRK\"",
-            "highlight" : [ "division_header.category_mobile-6" ]
+            "highlight" : [ "division_header.category_tablet-6" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/standings.gspec",
-              "lineNumber" : 137
+              "lineNumber" : 131
             },
-            "name" : "aligned horizontally all division_header.name_small",
-            "highlight" : [ "division_header.category_mobile-6", "division_header.name_small" ]
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-6", "division_header.name_large" ]
+          } ]
+        }, {
+          "name" : "division_header.category_tablet-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "text uppercase is \"HOME\"",
+            "highlight" : [ "division_header.category_tablet-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-7", "division_header.name_large" ]
+          } ]
+        }, {
+          "name" : "division_header.category_tablet-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "text uppercase is \"AWAY\"",
+            "highlight" : [ "division_header.category_tablet-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-8", "division_header.name_large" ]
+          } ]
+        }, {
+          "name" : "division_header.category_tablet-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "text uppercase is \"EAST\"",
+            "highlight" : [ "division_header.category_tablet-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-9", "division_header.name_large" ]
+          } ]
+        }, {
+          "name" : "division_header.category_tablet-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "text uppercase is \"CENT\"",
+            "highlight" : [ "division_header.category_tablet-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-10", "division_header.name_large" ]
+          } ]
+        }, {
+          "name" : "division_header.category_tablet-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "text uppercase is \"WEST\"",
+            "highlight" : [ "division_header.category_tablet-11" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "aligned horizontally all division_header.name_large",
+            "highlight" : [ "division_header.category_tablet-11", "division_header.name_large" ]
           } ]
         } ]
       }, {
@@ -4233,995 +4328,3475 @@
             "name" : "aligned vertically centered stat_streak-36 1px",
             "highlight" : [ "stat_streak-35", "stat_streak-36" ]
           } ]
+        }, {
+          "name" : "stat_home_record-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-2 1px",
+            "highlight" : [ "stat_home_record-1", "stat_home_record-2" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-3 1px",
+            "highlight" : [ "stat_home_record-2", "stat_home_record-3" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-4 1px",
+            "highlight" : [ "stat_home_record-3", "stat_home_record-4" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-5 1px",
+            "highlight" : [ "stat_home_record-4", "stat_home_record-5" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-6 1px",
+            "highlight" : [ "stat_home_record-5", "stat_home_record-6" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-7 1px",
+            "highlight" : [ "stat_home_record-6", "stat_home_record-7" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-8 1px",
+            "highlight" : [ "stat_home_record-7", "stat_home_record-8" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-9 1px",
+            "highlight" : [ "stat_home_record-8", "stat_home_record-9" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-10 1px",
+            "highlight" : [ "stat_home_record-9", "stat_home_record-10" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-11 1px",
+            "highlight" : [ "stat_home_record-10", "stat_home_record-11" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-12 1px",
+            "highlight" : [ "stat_home_record-11", "stat_home_record-12" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-13 1px",
+            "highlight" : [ "stat_home_record-12", "stat_home_record-13" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-14 1px",
+            "highlight" : [ "stat_home_record-13", "stat_home_record-14" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-15 1px",
+            "highlight" : [ "stat_home_record-14", "stat_home_record-15" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-16 1px",
+            "highlight" : [ "stat_home_record-15", "stat_home_record-16" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-17 1px",
+            "highlight" : [ "stat_home_record-16", "stat_home_record-17" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-18 1px",
+            "highlight" : [ "stat_home_record-17", "stat_home_record-18" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-18",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-19 1px",
+            "highlight" : [ "stat_home_record-18", "stat_home_record-19" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-20 1px",
+            "highlight" : [ "stat_home_record-19", "stat_home_record-20" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-21 1px",
+            "highlight" : [ "stat_home_record-20", "stat_home_record-21" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-22 1px",
+            "highlight" : [ "stat_home_record-21", "stat_home_record-22" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-23 1px",
+            "highlight" : [ "stat_home_record-22", "stat_home_record-23" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-24 1px",
+            "highlight" : [ "stat_home_record-23", "stat_home_record-24" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-25 1px",
+            "highlight" : [ "stat_home_record-24", "stat_home_record-25" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-26 1px",
+            "highlight" : [ "stat_home_record-25", "stat_home_record-26" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-27 1px",
+            "highlight" : [ "stat_home_record-26", "stat_home_record-27" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-27",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-28 1px",
+            "highlight" : [ "stat_home_record-27", "stat_home_record-28" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-29 1px",
+            "highlight" : [ "stat_home_record-28", "stat_home_record-29" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-29",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-30 1px",
+            "highlight" : [ "stat_home_record-29", "stat_home_record-30" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-30",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-31 1px",
+            "highlight" : [ "stat_home_record-30", "stat_home_record-31" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-32 1px",
+            "highlight" : [ "stat_home_record-31", "stat_home_record-32" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-32",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-33 1px",
+            "highlight" : [ "stat_home_record-32", "stat_home_record-33" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-33",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-34 1px",
+            "highlight" : [ "stat_home_record-33", "stat_home_record-34" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-34",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-35 1px",
+            "highlight" : [ "stat_home_record-34", "stat_home_record-35" ]
+          } ]
+        }, {
+          "name" : "stat_home_record-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 168
+            },
+            "name" : "aligned vertically centered stat_home_record-36 1px",
+            "highlight" : [ "stat_home_record-35", "stat_home_record-36" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-2 1px",
+            "highlight" : [ "stat_away_record-1", "stat_away_record-2" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-3 1px",
+            "highlight" : [ "stat_away_record-2", "stat_away_record-3" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-4 1px",
+            "highlight" : [ "stat_away_record-3", "stat_away_record-4" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-5 1px",
+            "highlight" : [ "stat_away_record-4", "stat_away_record-5" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-6 1px",
+            "highlight" : [ "stat_away_record-5", "stat_away_record-6" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-7 1px",
+            "highlight" : [ "stat_away_record-6", "stat_away_record-7" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-8 1px",
+            "highlight" : [ "stat_away_record-7", "stat_away_record-8" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-9 1px",
+            "highlight" : [ "stat_away_record-8", "stat_away_record-9" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-10 1px",
+            "highlight" : [ "stat_away_record-9", "stat_away_record-10" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-11 1px",
+            "highlight" : [ "stat_away_record-10", "stat_away_record-11" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-12 1px",
+            "highlight" : [ "stat_away_record-11", "stat_away_record-12" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-13 1px",
+            "highlight" : [ "stat_away_record-12", "stat_away_record-13" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-14 1px",
+            "highlight" : [ "stat_away_record-13", "stat_away_record-14" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-15 1px",
+            "highlight" : [ "stat_away_record-14", "stat_away_record-15" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-16 1px",
+            "highlight" : [ "stat_away_record-15", "stat_away_record-16" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-17 1px",
+            "highlight" : [ "stat_away_record-16", "stat_away_record-17" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-18 1px",
+            "highlight" : [ "stat_away_record-17", "stat_away_record-18" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-18",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-19 1px",
+            "highlight" : [ "stat_away_record-18", "stat_away_record-19" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-20 1px",
+            "highlight" : [ "stat_away_record-19", "stat_away_record-20" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-21 1px",
+            "highlight" : [ "stat_away_record-20", "stat_away_record-21" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-22 1px",
+            "highlight" : [ "stat_away_record-21", "stat_away_record-22" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-23 1px",
+            "highlight" : [ "stat_away_record-22", "stat_away_record-23" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-24 1px",
+            "highlight" : [ "stat_away_record-23", "stat_away_record-24" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-25 1px",
+            "highlight" : [ "stat_away_record-24", "stat_away_record-25" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-26 1px",
+            "highlight" : [ "stat_away_record-25", "stat_away_record-26" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-27 1px",
+            "highlight" : [ "stat_away_record-26", "stat_away_record-27" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-27",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-28 1px",
+            "highlight" : [ "stat_away_record-27", "stat_away_record-28" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-29 1px",
+            "highlight" : [ "stat_away_record-28", "stat_away_record-29" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-29",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-30 1px",
+            "highlight" : [ "stat_away_record-29", "stat_away_record-30" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-30",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-31 1px",
+            "highlight" : [ "stat_away_record-30", "stat_away_record-31" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-32 1px",
+            "highlight" : [ "stat_away_record-31", "stat_away_record-32" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-32",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-33 1px",
+            "highlight" : [ "stat_away_record-32", "stat_away_record-33" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-33",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-34 1px",
+            "highlight" : [ "stat_away_record-33", "stat_away_record-34" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-34",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-35 1px",
+            "highlight" : [ "stat_away_record-34", "stat_away_record-35" ]
+          } ]
+        }, {
+          "name" : "stat_away_record-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "aligned vertically centered stat_away_record-36 1px",
+            "highlight" : [ "stat_away_record-35", "stat_away_record-36" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-2 1px",
+            "highlight" : [ "stat_east_record-1", "stat_east_record-2" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-3 1px",
+            "highlight" : [ "stat_east_record-2", "stat_east_record-3" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-4 1px",
+            "highlight" : [ "stat_east_record-3", "stat_east_record-4" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-5 1px",
+            "highlight" : [ "stat_east_record-4", "stat_east_record-5" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-6 1px",
+            "highlight" : [ "stat_east_record-5", "stat_east_record-6" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-7 1px",
+            "highlight" : [ "stat_east_record-6", "stat_east_record-7" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-8 1px",
+            "highlight" : [ "stat_east_record-7", "stat_east_record-8" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-9 1px",
+            "highlight" : [ "stat_east_record-8", "stat_east_record-9" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-10 1px",
+            "highlight" : [ "stat_east_record-9", "stat_east_record-10" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-11 1px",
+            "highlight" : [ "stat_east_record-10", "stat_east_record-11" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-12 1px",
+            "highlight" : [ "stat_east_record-11", "stat_east_record-12" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-13 1px",
+            "highlight" : [ "stat_east_record-12", "stat_east_record-13" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-14 1px",
+            "highlight" : [ "stat_east_record-13", "stat_east_record-14" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-15 1px",
+            "highlight" : [ "stat_east_record-14", "stat_east_record-15" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-16 1px",
+            "highlight" : [ "stat_east_record-15", "stat_east_record-16" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-17 1px",
+            "highlight" : [ "stat_east_record-16", "stat_east_record-17" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-18 1px",
+            "highlight" : [ "stat_east_record-17", "stat_east_record-18" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-18",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-19 1px",
+            "highlight" : [ "stat_east_record-18", "stat_east_record-19" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-20 1px",
+            "highlight" : [ "stat_east_record-19", "stat_east_record-20" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-21 1px",
+            "highlight" : [ "stat_east_record-20", "stat_east_record-21" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-22 1px",
+            "highlight" : [ "stat_east_record-21", "stat_east_record-22" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-23 1px",
+            "highlight" : [ "stat_east_record-22", "stat_east_record-23" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-24 1px",
+            "highlight" : [ "stat_east_record-23", "stat_east_record-24" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-25 1px",
+            "highlight" : [ "stat_east_record-24", "stat_east_record-25" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-26 1px",
+            "highlight" : [ "stat_east_record-25", "stat_east_record-26" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-27 1px",
+            "highlight" : [ "stat_east_record-26", "stat_east_record-27" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-27",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-28 1px",
+            "highlight" : [ "stat_east_record-27", "stat_east_record-28" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-29 1px",
+            "highlight" : [ "stat_east_record-28", "stat_east_record-29" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-29",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-30 1px",
+            "highlight" : [ "stat_east_record-29", "stat_east_record-30" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-30",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-31 1px",
+            "highlight" : [ "stat_east_record-30", "stat_east_record-31" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-32 1px",
+            "highlight" : [ "stat_east_record-31", "stat_east_record-32" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-32",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-33 1px",
+            "highlight" : [ "stat_east_record-32", "stat_east_record-33" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-33",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-34 1px",
+            "highlight" : [ "stat_east_record-33", "stat_east_record-34" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-34",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-35 1px",
+            "highlight" : [ "stat_east_record-34", "stat_east_record-35" ]
+          } ]
+        }, {
+          "name" : "stat_east_record-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 176
+            },
+            "name" : "aligned vertically centered stat_east_record-36 1px",
+            "highlight" : [ "stat_east_record-35", "stat_east_record-36" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-2 1px",
+            "highlight" : [ "stat_west_record-1", "stat_west_record-2" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-3 1px",
+            "highlight" : [ "stat_west_record-2", "stat_west_record-3" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-4 1px",
+            "highlight" : [ "stat_west_record-3", "stat_west_record-4" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-5 1px",
+            "highlight" : [ "stat_west_record-4", "stat_west_record-5" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-6 1px",
+            "highlight" : [ "stat_west_record-5", "stat_west_record-6" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-7 1px",
+            "highlight" : [ "stat_west_record-6", "stat_west_record-7" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-8 1px",
+            "highlight" : [ "stat_west_record-7", "stat_west_record-8" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-9 1px",
+            "highlight" : [ "stat_west_record-8", "stat_west_record-9" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-10 1px",
+            "highlight" : [ "stat_west_record-9", "stat_west_record-10" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-11 1px",
+            "highlight" : [ "stat_west_record-10", "stat_west_record-11" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-12 1px",
+            "highlight" : [ "stat_west_record-11", "stat_west_record-12" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-13 1px",
+            "highlight" : [ "stat_west_record-12", "stat_west_record-13" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-14 1px",
+            "highlight" : [ "stat_west_record-13", "stat_west_record-14" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-15 1px",
+            "highlight" : [ "stat_west_record-14", "stat_west_record-15" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-16 1px",
+            "highlight" : [ "stat_west_record-15", "stat_west_record-16" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-17 1px",
+            "highlight" : [ "stat_west_record-16", "stat_west_record-17" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-18 1px",
+            "highlight" : [ "stat_west_record-17", "stat_west_record-18" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-18",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-19 1px",
+            "highlight" : [ "stat_west_record-18", "stat_west_record-19" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-20 1px",
+            "highlight" : [ "stat_west_record-19", "stat_west_record-20" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-21 1px",
+            "highlight" : [ "stat_west_record-20", "stat_west_record-21" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-22 1px",
+            "highlight" : [ "stat_west_record-21", "stat_west_record-22" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-23 1px",
+            "highlight" : [ "stat_west_record-22", "stat_west_record-23" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-24 1px",
+            "highlight" : [ "stat_west_record-23", "stat_west_record-24" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-25 1px",
+            "highlight" : [ "stat_west_record-24", "stat_west_record-25" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-26 1px",
+            "highlight" : [ "stat_west_record-25", "stat_west_record-26" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-27 1px",
+            "highlight" : [ "stat_west_record-26", "stat_west_record-27" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-27",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-28 1px",
+            "highlight" : [ "stat_west_record-27", "stat_west_record-28" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-29 1px",
+            "highlight" : [ "stat_west_record-28", "stat_west_record-29" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-29",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-30 1px",
+            "highlight" : [ "stat_west_record-29", "stat_west_record-30" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-30",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-31 1px",
+            "highlight" : [ "stat_west_record-30", "stat_west_record-31" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-32 1px",
+            "highlight" : [ "stat_west_record-31", "stat_west_record-32" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-32",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-33 1px",
+            "highlight" : [ "stat_west_record-32", "stat_west_record-33" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-33",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-34 1px",
+            "highlight" : [ "stat_west_record-33", "stat_west_record-34" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-34",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-35 1px",
+            "highlight" : [ "stat_west_record-34", "stat_west_record-35" ]
+          } ]
+        }, {
+          "name" : "stat_west_record-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 180
+            },
+            "name" : "aligned vertically centered stat_west_record-36 1px",
+            "highlight" : [ "stat_west_record-35", "stat_west_record-36" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-2 1px",
+            "highlight" : [ "stat_central_record_m-1", "stat_central_record_m-2" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-3 1px",
+            "highlight" : [ "stat_central_record_m-2", "stat_central_record_m-3" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-4 1px",
+            "highlight" : [ "stat_central_record_m-3", "stat_central_record_m-4" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-5 1px",
+            "highlight" : [ "stat_central_record_m-4", "stat_central_record_m-5" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-6 1px",
+            "highlight" : [ "stat_central_record_m-5", "stat_central_record_m-6" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-7 1px",
+            "highlight" : [ "stat_central_record_m-6", "stat_central_record_m-7" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-8 1px",
+            "highlight" : [ "stat_central_record_m-7", "stat_central_record_m-8" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-9 1px",
+            "highlight" : [ "stat_central_record_m-8", "stat_central_record_m-9" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-10 1px",
+            "highlight" : [ "stat_central_record_m-9", "stat_central_record_m-10" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-11 1px",
+            "highlight" : [ "stat_central_record_m-10", "stat_central_record_m-11" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-11",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-12 1px",
+            "highlight" : [ "stat_central_record_m-11", "stat_central_record_m-12" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-13 1px",
+            "highlight" : [ "stat_central_record_m-12", "stat_central_record_m-13" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-13",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-14 1px",
+            "highlight" : [ "stat_central_record_m-13", "stat_central_record_m-14" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-14",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-15 1px",
+            "highlight" : [ "stat_central_record_m-14", "stat_central_record_m-15" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-15",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-16 1px",
+            "highlight" : [ "stat_central_record_m-15", "stat_central_record_m-16" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-16",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-17 1px",
+            "highlight" : [ "stat_central_record_m-16", "stat_central_record_m-17" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-17",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-18 1px",
+            "highlight" : [ "stat_central_record_m-17", "stat_central_record_m-18" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-18",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-19 1px",
+            "highlight" : [ "stat_central_record_m-18", "stat_central_record_m-19" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-19",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-20 1px",
+            "highlight" : [ "stat_central_record_m-19", "stat_central_record_m-20" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-20",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-21 1px",
+            "highlight" : [ "stat_central_record_m-20", "stat_central_record_m-21" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-22 1px",
+            "highlight" : [ "stat_central_record_m-21", "stat_central_record_m-22" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-22",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-23 1px",
+            "highlight" : [ "stat_central_record_m-22", "stat_central_record_m-23" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-23",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-24 1px",
+            "highlight" : [ "stat_central_record_m-23", "stat_central_record_m-24" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-24",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-25 1px",
+            "highlight" : [ "stat_central_record_m-24", "stat_central_record_m-25" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-26 1px",
+            "highlight" : [ "stat_central_record_m-25", "stat_central_record_m-26" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-26",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-27 1px",
+            "highlight" : [ "stat_central_record_m-26", "stat_central_record_m-27" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-27",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-28 1px",
+            "highlight" : [ "stat_central_record_m-27", "stat_central_record_m-28" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-28",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-29 1px",
+            "highlight" : [ "stat_central_record_m-28", "stat_central_record_m-29" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-29",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-30 1px",
+            "highlight" : [ "stat_central_record_m-29", "stat_central_record_m-30" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-30",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-31 1px",
+            "highlight" : [ "stat_central_record_m-30", "stat_central_record_m-31" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-31",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-32 1px",
+            "highlight" : [ "stat_central_record_m-31", "stat_central_record_m-32" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-32",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-33 1px",
+            "highlight" : [ "stat_central_record_m-32", "stat_central_record_m-33" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-33",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-34 1px",
+            "highlight" : [ "stat_central_record_m-33", "stat_central_record_m-34" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-34",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-35 1px",
+            "highlight" : [ "stat_central_record_m-34", "stat_central_record_m-35" ]
+          } ]
+        }, {
+          "name" : "stat_central_record_m-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/standings.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "aligned vertically centered stat_central_record_m-36 1px",
+            "highlight" : [ "stat_central_record_m-35", "stat_central_record_m-36" ]
+          } ]
         } ]
       } ],
       "objects" : {
-        "stat_losses-11" : {
-          "area" : [ 283, 627, 29, 32 ]
+        "stat_east_record-3" : {
+          "area" : [ 624, 363, 40, 32 ]
         },
-        "stat_losses-10" : {
-          "area" : [ 283, 595, 29, 32 ]
+        "stat_east_record-4" : {
+          "area" : [ 624, 395, 40, 32 ]
         },
-        "stat_losses-13" : {
-          "area" : [ 283, 723, 29, 24 ]
+        "stat_east_record-1" : {
+          "area" : [ 624, 307, 40, 24 ]
         },
-        "stat_losses-12" : {
-          "area" : [ 283, 659, 29, 32 ]
+        "stat_east_record-2" : {
+          "area" : [ 624, 331, 40, 32 ]
         },
-        "stat_losses-15" : {
-          "area" : [ 283, 779, 29, 32 ]
+        "stat_east_record-9" : {
+          "area" : [ 624, 579, 40, 32 ]
         },
-        "stat_losses-14" : {
-          "area" : [ 283, 747, 29, 32 ]
+        "stat_east_record-7" : {
+          "area" : [ 624, 523, 40, 24 ]
         },
-        "stat_losses-17" : {
-          "area" : [ 283, 843, 29, 32 ]
+        "stat_east_record-8" : {
+          "area" : [ 624, 547, 40, 32 ]
         },
-        "stat_losses-16" : {
-          "area" : [ 283, 811, 29, 32 ]
+        "stat_east_record-5" : {
+          "area" : [ 624, 427, 40, 32 ]
         },
-        "stat_losses-19" : {
-          "area" : [ 283, 978, 29, 24 ]
-        },
-        "stat_losses-18" : {
-          "area" : [ 283, 875, 29, 32 ]
-        },
-        "stat_wins-2" : {
-          "area" : [ 254, 315, 29, 32 ]
-        },
-        "stat_wins-1" : {
-          "area" : [ 254, 291, 29, 24 ]
-        },
-        "stat_wins-8" : {
-          "area" : [ 254, 531, 29, 32 ]
-        },
-        "stat_wins-7" : {
-          "area" : [ 254, 507, 29, 24 ]
-        },
-        "stat_wins-9" : {
-          "area" : [ 254, 563, 29, 32 ]
-        },
-        "stat_wins-4" : {
-          "area" : [ 254, 379, 29, 32 ]
-        },
-        "stat_wins-3" : {
-          "area" : [ 254, 347, 29, 32 ]
-        },
-        "stat_wins-6" : {
-          "area" : [ 254, 443, 29, 32 ]
-        },
-        "stat_wins-5" : {
-          "area" : [ 254, 411, 29, 32 ]
-        },
-        "stat_losses-4" : {
-          "area" : [ 283, 379, 29, 32 ]
-        },
-        "stat_streak-2" : {
-          "area" : [ 413, 315, 29, 32 ]
-        },
-        "stat_losses-3" : {
-          "area" : [ 283, 347, 29, 32 ]
-        },
-        "stat_streak-3" : {
-          "area" : [ 413, 347, 29, 32 ]
-        },
-        "stat_losses-2" : {
-          "area" : [ 283, 315, 29, 32 ]
-        },
-        "stat_losses-1" : {
-          "area" : [ 283, 291, 29, 24 ]
-        },
-        "stat_streak-1" : {
-          "area" : [ 413, 291, 29, 24 ]
-        },
-        "stat_losses-8" : {
-          "area" : [ 283, 531, 29, 32 ]
-        },
-        "stat_losses-7" : {
-          "area" : [ 283, 507, 29, 24 ]
-        },
-        "stat_losses-6" : {
-          "area" : [ 283, 443, 29, 32 ]
-        },
-        "stat_losses-5" : {
-          "area" : [ 283, 411, 29, 32 ]
-        },
-        "toggle_container" : {
-          "area" : [ 142, 192, 165, 40 ]
-        },
-        "stat_losses-9" : {
-          "area" : [ 283, 563, 29, 32 ]
-        },
-        "stat_losses-31" : {
-          "area" : [ 283, 1410, 29, 24 ]
-        },
-        "stat_losses-30" : {
-          "area" : [ 283, 1346, 29, 32 ]
-        },
-        "stat_losses-33" : {
-          "area" : [ 283, 1466, 29, 32 ]
-        },
-        "stat_losses-32" : {
-          "area" : [ 283, 1434, 29, 32 ]
-        },
-        "division_header.category_mobile-5" : {
-          "area" : [ 377, 291, 36, 24 ]
-        },
-        "stat_losses-35" : {
-          "area" : [ 283, 1530, 29, 32 ]
-        },
-        "division_header.category_mobile-6" : {
-          "area" : [ 413, 291, 29, 24 ]
-        },
-        "stat_losses-34" : {
-          "area" : [ 283, 1498, 29, 32 ]
-        },
-        "division_header.category_mobile-3" : {
-          "area" : [ 312, 291, 29, 24 ]
-        },
-        "division_header.category_mobile-4" : {
-          "area" : [ 341, 291, 36, 24 ]
-        },
-        "stat_losses-36" : {
-          "area" : [ 283, 1562, 29, 32 ]
-        },
-        "division_header.category_mobile-1" : {
-          "area" : [ 254, 291, 29, 24 ]
-        },
-        "division_header.category_mobile-2" : {
-          "area" : [ 283, 291, 29, 24 ]
-        },
-        "stat_streak-8" : {
-          "area" : [ 413, 531, 29, 32 ]
-        },
-        "stat_streak-9" : {
-          "area" : [ 413, 563, 29, 32 ]
-        },
-        "stat_streak-6" : {
-          "area" : [ 413, 443, 29, 32 ]
-        },
-        "stat_streak-7" : {
-          "area" : [ 413, 507, 29, 24 ]
-        },
-        "stat_streak-4" : {
-          "area" : [ 413, 379, 29, 32 ]
-        },
-        "stat_streak-5" : {
-          "area" : [ 413, 411, 29, 32 ]
-        },
-        "division_header.name_small" : {
-          "area" : [ 8, 291, 246, 24 ]
-        },
-        "stat_losses-20" : {
-          "area" : [ 283, 1002, 29, 32 ]
-        },
-        "stat_losses-22" : {
-          "area" : [ 283, 1066, 29, 32 ]
-        },
-        "stat_losses-21" : {
-          "area" : [ 283, 1034, 29, 32 ]
-        },
-        "stat_losses-24" : {
-          "area" : [ 283, 1130, 29, 32 ]
-        },
-        "stat_losses-23" : {
-          "area" : [ 283, 1098, 29, 32 ]
-        },
-        "stat_losses-26" : {
-          "area" : [ 283, 1218, 29, 32 ]
-        },
-        "stat_losses-25" : {
-          "area" : [ 283, 1194, 29, 24 ]
-        },
-        "stat_losses-28" : {
-          "area" : [ 283, 1282, 29, 32 ]
-        },
-        "stat_losses-27" : {
-          "area" : [ 283, 1250, 29, 32 ]
-        },
-        "stat_losses-29" : {
-          "area" : [ 283, 1314, 29, 32 ]
+        "stat_east_record-6" : {
+          "area" : [ 624, 459, 40, 32 ]
         },
         "team_row-21" : {
-          "area" : [ 8, 1218, 434, 32 ]
+          "area" : [ 16, 1234, 736, 32 ]
         },
         "stat_wins-20" : {
-          "area" : [ 254, 1002, 29, 32 ]
+          "area" : [ 340, 1018, 30, 32 ]
         },
         "team_row-22" : {
-          "area" : [ 8, 1250, 434, 32 ]
-        },
-        "stat_streak-30" : {
-          "area" : [ 413, 1346, 29, 32 ]
+          "area" : [ 16, 1266, 736, 32 ]
         },
         "team_row-23" : {
-          "area" : [ 8, 1282, 434, 32 ]
+          "area" : [ 16, 1298, 736, 32 ]
         },
         "stat_wins-22" : {
-          "area" : [ 254, 1066, 29, 32 ]
-        },
-        "stat_streak-31" : {
-          "area" : [ 413, 1410, 29, 24 ]
+          "area" : [ 340, 1082, 30, 32 ]
         },
         "team_row-24" : {
-          "area" : [ 8, 1314, 434, 32 ]
+          "area" : [ 16, 1330, 736, 32 ]
         },
         "stat_wins-21" : {
-          "area" : [ 254, 1034, 29, 32 ]
-        },
-        "stat_streak-32" : {
-          "area" : [ 413, 1434, 29, 32 ]
+          "area" : [ 340, 1050, 30, 32 ]
         },
         "stat_wins-24" : {
-          "area" : [ 254, 1130, 29, 32 ]
-        },
-        "stat_streak-33" : {
-          "area" : [ 413, 1466, 29, 32 ]
+          "area" : [ 340, 1146, 30, 32 ]
         },
         "stat_wins-23" : {
-          "area" : [ 254, 1098, 29, 32 ]
-        },
-        "stat_streak-34" : {
-          "area" : [ 413, 1498, 29, 32 ]
+          "area" : [ 340, 1114, 30, 32 ]
         },
         "stat_wins-26" : {
-          "area" : [ 254, 1218, 29, 32 ]
-        },
-        "stat_streak-35" : {
-          "area" : [ 413, 1530, 29, 32 ]
+          "area" : [ 340, 1234, 30, 32 ]
         },
         "team_row-20" : {
-          "area" : [ 8, 1130, 434, 32 ]
+          "area" : [ 16, 1146, 736, 32 ]
         },
         "stat_wins-25" : {
-          "area" : [ 254, 1194, 29, 24 ]
-        },
-        "stat_streak-36" : {
-          "area" : [ 413, 1562, 29, 32 ]
+          "area" : [ 340, 1210, 30, 24 ]
         },
         "team_row-29" : {
-          "area" : [ 8, 1530, 434, 32 ]
+          "area" : [ 16, 1546, 736, 32 ]
         },
         "team_row-25" : {
-          "area" : [ 8, 1346, 434, 32 ]
+          "area" : [ 16, 1362, 736, 32 ]
         },
         "team_row-26" : {
-          "area" : [ 8, 1434, 434, 32 ]
+          "area" : [ 16, 1450, 736, 32 ]
         },
         "team_row-27" : {
-          "area" : [ 8, 1466, 434, 32 ]
+          "area" : [ 16, 1482, 736, 32 ]
         },
         "team_row-28" : {
-          "area" : [ 8, 1498, 434, 32 ]
+          "area" : [ 16, 1514, 736, 32 ]
         },
         "stat_wins-28" : {
-          "area" : [ 254, 1282, 29, 32 ]
+          "area" : [ 340, 1298, 30, 32 ]
+        },
+        "stat_away_record-7" : {
+          "area" : [ 584, 523, 40, 24 ]
         },
         "stat_wins-27" : {
-          "area" : [ 254, 1250, 29, 32 ]
+          "area" : [ 340, 1266, 30, 32 ]
+        },
+        "stat_away_record-6" : {
+          "area" : [ 584, 459, 40, 32 ]
+        },
+        "stat_away_record-9" : {
+          "area" : [ 584, 579, 40, 32 ]
         },
         "stat_wins-29" : {
-          "area" : [ 254, 1314, 29, 32 ]
+          "area" : [ 340, 1330, 30, 32 ]
+        },
+        "stat_away_record-8" : {
+          "area" : [ 584, 547, 40, 32 ]
         },
         "team_row-10" : {
-          "area" : [ 8, 659, 434, 32 ]
+          "area" : [ 16, 675, 736, 32 ]
         },
         "stat_wins-31" : {
-          "area" : [ 254, 1410, 29, 24 ]
+          "area" : [ 340, 1426, 30, 24 ]
         },
         "stat_win_percent-18" : {
-          "area" : [ 312, 875, 29, 32 ]
-        },
-        "nl_conference.division-3" : {
-          "area" : [ 8, 1410, 434, 184 ]
+          "area" : [ 400, 891, 30, 32 ]
         },
         "team_row-11" : {
-          "area" : [ 8, 747, 434, 32 ]
+          "area" : [ 16, 763, 736, 32 ]
         },
         "stat_wins-30" : {
-          "area" : [ 254, 1346, 29, 32 ]
+          "area" : [ 340, 1362, 30, 32 ]
         },
         "stat_win_percent-17" : {
-          "area" : [ 312, 843, 29, 32 ]
+          "area" : [ 400, 859, 30, 32 ]
         },
         "team_row-12" : {
-          "area" : [ 8, 779, 434, 32 ]
+          "area" : [ 16, 795, 736, 32 ]
         },
         "stat_wins-33" : {
-          "area" : [ 254, 1466, 29, 32 ]
-        },
-        "stat_streak-20" : {
-          "area" : [ 413, 1002, 29, 32 ]
+          "area" : [ 340, 1482, 30, 32 ]
         },
         "team_row-13" : {
-          "area" : [ 8, 811, 434, 32 ]
+          "area" : [ 16, 827, 736, 32 ]
         },
         "stat_wins-32" : {
-          "area" : [ 254, 1434, 29, 32 ]
+          "area" : [ 340, 1450, 30, 32 ]
         },
         "stat_win_percent-19" : {
-          "area" : [ 312, 978, 29, 24 ]
-        },
-        "stat_streak-21" : {
-          "area" : [ 413, 1034, 29, 32 ]
+          "area" : [ 400, 994, 30, 24 ]
         },
         "stat_wins-35" : {
-          "area" : [ 254, 1530, 29, 32 ]
+          "area" : [ 340, 1546, 30, 32 ]
         },
         "stat_win_percent-14" : {
-          "area" : [ 312, 747, 29, 32 ]
-        },
-        "stat_streak-22" : {
-          "area" : [ 413, 1066, 29, 32 ]
+          "area" : [ 400, 763, 30, 32 ]
         },
         "stat_wins-34" : {
-          "area" : [ 254, 1498, 29, 32 ]
+          "area" : [ 340, 1514, 30, 32 ]
         },
         "stat_win_percent-13" : {
-          "area" : [ 312, 723, 29, 24 ]
-        },
-        "stat_streak-23" : {
-          "area" : [ 413, 1098, 29, 32 ]
-        },
-        "nl_conference.division-2" : {
-          "area" : [ 8, 1194, 434, 184 ]
+          "area" : [ 400, 739, 30, 24 ]
         },
         "stat_win_percent-16" : {
-          "area" : [ 312, 811, 29, 32 ]
-        },
-        "stat_streak-24" : {
-          "area" : [ 413, 1130, 29, 32 ]
-        },
-        "nl_conference.division-1" : {
-          "area" : [ 8, 978, 434, 184 ]
+          "area" : [ 400, 827, 30, 32 ]
         },
         "stat_wins-36" : {
-          "area" : [ 254, 1562, 29, 32 ]
+          "area" : [ 340, 1578, 30, 32 ]
         },
         "stat_win_percent-15" : {
-          "area" : [ 312, 779, 29, 32 ]
-        },
-        "stat_streak-25" : {
-          "area" : [ 413, 1194, 29, 24 ]
+          "area" : [ 400, 795, 30, 32 ]
         },
         "team_row-18" : {
-          "area" : [ 8, 1066, 434, 32 ]
+          "area" : [ 16, 1082, 736, 32 ]
         },
         "stat_win_percent-10" : {
-          "area" : [ 312, 595, 29, 32 ]
-        },
-        "stat_streak-26" : {
-          "area" : [ 413, 1218, 29, 32 ]
+          "area" : [ 400, 611, 30, 32 ]
         },
         "team_row-19" : {
-          "area" : [ 8, 1098, 434, 32 ]
-        },
-        "stat_streak-27" : {
-          "area" : [ 413, 1250, 29, 32 ]
+          "area" : [ 16, 1114, 736, 32 ]
         },
         "stat_win_percent-12" : {
-          "area" : [ 312, 659, 29, 32 ]
-        },
-        "stat_streak-28" : {
-          "area" : [ 413, 1282, 29, 32 ]
+          "area" : [ 400, 675, 30, 32 ]
         },
         "stat_win_percent-11" : {
-          "area" : [ 312, 627, 29, 32 ]
-        },
-        "stat_streak-29" : {
-          "area" : [ 413, 1314, 29, 32 ]
+          "area" : [ 400, 643, 30, 32 ]
         },
         "team_row-14" : {
-          "area" : [ 8, 843, 434, 32 ]
+          "area" : [ 16, 859, 736, 32 ]
+        },
+        "stat_home_record-8" : {
+          "area" : [ 544, 547, 40, 32 ]
         },
         "team_row-15" : {
-          "area" : [ 8, 875, 434, 32 ]
+          "area" : [ 16, 891, 736, 32 ]
+        },
+        "stat_home_record-7" : {
+          "area" : [ 544, 523, 40, 24 ]
         },
         "team_row-16" : {
-          "area" : [ 8, 1002, 434, 32 ]
+          "area" : [ 16, 1018, 736, 32 ]
         },
         "team_row-17" : {
-          "area" : [ 8, 1034, 434, 32 ]
+          "area" : [ 16, 1050, 736, 32 ]
+        },
+        "stat_home_record-9" : {
+          "area" : [ 544, 579, 40, 32 ]
+        },
+        "stat_home_record-4" : {
+          "area" : [ 544, 395, 40, 32 ]
+        },
+        "stat_home_record-3" : {
+          "area" : [ 544, 363, 40, 32 ]
+        },
+        "stat_home_record-6" : {
+          "area" : [ 544, 459, 40, 32 ]
+        },
+        "stat_home_record-5" : {
+          "area" : [ 544, 427, 40, 32 ]
+        },
+        "stat_home_record-2" : {
+          "area" : [ 544, 331, 40, 32 ]
+        },
+        "stat_home_record-1" : {
+          "area" : [ 544, 307, 40, 24 ]
         },
         "stat_win_percent-29" : {
-          "area" : [ 312, 1314, 29, 32 ]
+          "area" : [ 400, 1330, 30, 32 ]
+        },
+        "stat_west_record-22" : {
+          "area" : [ 704, 1082, 48, 32 ]
         },
         "stat_win_percent-28" : {
-          "area" : [ 312, 1282, 29, 32 ]
+          "area" : [ 400, 1298, 30, 32 ]
         },
-        "stat_streak-10" : {
-          "area" : [ 413, 595, 29, 32 ]
+        "stat_west_record-21" : {
+          "area" : [ 704, 1050, 48, 32 ]
+        },
+        "stat_west_record-20" : {
+          "area" : [ 704, 1018, 48, 32 ]
         },
         "stat_win_percent-25" : {
-          "area" : [ 312, 1194, 29, 24 ]
-        },
-        "stat_streak-11" : {
-          "area" : [ 413, 627, 29, 32 ]
+          "area" : [ 400, 1210, 30, 24 ]
         },
         "stat_win_percent-24" : {
-          "area" : [ 312, 1130, 29, 32 ]
-        },
-        "stat_streak-12" : {
-          "area" : [ 413, 659, 29, 32 ]
+          "area" : [ 400, 1146, 30, 32 ]
         },
         "stat_win_percent-27" : {
-          "area" : [ 312, 1250, 29, 32 ]
-        },
-        "stat_streak-13" : {
-          "area" : [ 413, 723, 29, 24 ]
+          "area" : [ 400, 1266, 30, 32 ]
         },
         "stat_win_percent-26" : {
-          "area" : [ 312, 1218, 29, 32 ]
-        },
-        "stat_streak-14" : {
-          "area" : [ 413, 747, 29, 32 ]
+          "area" : [ 400, 1234, 30, 32 ]
         },
         "stat_win_percent-21" : {
-          "area" : [ 312, 1034, 29, 32 ]
-        },
-        "stat_streak-15" : {
-          "area" : [ 413, 779, 29, 32 ]
+          "area" : [ 400, 1050, 30, 32 ]
         },
         "stat_win_percent-20" : {
-          "area" : [ 312, 1002, 29, 32 ]
+          "area" : [ 400, 1018, 30, 32 ]
         },
-        "stat_streak-16" : {
-          "area" : [ 413, 811, 29, 32 ]
+        "stat_west_record-29" : {
+          "area" : [ 704, 1330, 48, 32 ]
         },
         "stat_win_percent-23" : {
-          "area" : [ 312, 1098, 29, 32 ]
+          "area" : [ 400, 1114, 30, 32 ]
         },
-        "stat_streak-17" : {
-          "area" : [ 413, 843, 29, 32 ]
+        "stat_west_record-28" : {
+          "area" : [ 704, 1298, 48, 32 ]
         },
         "stat_win_percent-22" : {
-          "area" : [ 312, 1066, 29, 32 ]
+          "area" : [ 400, 1082, 30, 32 ]
         },
-        "stat_streak-18" : {
-          "area" : [ 413, 875, 29, 32 ]
+        "stat_west_record-27" : {
+          "area" : [ 704, 1266, 48, 32 ]
         },
-        "stat_streak-19" : {
-          "area" : [ 413, 978, 29, 24 ]
+        "stat_west_record-26" : {
+          "area" : [ 704, 1234, 48, 32 ]
         },
-        "toggle_container.tab-2" : {
-          "area" : [ 220, 192, 87, 40 ]
+        "stat_west_record-25" : {
+          "area" : [ 704, 1210, 48, 24 ]
         },
-        "toggle_container.tab-1" : {
-          "area" : [ 142, 192, 78, 40 ]
+        "stat_west_record-24" : {
+          "area" : [ 704, 1146, 48, 32 ]
+        },
+        "stat_west_record-23" : {
+          "area" : [ 704, 1114, 48, 32 ]
+        },
+        "stat_west_record-11" : {
+          "area" : [ 704, 643, 48, 32 ]
+        },
+        "stat_west_record-10" : {
+          "area" : [ 704, 611, 48, 32 ]
         },
         "stat_wins-11" : {
-          "area" : [ 254, 627, 29, 32 ]
+          "area" : [ 340, 643, 30, 32 ]
+        },
+        "stat_away_record-1" : {
+          "area" : [ 584, 307, 40, 24 ]
         },
         "stat_wins-10" : {
-          "area" : [ 254, 595, 29, 32 ]
+          "area" : [ 340, 611, 30, 32 ]
         },
         "stat_wins-13" : {
-          "area" : [ 254, 723, 29, 24 ]
+          "area" : [ 340, 739, 30, 24 ]
         },
         "stat_win_percent-36" : {
-          "area" : [ 312, 1562, 29, 32 ]
+          "area" : [ 400, 1578, 30, 32 ]
+        },
+        "stat_away_record-3" : {
+          "area" : [ 584, 363, 40, 32 ]
         },
         "stat_wins-12" : {
-          "area" : [ 254, 659, 29, 32 ]
+          "area" : [ 340, 675, 30, 32 ]
         },
         "stat_win_percent-35" : {
-          "area" : [ 312, 1530, 29, 32 ]
+          "area" : [ 400, 1546, 30, 32 ]
         },
-        "widget_container" : {
-          "area" : [ 0, 128, 450, 1466 ]
+        "stat_away_record-2" : {
+          "area" : [ 584, 331, 40, 32 ]
         },
         "team_row-30" : {
-          "area" : [ 8, 1562, 434, 32 ]
+          "area" : [ 16, 1578, 736, 32 ]
         },
         "stat_wins-15" : {
-          "area" : [ 254, 779, 29, 32 ]
+          "area" : [ 340, 795, 30, 32 ]
+        },
+        "stat_away_record-5" : {
+          "area" : [ 584, 427, 40, 32 ]
         },
         "stat_wins-14" : {
-          "area" : [ 254, 747, 29, 32 ]
+          "area" : [ 340, 763, 30, 32 ]
+        },
+        "stat_away_record-4" : {
+          "area" : [ 584, 395, 40, 32 ]
         },
         "stat_win_percent-32" : {
-          "area" : [ 312, 1434, 29, 32 ]
+          "area" : [ 400, 1450, 30, 32 ]
+        },
+        "stat_west_record-19" : {
+          "area" : [ 704, 994, 48, 24 ]
         },
         "stat_win_percent-31" : {
-          "area" : [ 312, 1410, 29, 24 ]
+          "area" : [ 400, 1426, 30, 24 ]
+        },
+        "stat_west_record-18" : {
+          "area" : [ 704, 891, 48, 32 ]
         },
         "stat_win_percent-34" : {
-          "area" : [ 312, 1498, 29, 32 ]
+          "area" : [ 400, 1514, 30, 32 ]
+        },
+        "stat_west_record-17" : {
+          "area" : [ 704, 859, 48, 32 ]
         },
         "stat_win_percent-33" : {
-          "area" : [ 312, 1466, 29, 32 ]
+          "area" : [ 400, 1482, 30, 32 ]
+        },
+        "stat_west_record-16" : {
+          "area" : [ 704, 827, 48, 32 ]
+        },
+        "stat_west_record-15" : {
+          "area" : [ 704, 795, 48, 32 ]
+        },
+        "stat_west_record-14" : {
+          "area" : [ 704, 763, 48, 32 ]
         },
         "stat_win_percent-30" : {
-          "area" : [ 312, 1346, 29, 32 ]
+          "area" : [ 400, 1362, 30, 32 ]
+        },
+        "stat_west_record-13" : {
+          "area" : [ 704, 739, 48, 24 ]
+        },
+        "stat_west_record-12" : {
+          "area" : [ 704, 675, 48, 32 ]
         },
         "al_conference.name" : {
-          "area" : [ 8, 252, 434, 19 ]
+          "area" : [ 16, 268, 736, 19 ]
         },
         "stat_wins-17" : {
-          "area" : [ 254, 843, 29, 32 ]
+          "area" : [ 340, 859, 30, 32 ]
         },
         "stat_wins-16" : {
-          "area" : [ 254, 811, 29, 32 ]
+          "area" : [ 340, 827, 30, 32 ]
         },
         "stat_wins-19" : {
-          "area" : [ 254, 978, 29, 24 ]
+          "area" : [ 340, 994, 30, 24 ]
         },
         "stat_wins-18" : {
-          "area" : [ 254, 875, 29, 32 ]
+          "area" : [ 340, 891, 30, 32 ]
+        },
+        "division_header.category_tablet-10" : {
+          "area" : [ 664, 307, 40, 24 ]
         },
         "team_logo-19" : {
-          "area" : [ 16, 1102, 24, 24 ]
+          "area" : [ 24, 1118, 24, 24 ]
+        },
+        "division_header.category_tablet-11" : {
+          "area" : [ 704, 307, 48, 24 ]
         },
         "team_logo-12" : {
-          "area" : [ 16, 783, 24, 24 ]
+          "area" : [ 24, 799, 24, 24 ]
         },
         "team_logo-11" : {
-          "area" : [ 16, 751, 24, 24 ]
+          "area" : [ 24, 767, 24, 24 ]
         },
         "team_logo-14" : {
-          "area" : [ 16, 847, 24, 24 ]
+          "area" : [ 24, 863, 24, 24 ]
         },
         "team_logo-13" : {
-          "area" : [ 16, 815, 24, 24 ]
+          "area" : [ 24, 831, 24, 24 ]
         },
         "team_logo-16" : {
-          "area" : [ 16, 1006, 24, 24 ]
+          "area" : [ 24, 1022, 24, 24 ]
         },
         "team_logo-15" : {
-          "area" : [ 16, 879, 24, 24 ]
+          "area" : [ 24, 895, 24, 24 ]
         },
         "team_logo-18" : {
-          "area" : [ 16, 1070, 24, 24 ]
+          "area" : [ 24, 1086, 24, 24 ]
         },
         "team_logo-17" : {
-          "area" : [ 16, 1038, 24, 24 ]
+          "area" : [ 24, 1054, 24, 24 ]
         },
         "team_logo-21" : {
-          "area" : [ 16, 1222, 24, 24 ]
+          "area" : [ 24, 1238, 24, 24 ]
         },
         "team_logo-20" : {
-          "area" : [ 16, 1134, 24, 24 ]
-        },
-        "team_abbreviation-9" : {
-          "area" : [ 40, 636, 15, 15 ]
-        },
-        "team_abbreviation-5" : {
-          "area" : [ 40, 452, 21, 15 ]
-        },
-        "team_abbreviation-6" : {
-          "area" : [ 40, 540, 20, 15 ]
-        },
-        "team_abbreviation-7" : {
-          "area" : [ 40, 572, 23, 15 ]
-        },
-        "team_abbreviation-8" : {
-          "area" : [ 40, 604, 21, 15 ]
-        },
-        "team_abbreviation-1" : {
-          "area" : [ 40, 324, 22, 15 ]
-        },
-        "team_abbreviation-2" : {
-          "area" : [ 40, 356, 22, 15 ]
-        },
-        "team_abbreviation-3" : {
-          "area" : [ 40, 388, 23, 15 ]
-        },
-        "team_abbreviation-4" : {
-          "area" : [ 40, 420, 14, 15 ]
+          "area" : [ 24, 1150, 24, 24 ]
         },
         "team_logo-10" : {
-          "area" : [ 16, 663, 24, 24 ]
+          "area" : [ 24, 679, 24, 24 ]
         },
         "stat_last_ten-3" : {
-          "area" : [ 377, 347, 36, 32 ]
+          "area" : [ 472, 363, 42, 32 ]
         },
         "nl_conference" : {
-          "area" : [ 8, 939, 434, 655 ]
+          "area" : [ 16, 955, 736, 655 ]
         },
         "stat_last_ten-2" : {
-          "area" : [ 377, 315, 36, 32 ]
+          "area" : [ 472, 331, 42, 32 ]
         },
         "stat_last_ten-5" : {
-          "area" : [ 377, 411, 36, 32 ]
-        },
-        "stat_games_behind-1" : {
-          "area" : [ 341, 291, 36, 24 ]
+          "area" : [ 472, 427, 42, 32 ]
         },
         "stat_last_ten-4" : {
-          "area" : [ 377, 379, 36, 32 ]
+          "area" : [ 472, 395, 42, 32 ]
         },
         "stat_last_ten-1" : {
-          "area" : [ 377, 291, 36, 24 ]
+          "area" : [ 472, 307, 42, 24 ]
         },
-        "stat_games_behind-6" : {
-          "area" : [ 341, 443, 36, 32 ]
+        "stat_central_record_m-12" : {
+          "area" : [ 664, 675, 40, 32 ]
         },
-        "stat_games_behind-7" : {
-          "area" : [ 341, 507, 36, 24 ]
+        "stat_central_record_m-13" : {
+          "area" : [ 664, 739, 40, 24 ]
         },
-        "stat_games_behind-8" : {
-          "area" : [ 341, 531, 36, 32 ]
+        "stat_central_record_m-10" : {
+          "area" : [ 664, 611, 40, 32 ]
         },
-        "stat_games_behind-9" : {
-          "area" : [ 341, 563, 36, 32 ]
-        },
-        "stat_games_behind-2" : {
-          "area" : [ 341, 315, 36, 32 ]
+        "stat_central_record_m-11" : {
+          "area" : [ 664, 643, 40, 32 ]
         },
         "stat_last_ten-7" : {
-          "area" : [ 377, 507, 36, 24 ]
+          "area" : [ 472, 523, 42, 24 ]
         },
-        "stat_games_behind-3" : {
-          "area" : [ 341, 347, 36, 32 ]
+        "stat_central_record_m-16" : {
+          "area" : [ 664, 827, 40, 32 ]
         },
         "stat_last_ten-6" : {
-          "area" : [ 377, 443, 36, 32 ]
+          "area" : [ 472, 459, 42, 32 ]
         },
-        "stat_games_behind-4" : {
-          "area" : [ 341, 379, 36, 32 ]
+        "stat_central_record_m-17" : {
+          "area" : [ 664, 859, 40, 32 ]
         },
         "stat_last_ten-9" : {
-          "area" : [ 377, 563, 36, 32 ]
+          "area" : [ 472, 579, 42, 32 ]
         },
-        "stat_games_behind-5" : {
-          "area" : [ 341, 411, 36, 32 ]
+        "stat_central_record_m-14" : {
+          "area" : [ 664, 763, 40, 32 ]
         },
         "stat_last_ten-8" : {
-          "area" : [ 377, 531, 36, 32 ]
+          "area" : [ 472, 547, 42, 32 ]
         },
-        "al_conference" : {
-          "area" : [ 8, 252, 434, 655 ]
+        "stat_central_record_m-15" : {
+          "area" : [ 664, 795, 40, 32 ]
         },
         "team_logo-23" : {
-          "area" : [ 16, 1286, 24, 24 ]
+          "area" : [ 24, 1302, 24, 24 ]
         },
         "team_logo-22" : {
-          "area" : [ 16, 1254, 24, 24 ]
+          "area" : [ 24, 1270, 24, 24 ]
         },
         "team_logo-25" : {
-          "area" : [ 16, 1350, 24, 24 ]
+          "area" : [ 24, 1366, 24, 24 ]
         },
         "team_logo-24" : {
-          "area" : [ 16, 1318, 24, 24 ]
+          "area" : [ 24, 1334, 24, 24 ]
         },
         "team_logo-27" : {
-          "area" : [ 16, 1470, 24, 24 ]
+          "area" : [ 24, 1486, 24, 24 ]
         },
         "team_logo-26" : {
-          "area" : [ 16, 1438, 24, 24 ]
+          "area" : [ 24, 1454, 24, 24 ]
         },
         "team_logo-29" : {
-          "area" : [ 16, 1534, 24, 24 ]
+          "area" : [ 24, 1550, 24, 24 ]
         },
         "team_logo-28" : {
-          "area" : [ 16, 1502, 24, 24 ]
+          "area" : [ 24, 1518, 24, 24 ]
         },
         "team_logo-30" : {
-          "area" : [ 16, 1566, 24, 24 ]
+          "area" : [ 24, 1582, 24, 24 ]
         },
-        "team_abbreviation-30" : {
-          "area" : [ 40, 1571, 16, 15 ]
+        "stat_central_record_m-30" : {
+          "area" : [ 664, 1362, 40, 32 ]
         },
-        "stat_win_percent-1" : {
-          "area" : [ 312, 291, 29, 24 ]
+        "stat_central_record_m-31" : {
+          "area" : [ 664, 1426, 40, 24 ]
         },
-        "team_row-9" : {
-          "area" : [ 8, 627, 434, 32 ]
+        "stat_central_record_m-34" : {
+          "area" : [ 664, 1514, 40, 32 ]
         },
-        "team_row-8" : {
-          "area" : [ 8, 595, 434, 32 ]
+        "stat_central_record_m-35" : {
+          "area" : [ 664, 1546, 40, 32 ]
         },
-        "stat_win_percent-5" : {
-          "area" : [ 312, 411, 29, 32 ]
+        "stat_central_record_m-32" : {
+          "area" : [ 664, 1450, 40, 32 ]
         },
-        "team_row-7" : {
-          "area" : [ 8, 563, 434, 32 ]
+        "stat_central_record_m-33" : {
+          "area" : [ 664, 1482, 40, 32 ]
         },
-        "stat_win_percent-4" : {
-          "area" : [ 312, 379, 29, 32 ]
+        "stat_central_record_m-36" : {
+          "area" : [ 664, 1578, 40, 32 ]
         },
-        "team_row-6" : {
-          "area" : [ 8, 531, 434, 32 ]
-        },
-        "stat_win_percent-3" : {
-          "area" : [ 312, 347, 29, 32 ]
-        },
-        "team_row-5" : {
-          "area" : [ 8, 443, 434, 32 ]
-        },
-        "stat_win_percent-2" : {
-          "area" : [ 312, 315, 29, 32 ]
+        "stat_central_record_m-29" : {
+          "area" : [ 664, 1330, 40, 32 ]
         },
         "stat_games_behind-30" : {
-          "area" : [ 341, 1346, 36, 32 ]
+          "area" : [ 430, 1362, 42, 32 ]
         },
         "stat_games_behind-31" : {
-          "area" : [ 341, 1410, 36, 24 ]
+          "area" : [ 430, 1426, 42, 24 ]
         },
         "stat_games_behind-32" : {
-          "area" : [ 341, 1434, 36, 32 ]
-        },
-        "team_abbreviation-29" : {
-          "area" : [ 40, 1539, 22, 15 ]
+          "area" : [ 430, 1450, 42, 32 ]
         },
         "stat_games_behind-33" : {
-          "area" : [ 341, 1466, 36, 32 ]
+          "area" : [ 430, 1482, 42, 32 ]
         },
         "stat_games_behind-34" : {
-          "area" : [ 341, 1498, 36, 32 ]
-        },
-        "team_abbreviation-27" : {
-          "area" : [ 40, 1475, 22, 15 ]
+          "area" : [ 430, 1514, 42, 32 ]
         },
         "stat_games_behind-35" : {
-          "area" : [ 341, 1530, 36, 32 ]
-        },
-        "team_abbreviation-28" : {
-          "area" : [ 40, 1507, 13, 15 ]
+          "area" : [ 430, 1546, 42, 32 ]
         },
         "stat_games_behind-36" : {
-          "area" : [ 341, 1562, 36, 32 ]
-        },
-        "team_abbreviation-25" : {
-          "area" : [ 40, 1355, 20, 15 ]
-        },
-        "team_abbreviation-26" : {
-          "area" : [ 40, 1443, 19, 15 ]
-        },
-        "al_conference.division-3" : {
-          "area" : [ 8, 723, 434, 184 ]
+          "area" : [ 430, 1578, 42, 32 ]
         },
         "stat_games_behind-28" : {
-          "area" : [ 341, 1282, 36, 32 ]
-        },
-        "al_conference.division-2" : {
-          "area" : [ 8, 507, 434, 184 ]
+          "area" : [ 430, 1298, 42, 32 ]
         },
         "stat_games_behind-29" : {
-          "area" : [ 341, 1314, 36, 32 ]
+          "area" : [ 430, 1330, 42, 32 ]
         },
-        "team_row-4" : {
-          "area" : [ 8, 411, 434, 32 ]
+        "stat_central_record_m-20" : {
+          "area" : [ 664, 1018, 40, 32 ]
         },
-        "stat_win_percent-9" : {
-          "area" : [ 312, 563, 29, 32 ]
+        "stat_central_record_m-23" : {
+          "area" : [ 664, 1114, 40, 32 ]
         },
-        "team_row-3" : {
-          "area" : [ 8, 379, 434, 32 ]
+        "stat_central_record_m-24" : {
+          "area" : [ 664, 1146, 40, 32 ]
         },
-        "stat_win_percent-8" : {
-          "area" : [ 312, 531, 29, 32 ]
+        "stat_central_record_m-21" : {
+          "area" : [ 664, 1050, 40, 32 ]
         },
-        "team_row-2" : {
-          "area" : [ 8, 347, 434, 32 ]
+        "stat_central_record_m-22" : {
+          "area" : [ 664, 1082, 40, 32 ]
         },
-        "stat_win_percent-7" : {
-          "area" : [ 312, 507, 29, 24 ]
+        "stat_central_record_m-27" : {
+          "area" : [ 664, 1266, 40, 32 ]
         },
-        "team_row-1" : {
-          "area" : [ 8, 315, 434, 32 ]
+        "stat_central_record_m-28" : {
+          "area" : [ 664, 1298, 40, 32 ]
         },
-        "stat_win_percent-6" : {
-          "area" : [ 312, 443, 29, 32 ]
+        "stat_central_record_m-25" : {
+          "area" : [ 664, 1210, 40, 24 ]
         },
-        "stat_last_ten-10" : {
-          "area" : [ 377, 595, 36, 32 ]
+        "stat_central_record_m-26" : {
+          "area" : [ 664, 1234, 40, 32 ]
         },
-        "stat_last_ten-12" : {
-          "area" : [ 377, 659, 36, 32 ]
+        "stat_central_record_m-18" : {
+          "area" : [ 664, 891, 40, 32 ]
         },
-        "stat_last_ten-11" : {
-          "area" : [ 377, 627, 36, 32 ]
+        "stat_central_record_m-19" : {
+          "area" : [ 664, 994, 40, 24 ]
         },
-        "stat_last_ten-14" : {
-          "area" : [ 377, 747, 36, 32 ]
-        },
-        "stat_last_ten-13" : {
-          "area" : [ 377, 723, 36, 24 ]
-        },
-        "stat_last_ten-16" : {
-          "area" : [ 377, 811, 36, 32 ]
-        },
-        "stat_last_ten-15" : {
-          "area" : [ 377, 779, 36, 32 ]
-        },
-        "stat_last_ten-18" : {
-          "area" : [ 377, 875, 36, 32 ]
-        },
-        "stat_last_ten-17" : {
-          "area" : [ 377, 843, 36, 32 ]
-        },
-        "stat_last_ten-19" : {
-          "area" : [ 377, 978, 36, 24 ]
+        "division_header.name_large" : {
+          "area" : [ 16, 307, 324, 24 ]
         },
         "stat_games_behind-20" : {
-          "area" : [ 341, 1002, 36, 32 ]
+          "area" : [ 430, 1018, 42, 32 ]
         },
         "header" : {
-          "area" : [ 0, 138, 450, 24 ]
+          "area" : [ 0, 138, 768, 40 ]
         },
         "stat_games_behind-21" : {
-          "area" : [ 341, 1034, 36, 32 ]
+          "area" : [ 430, 1050, 42, 32 ]
         },
         "stat_games_behind-22" : {
-          "area" : [ 341, 1066, 36, 32 ]
+          "area" : [ 430, 1082, 42, 32 ]
         },
         "stat_games_behind-23" : {
-          "area" : [ 341, 1098, 36, 32 ]
+          "area" : [ 430, 1114, 42, 32 ]
         },
         "stat_games_behind-24" : {
-          "area" : [ 341, 1130, 36, 32 ]
+          "area" : [ 430, 1146, 42, 32 ]
         },
         "stat_games_behind-25" : {
-          "area" : [ 341, 1194, 36, 24 ]
-        },
-        "al_conference.division-1" : {
-          "area" : [ 8, 291, 434, 184 ]
+          "area" : [ 430, 1210, 42, 24 ]
         },
         "stat_games_behind-26" : {
-          "area" : [ 341, 1218, 36, 32 ]
+          "area" : [ 430, 1234, 42, 32 ]
         },
         "stat_games_behind-27" : {
-          "area" : [ 341, 1250, 36, 32 ]
-        },
-        "team_abbreviation-12" : {
-          "area" : [ 40, 788, 26, 15 ]
+          "area" : [ 430, 1266, 42, 32 ]
         },
         "stat_games_behind-17" : {
-          "area" : [ 341, 843, 36, 32 ]
+          "area" : [ 430, 859, 42, 32 ]
         },
         "team_logo-1" : {
-          "area" : [ 16, 319, 24, 24 ]
-        },
-        "team_abbreviation-13" : {
-          "area" : [ 40, 820, 21, 15 ]
+          "area" : [ 24, 335, 24, 24 ]
         },
         "stat_games_behind-18" : {
-          "area" : [ 341, 875, 36, 32 ]
+          "area" : [ 430, 891, 42, 32 ]
         },
         "team_logo-2" : {
-          "area" : [ 16, 351, 24, 24 ]
-        },
-        "team_abbreviation-10" : {
-          "area" : [ 40, 668, 25, 15 ]
+          "area" : [ 24, 367, 24, 24 ]
         },
         "stat_games_behind-19" : {
-          "area" : [ 341, 978, 36, 24 ]
+          "area" : [ 430, 994, 42, 24 ]
         },
         "team_logo-3" : {
-          "area" : [ 16, 383, 24, 24 ]
-        },
-        "team_abbreviation-11" : {
-          "area" : [ 40, 756, 21, 15 ]
+          "area" : [ 24, 399, 24, 24 ]
         },
         "team_logo-4" : {
-          "area" : [ 16, 415, 24, 24 ]
+          "area" : [ 24, 431, 24, 24 ]
         },
         "team_logo-5" : {
-          "area" : [ 16, 447, 24, 24 ]
+          "area" : [ 24, 463, 24, 24 ]
         },
         "team_logo-6" : {
-          "area" : [ 16, 535, 24, 24 ]
+          "area" : [ 24, 551, 24, 24 ]
         },
         "team_logo-7" : {
-          "area" : [ 16, 567, 24, 24 ]
+          "area" : [ 24, 583, 24, 24 ]
         },
         "team_logo-8" : {
-          "area" : [ 16, 599, 24, 24 ]
+          "area" : [ 24, 615, 24, 24 ]
         },
         "team_logo-9" : {
-          "area" : [ 16, 631, 24, 24 ]
+          "area" : [ 24, 647, 24, 24 ]
         },
-        "stat_last_ten-21" : {
-          "area" : [ 377, 1034, 36, 32 ]
+        "division_header.category_tablet-3" : {
+          "area" : [ 400, 307, 30, 24 ]
         },
-        "stat_last_ten-20" : {
-          "area" : [ 377, 1002, 36, 32 ]
-        },
-        "stat_last_ten-23" : {
-          "area" : [ 377, 1098, 36, 32 ]
-        },
-        "stat_last_ten-22" : {
-          "area" : [ 377, 1066, 36, 32 ]
-        },
-        "stat_last_ten-25" : {
-          "area" : [ 377, 1194, 36, 24 ]
-        },
-        "stat_last_ten-24" : {
-          "area" : [ 377, 1130, 36, 32 ]
-        },
-        "stat_last_ten-27" : {
-          "area" : [ 377, 1250, 36, 32 ]
-        },
-        "stat_last_ten-26" : {
-          "area" : [ 377, 1218, 36, 32 ]
-        },
-        "stat_last_ten-29" : {
-          "area" : [ 377, 1314, 36, 32 ]
-        },
-        "stat_last_ten-28" : {
-          "area" : [ 377, 1282, 36, 32 ]
+        "division_header.category_tablet-4" : {
+          "area" : [ 430, 307, 42, 24 ]
         },
         "stat_games_behind-10" : {
-          "area" : [ 341, 595, 36, 32 ]
+          "area" : [ 430, 611, 42, 32 ]
+        },
+        "division_header.category_tablet-1" : {
+          "area" : [ 340, 307, 30, 24 ]
         },
         "stat_games_behind-11" : {
-          "area" : [ 341, 627, 36, 32 ]
+          "area" : [ 430, 643, 42, 32 ]
+        },
+        "division_header.category_tablet-2" : {
+          "area" : [ 370, 307, 30, 24 ]
         },
         "stat_games_behind-12" : {
-          "area" : [ 341, 659, 36, 32 ]
+          "area" : [ 430, 675, 42, 32 ]
         },
         "stat_games_behind-13" : {
-          "area" : [ 341, 723, 36, 24 ]
+          "area" : [ 430, 739, 42, 24 ]
         },
         "stat_games_behind-14" : {
-          "area" : [ 341, 747, 36, 32 ]
+          "area" : [ 430, 763, 42, 32 ]
         },
         "stat_games_behind-15" : {
-          "area" : [ 341, 779, 36, 32 ]
+          "area" : [ 430, 795, 42, 32 ]
         },
         "stat_games_behind-16" : {
-          "area" : [ 341, 811, 36, 32 ]
+          "area" : [ 430, 827, 42, 32 ]
         },
-        "team_abbreviation-23" : {
-          "area" : [ 40, 1291, 17, 15 ]
+        "division_header.category_tablet-9" : {
+          "area" : [ 624, 307, 40, 24 ]
         },
-        "team_abbreviation-24" : {
-          "area" : [ 40, 1323, 23, 15 ]
+        "division_header.category_tablet-7" : {
+          "area" : [ 544, 307, 40, 24 ]
         },
-        "team_abbreviation-21" : {
-          "area" : [ 40, 1227, 19, 15 ]
+        "division_header.category_tablet-8" : {
+          "area" : [ 584, 307, 40, 24 ]
         },
-        "team_abbreviation-22" : {
-          "area" : [ 40, 1259, 20, 15 ]
+        "division_header.category_tablet-5" : {
+          "area" : [ 472, 307, 42, 24 ]
         },
-        "team_abbreviation-20" : {
-          "area" : [ 40, 1139, 22, 15 ]
+        "division_header.category_tablet-6" : {
+          "area" : [ 514, 307, 30, 24 ]
+        },
+        "stat_losses-11" : {
+          "area" : [ 370, 643, 30, 32 ]
+        },
+        "stat_losses-10" : {
+          "area" : [ 370, 611, 30, 32 ]
+        },
+        "stat_losses-13" : {
+          "area" : [ 370, 739, 30, 24 ]
+        },
+        "stat_losses-12" : {
+          "area" : [ 370, 675, 30, 32 ]
+        },
+        "stat_losses-15" : {
+          "area" : [ 370, 795, 30, 32 ]
+        },
+        "stat_losses-14" : {
+          "area" : [ 370, 763, 30, 32 ]
+        },
+        "stat_losses-17" : {
+          "area" : [ 370, 859, 30, 32 ]
+        },
+        "stat_losses-16" : {
+          "area" : [ 370, 827, 30, 32 ]
+        },
+        "stat_losses-19" : {
+          "area" : [ 370, 994, 30, 24 ]
+        },
+        "stat_losses-18" : {
+          "area" : [ 370, 891, 30, 32 ]
+        },
+        "stat_wins-2" : {
+          "area" : [ 340, 331, 30, 32 ]
+        },
+        "stat_wins-1" : {
+          "area" : [ 340, 307, 30, 24 ]
+        },
+        "stat_wins-8" : {
+          "area" : [ 340, 547, 30, 32 ]
+        },
+        "stat_wins-7" : {
+          "area" : [ 340, 523, 30, 24 ]
+        },
+        "stat_wins-9" : {
+          "area" : [ 340, 579, 30, 32 ]
+        },
+        "stat_wins-4" : {
+          "area" : [ 340, 395, 30, 32 ]
+        },
+        "stat_wins-3" : {
+          "area" : [ 340, 363, 30, 32 ]
+        },
+        "stat_wins-6" : {
+          "area" : [ 340, 459, 30, 32 ]
+        },
+        "stat_wins-5" : {
+          "area" : [ 340, 427, 30, 32 ]
+        },
+        "stat_losses-4" : {
+          "area" : [ 370, 395, 30, 32 ]
+        },
+        "stat_streak-2" : {
+          "area" : [ 514, 331, 30, 32 ]
+        },
+        "stat_losses-3" : {
+          "area" : [ 370, 363, 30, 32 ]
+        },
+        "stat_streak-3" : {
+          "area" : [ 514, 363, 30, 32 ]
+        },
+        "stat_losses-2" : {
+          "area" : [ 370, 331, 30, 32 ]
+        },
+        "stat_losses-1" : {
+          "area" : [ 370, 307, 30, 24 ]
+        },
+        "stat_streak-1" : {
+          "area" : [ 514, 307, 30, 24 ]
+        },
+        "stat_losses-8" : {
+          "area" : [ 370, 547, 30, 32 ]
+        },
+        "stat_losses-7" : {
+          "area" : [ 370, 523, 30, 24 ]
+        },
+        "stat_losses-6" : {
+          "area" : [ 370, 459, 30, 32 ]
+        },
+        "stat_losses-5" : {
+          "area" : [ 370, 427, 30, 32 ]
+        },
+        "toggle_container" : {
+          "area" : [ 301, 208, 165, 40 ]
+        },
+        "stat_losses-9" : {
+          "area" : [ 370, 579, 30, 32 ]
+        },
+        "stat_losses-31" : {
+          "area" : [ 370, 1426, 30, 24 ]
+        },
+        "stat_losses-30" : {
+          "area" : [ 370, 1362, 30, 32 ]
+        },
+        "stat_losses-33" : {
+          "area" : [ 370, 1482, 30, 32 ]
+        },
+        "full_team_name-30" : {
+          "area" : [ 48, 1586, 97, 16 ]
+        },
+        "stat_losses-32" : {
+          "area" : [ 370, 1450, 30, 32 ]
+        },
+        "stat_losses-35" : {
+          "area" : [ 370, 1546, 30, 32 ]
+        },
+        "stat_losses-34" : {
+          "area" : [ 370, 1514, 30, 32 ]
+        },
+        "stat_losses-36" : {
+          "area" : [ 370, 1578, 30, 32 ]
+        },
+        "stat_streak-8" : {
+          "area" : [ 514, 547, 30, 32 ]
+        },
+        "stat_streak-9" : {
+          "area" : [ 514, 579, 30, 32 ]
+        },
+        "stat_streak-6" : {
+          "area" : [ 514, 459, 30, 32 ]
+        },
+        "stat_streak-7" : {
+          "area" : [ 514, 523, 30, 24 ]
+        },
+        "stat_streak-4" : {
+          "area" : [ 514, 395, 30, 32 ]
+        },
+        "stat_streak-5" : {
+          "area" : [ 514, 427, 30, 32 ]
+        },
+        "full_team_name-26" : {
+          "area" : [ 48, 1458, 126, 16 ]
+        },
+        "full_team_name-27" : {
+          "area" : [ 48, 1490, 96, 16 ]
+        },
+        "full_team_name-28" : {
+          "area" : [ 48, 1522, 112, 16 ]
+        },
+        "full_team_name-29" : {
+          "area" : [ 48, 1554, 116, 16 ]
+        },
+        "full_team_name-22" : {
+          "area" : [ 48, 1274, 106, 16 ]
+        },
+        "full_team_name-23" : {
+          "area" : [ 48, 1306, 97, 16 ]
+        },
+        "full_team_name-24" : {
+          "area" : [ 48, 1338, 77, 16 ]
+        },
+        "stat_losses-20" : {
+          "area" : [ 370, 1018, 30, 32 ]
+        },
+        "full_team_name-25" : {
+          "area" : [ 48, 1370, 85, 16 ]
+        },
+        "stat_losses-22" : {
+          "area" : [ 370, 1082, 30, 32 ]
+        },
+        "stat_losses-21" : {
+          "area" : [ 370, 1050, 30, 32 ]
+        },
+        "full_team_name-20" : {
+          "area" : [ 48, 1154, 79, 16 ]
+        },
+        "stat_losses-24" : {
+          "area" : [ 370, 1146, 30, 32 ]
+        },
+        "full_team_name-21" : {
+          "area" : [ 48, 1242, 100, 16 ]
+        },
+        "stat_losses-23" : {
+          "area" : [ 370, 1114, 30, 32 ]
+        },
+        "stat_losses-26" : {
+          "area" : [ 370, 1234, 30, 32 ]
+        },
+        "stat_losses-25" : {
+          "area" : [ 370, 1210, 30, 24 ]
+        },
+        "stat_losses-28" : {
+          "area" : [ 370, 1298, 30, 32 ]
+        },
+        "stat_losses-27" : {
+          "area" : [ 370, 1266, 30, 32 ]
+        },
+        "stat_losses-29" : {
+          "area" : [ 370, 1330, 30, 32 ]
+        },
+        "stat_streak-30" : {
+          "area" : [ 514, 1362, 30, 32 ]
+        },
+        "stat_streak-31" : {
+          "area" : [ 514, 1426, 30, 24 ]
+        },
+        "stat_streak-32" : {
+          "area" : [ 514, 1450, 30, 32 ]
+        },
+        "full_team_name-19" : {
+          "area" : [ 48, 1122, 85, 16 ]
+        },
+        "stat_streak-33" : {
+          "area" : [ 514, 1482, 30, 32 ]
+        },
+        "stat_streak-34" : {
+          "area" : [ 514, 1514, 30, 32 ]
+        },
+        "stat_streak-35" : {
+          "area" : [ 514, 1546, 30, 32 ]
+        },
+        "stat_streak-36" : {
+          "area" : [ 514, 1578, 30, 32 ]
+        },
+        "full_team_name-15" : {
+          "area" : [ 48, 899, 79, 16 ]
+        },
+        "full_team_name-16" : {
+          "area" : [ 48, 1026, 79, 16 ]
+        },
+        "full_team_name-17" : {
+          "area" : [ 48, 1058, 108, 16 ]
+        },
+        "full_team_name-18" : {
+          "area" : [ 48, 1090, 121, 16 ]
+        },
+        "full_team_name-11" : {
+          "area" : [ 48, 771, 106, 16 ]
+        },
+        "full_team_name-12" : {
+          "area" : [ 48, 803, 86, 16 ]
+        },
+        "full_team_name-13" : {
+          "area" : [ 48, 835, 90, 16 ]
+        },
+        "full_team_name-14" : {
+          "area" : [ 48, 867, 97, 16 ]
+        },
+        "full_team_name-10" : {
+          "area" : [ 48, 683, 104, 16 ]
+        },
+        "full_team_name-1" : {
+          "area" : [ 48, 339, 87, 16 ]
+        },
+        "nl_conference.division-3" : {
+          "area" : [ 16, 1426, 736, 184 ]
+        },
+        "full_team_name-3" : {
+          "area" : [ 48, 403, 97, 16 ]
+        },
+        "stat_streak-20" : {
+          "area" : [ 514, 1018, 30, 32 ]
+        },
+        "full_team_name-2" : {
+          "area" : [ 48, 371, 101, 16 ]
+        },
+        "stat_streak-21" : {
+          "area" : [ 514, 1050, 30, 32 ]
+        },
+        "full_team_name-5" : {
+          "area" : [ 48, 467, 95, 16 ]
+        },
+        "stat_streak-22" : {
+          "area" : [ 514, 1082, 30, 32 ]
+        },
+        "full_team_name-4" : {
+          "area" : [ 48, 435, 89, 16 ]
+        },
+        "stat_streak-23" : {
+          "area" : [ 514, 1114, 30, 32 ]
+        },
+        "nl_conference.division-2" : {
+          "area" : [ 16, 1210, 736, 184 ]
+        },
+        "full_team_name-7" : {
+          "area" : [ 48, 587, 93, 16 ]
+        },
+        "stat_streak-24" : {
+          "area" : [ 514, 1146, 30, 32 ]
+        },
+        "nl_conference.division-1" : {
+          "area" : [ 16, 994, 736, 184 ]
+        },
+        "full_team_name-6" : {
+          "area" : [ 48, 555, 97, 16 ]
+        },
+        "stat_streak-25" : {
+          "area" : [ 514, 1210, 30, 24 ]
+        },
+        "full_team_name-9" : {
+          "area" : [ 48, 651, 101, 16 ]
+        },
+        "stat_streak-26" : {
+          "area" : [ 514, 1234, 30, 32 ]
+        },
+        "full_team_name-8" : {
+          "area" : [ 48, 619, 76, 16 ]
+        },
+        "stat_streak-27" : {
+          "area" : [ 514, 1266, 30, 32 ]
+        },
+        "stat_streak-28" : {
+          "area" : [ 514, 1298, 30, 32 ]
+        },
+        "stat_streak-29" : {
+          "area" : [ 514, 1330, 30, 32 ]
+        },
+        "stat_streak-10" : {
+          "area" : [ 514, 611, 30, 32 ]
+        },
+        "stat_streak-11" : {
+          "area" : [ 514, 643, 30, 32 ]
+        },
+        "stat_streak-12" : {
+          "area" : [ 514, 675, 30, 32 ]
+        },
+        "stat_streak-13" : {
+          "area" : [ 514, 739, 30, 24 ]
+        },
+        "stat_streak-14" : {
+          "area" : [ 514, 763, 30, 32 ]
+        },
+        "stat_streak-15" : {
+          "area" : [ 514, 795, 30, 32 ]
+        },
+        "stat_streak-16" : {
+          "area" : [ 514, 827, 30, 32 ]
+        },
+        "stat_streak-17" : {
+          "area" : [ 514, 859, 30, 32 ]
+        },
+        "stat_streak-18" : {
+          "area" : [ 514, 891, 30, 32 ]
+        },
+        "stat_streak-19" : {
+          "area" : [ 514, 994, 30, 24 ]
+        },
+        "toggle_container.tab-2" : {
+          "area" : [ 379, 208, 87, 40 ]
+        },
+        "toggle_container.tab-1" : {
+          "area" : [ 301, 208, 78, 40 ]
+        },
+        "stat_west_record-2" : {
+          "area" : [ 704, 331, 48, 32 ]
+        },
+        "stat_west_record-1" : {
+          "area" : [ 704, 307, 48, 24 ]
+        },
+        "stat_west_record-6" : {
+          "area" : [ 704, 459, 48, 32 ]
+        },
+        "stat_west_record-5" : {
+          "area" : [ 704, 427, 48, 32 ]
+        },
+        "stat_west_record-4" : {
+          "area" : [ 704, 395, 48, 32 ]
+        },
+        "stat_west_record-3" : {
+          "area" : [ 704, 363, 48, 32 ]
+        },
+        "stat_west_record-9" : {
+          "area" : [ 704, 579, 48, 32 ]
+        },
+        "stat_west_record-8" : {
+          "area" : [ 704, 547, 48, 32 ]
+        },
+        "stat_west_record-7" : {
+          "area" : [ 704, 523, 48, 24 ]
+        },
+        "widget_container" : {
+          "area" : [ 0, 128, 768, 1482 ]
+        },
+        "stat_away_record-13" : {
+          "area" : [ 584, 739, 40, 24 ]
+        },
+        "stat_away_record-14" : {
+          "area" : [ 584, 763, 40, 32 ]
+        },
+        "stat_away_record-15" : {
+          "area" : [ 584, 795, 40, 32 ]
+        },
+        "stat_away_record-16" : {
+          "area" : [ 584, 827, 40, 32 ]
+        },
+        "stat_away_record-17" : {
+          "area" : [ 584, 859, 40, 32 ]
+        },
+        "stat_away_record-18" : {
+          "area" : [ 584, 891, 40, 32 ]
+        },
+        "stat_away_record-19" : {
+          "area" : [ 584, 994, 40, 24 ]
+        },
+        "stat_away_record-10" : {
+          "area" : [ 584, 611, 40, 32 ]
+        },
+        "stat_away_record-11" : {
+          "area" : [ 584, 643, 40, 32 ]
+        },
+        "stat_away_record-12" : {
+          "area" : [ 584, 675, 40, 32 ]
+        },
+        "stat_away_record-24" : {
+          "area" : [ 584, 1146, 40, 32 ]
+        },
+        "stat_west_record-33" : {
+          "area" : [ 704, 1482, 48, 32 ]
+        },
+        "stat_away_record-25" : {
+          "area" : [ 584, 1210, 40, 24 ]
+        },
+        "stat_west_record-32" : {
+          "area" : [ 704, 1450, 48, 32 ]
+        },
+        "stat_away_record-26" : {
+          "area" : [ 584, 1234, 40, 32 ]
+        },
+        "stat_west_record-31" : {
+          "area" : [ 704, 1426, 48, 24 ]
+        },
+        "stat_away_record-27" : {
+          "area" : [ 584, 1266, 40, 32 ]
+        },
+        "stat_west_record-30" : {
+          "area" : [ 704, 1362, 48, 32 ]
+        },
+        "stat_away_record-28" : {
+          "area" : [ 584, 1298, 40, 32 ]
+        },
+        "stat_away_record-29" : {
+          "area" : [ 584, 1330, 40, 32 ]
+        },
+        "stat_away_record-20" : {
+          "area" : [ 584, 1018, 40, 32 ]
+        },
+        "stat_away_record-21" : {
+          "area" : [ 584, 1050, 40, 32 ]
+        },
+        "stat_west_record-36" : {
+          "area" : [ 704, 1578, 48, 32 ]
+        },
+        "stat_away_record-22" : {
+          "area" : [ 584, 1082, 40, 32 ]
+        },
+        "stat_west_record-35" : {
+          "area" : [ 704, 1546, 48, 32 ]
+        },
+        "stat_away_record-23" : {
+          "area" : [ 584, 1114, 40, 32 ]
+        },
+        "stat_west_record-34" : {
+          "area" : [ 704, 1514, 48, 32 ]
+        },
+        "stat_east_record-13" : {
+          "area" : [ 624, 739, 40, 24 ]
+        },
+        "stat_east_record-12" : {
+          "area" : [ 624, 675, 40, 32 ]
+        },
+        "stat_east_record-11" : {
+          "area" : [ 624, 643, 40, 32 ]
+        },
+        "stat_east_record-10" : {
+          "area" : [ 624, 611, 40, 32 ]
+        },
+        "stat_east_record-17" : {
+          "area" : [ 624, 859, 40, 32 ]
+        },
+        "stat_east_record-16" : {
+          "area" : [ 624, 827, 40, 32 ]
+        },
+        "stat_central_record_m-9" : {
+          "area" : [ 664, 579, 40, 32 ]
+        },
+        "stat_east_record-15" : {
+          "area" : [ 624, 795, 40, 32 ]
+        },
+        "stat_east_record-14" : {
+          "area" : [ 624, 763, 40, 32 ]
+        },
+        "stat_east_record-19" : {
+          "area" : [ 624, 994, 40, 24 ]
+        },
+        "stat_east_record-18" : {
+          "area" : [ 624, 891, 40, 32 ]
+        },
+        "stat_central_record_m-2" : {
+          "area" : [ 664, 331, 40, 32 ]
+        },
+        "stat_central_record_m-1" : {
+          "area" : [ 664, 307, 40, 24 ]
+        },
+        "stat_central_record_m-4" : {
+          "area" : [ 664, 395, 40, 32 ]
+        },
+        "stat_games_behind-1" : {
+          "area" : [ 430, 307, 42, 24 ]
+        },
+        "stat_central_record_m-3" : {
+          "area" : [ 664, 363, 40, 32 ]
+        },
+        "stat_central_record_m-6" : {
+          "area" : [ 664, 459, 40, 32 ]
+        },
+        "stat_central_record_m-5" : {
+          "area" : [ 664, 427, 40, 32 ]
+        },
+        "stat_central_record_m-8" : {
+          "area" : [ 664, 547, 40, 32 ]
+        },
+        "stat_central_record_m-7" : {
+          "area" : [ 664, 523, 40, 24 ]
+        },
+        "stat_games_behind-6" : {
+          "area" : [ 430, 459, 42, 32 ]
+        },
+        "stat_games_behind-7" : {
+          "area" : [ 430, 523, 42, 24 ]
+        },
+        "stat_games_behind-8" : {
+          "area" : [ 430, 547, 42, 32 ]
+        },
+        "stat_games_behind-9" : {
+          "area" : [ 430, 579, 42, 32 ]
+        },
+        "stat_games_behind-2" : {
+          "area" : [ 430, 331, 42, 32 ]
+        },
+        "stat_games_behind-3" : {
+          "area" : [ 430, 363, 42, 32 ]
+        },
+        "stat_games_behind-4" : {
+          "area" : [ 430, 395, 42, 32 ]
+        },
+        "stat_games_behind-5" : {
+          "area" : [ 430, 427, 42, 32 ]
+        },
+        "stat_east_record-20" : {
+          "area" : [ 624, 1018, 40, 32 ]
+        },
+        "stat_east_record-24" : {
+          "area" : [ 624, 1146, 40, 32 ]
+        },
+        "stat_east_record-23" : {
+          "area" : [ 624, 1114, 40, 32 ]
+        },
+        "stat_east_record-22" : {
+          "area" : [ 624, 1082, 40, 32 ]
+        },
+        "stat_east_record-21" : {
+          "area" : [ 624, 1050, 40, 32 ]
+        },
+        "stat_east_record-28" : {
+          "area" : [ 624, 1298, 40, 32 ]
+        },
+        "stat_east_record-27" : {
+          "area" : [ 624, 1266, 40, 32 ]
+        },
+        "stat_east_record-26" : {
+          "area" : [ 624, 1234, 40, 32 ]
+        },
+        "stat_east_record-25" : {
+          "area" : [ 624, 1210, 40, 24 ]
+        },
+        "stat_east_record-29" : {
+          "area" : [ 624, 1330, 40, 32 ]
+        },
+        "al_conference" : {
+          "area" : [ 16, 268, 736, 655 ]
+        },
+        "stat_east_record-31" : {
+          "area" : [ 624, 1426, 40, 24 ]
+        },
+        "stat_east_record-30" : {
+          "area" : [ 624, 1362, 40, 32 ]
+        },
+        "stat_east_record-35" : {
+          "area" : [ 624, 1546, 40, 32 ]
+        },
+        "stat_east_record-34" : {
+          "area" : [ 624, 1514, 40, 32 ]
+        },
+        "stat_east_record-33" : {
+          "area" : [ 624, 1482, 40, 32 ]
+        },
+        "stat_east_record-32" : {
+          "area" : [ 624, 1450, 40, 32 ]
+        },
+        "stat_east_record-36" : {
+          "area" : [ 624, 1578, 40, 32 ]
+        },
+        "stat_home_record-32" : {
+          "area" : [ 544, 1450, 40, 32 ]
+        },
+        "stat_home_record-33" : {
+          "area" : [ 544, 1482, 40, 32 ]
+        },
+        "stat_home_record-30" : {
+          "area" : [ 544, 1362, 40, 32 ]
+        },
+        "stat_home_record-31" : {
+          "area" : [ 544, 1426, 40, 24 ]
+        },
+        "stat_home_record-36" : {
+          "area" : [ 544, 1578, 40, 32 ]
+        },
+        "stat_home_record-34" : {
+          "area" : [ 544, 1514, 40, 32 ]
+        },
+        "stat_home_record-35" : {
+          "area" : [ 544, 1546, 40, 32 ]
+        },
+        "stat_win_percent-1" : {
+          "area" : [ 400, 307, 30, 24 ]
+        },
+        "team_row-9" : {
+          "area" : [ 16, 643, 736, 32 ]
+        },
+        "team_row-8" : {
+          "area" : [ 16, 611, 736, 32 ]
+        },
+        "stat_win_percent-5" : {
+          "area" : [ 400, 427, 30, 32 ]
+        },
+        "team_row-7" : {
+          "area" : [ 16, 579, 736, 32 ]
+        },
+        "stat_win_percent-4" : {
+          "area" : [ 400, 395, 30, 32 ]
+        },
+        "team_row-6" : {
+          "area" : [ 16, 547, 736, 32 ]
+        },
+        "stat_win_percent-3" : {
+          "area" : [ 400, 363, 30, 32 ]
+        },
+        "team_row-5" : {
+          "area" : [ 16, 459, 736, 32 ]
+        },
+        "stat_win_percent-2" : {
+          "area" : [ 400, 331, 30, 32 ]
+        },
+        "al_conference.division-3" : {
+          "area" : [ 16, 739, 736, 184 ]
+        },
+        "al_conference.division-2" : {
+          "area" : [ 16, 523, 736, 184 ]
+        },
+        "team_row-4" : {
+          "area" : [ 16, 427, 736, 32 ]
+        },
+        "stat_win_percent-9" : {
+          "area" : [ 400, 579, 30, 32 ]
+        },
+        "team_row-3" : {
+          "area" : [ 16, 395, 736, 32 ]
+        },
+        "stat_win_percent-8" : {
+          "area" : [ 400, 547, 30, 32 ]
+        },
+        "team_row-2" : {
+          "area" : [ 16, 363, 736, 32 ]
+        },
+        "stat_win_percent-7" : {
+          "area" : [ 400, 523, 30, 24 ]
+        },
+        "team_row-1" : {
+          "area" : [ 16, 331, 736, 32 ]
+        },
+        "stat_win_percent-6" : {
+          "area" : [ 400, 459, 30, 32 ]
+        },
+        "stat_last_ten-10" : {
+          "area" : [ 472, 611, 42, 32 ]
+        },
+        "stat_last_ten-12" : {
+          "area" : [ 472, 675, 42, 32 ]
+        },
+        "stat_last_ten-11" : {
+          "area" : [ 472, 643, 42, 32 ]
+        },
+        "stat_last_ten-14" : {
+          "area" : [ 472, 763, 42, 32 ]
+        },
+        "stat_last_ten-13" : {
+          "area" : [ 472, 739, 42, 24 ]
+        },
+        "stat_last_ten-16" : {
+          "area" : [ 472, 827, 42, 32 ]
+        },
+        "stat_last_ten-15" : {
+          "area" : [ 472, 795, 42, 32 ]
+        },
+        "stat_last_ten-18" : {
+          "area" : [ 472, 891, 42, 32 ]
+        },
+        "stat_last_ten-17" : {
+          "area" : [ 472, 859, 42, 32 ]
+        },
+        "stat_last_ten-19" : {
+          "area" : [ 472, 994, 42, 24 ]
+        },
+        "al_conference.division-1" : {
+          "area" : [ 16, 307, 736, 184 ]
+        },
+        "stat_home_record-10" : {
+          "area" : [ 544, 611, 40, 32 ]
+        },
+        "stat_away_record-35" : {
+          "area" : [ 584, 1546, 40, 32 ]
+        },
+        "stat_home_record-11" : {
+          "area" : [ 544, 643, 40, 32 ]
+        },
+        "stat_away_record-36" : {
+          "area" : [ 584, 1578, 40, 32 ]
+        },
+        "stat_home_record-18" : {
+          "area" : [ 544, 891, 40, 32 ]
+        },
+        "stat_home_record-19" : {
+          "area" : [ 544, 994, 40, 24 ]
+        },
+        "stat_home_record-16" : {
+          "area" : [ 544, 827, 40, 32 ]
+        },
+        "stat_home_record-17" : {
+          "area" : [ 544, 859, 40, 32 ]
+        },
+        "stat_away_record-30" : {
+          "area" : [ 584, 1362, 40, 32 ]
+        },
+        "stat_last_ten-21" : {
+          "area" : [ 472, 1050, 42, 32 ]
+        },
+        "stat_home_record-14" : {
+          "area" : [ 544, 763, 40, 32 ]
+        },
+        "stat_away_record-31" : {
+          "area" : [ 584, 1426, 40, 24 ]
+        },
+        "stat_last_ten-20" : {
+          "area" : [ 472, 1018, 42, 32 ]
+        },
+        "stat_home_record-15" : {
+          "area" : [ 544, 795, 40, 32 ]
+        },
+        "stat_away_record-32" : {
+          "area" : [ 584, 1450, 40, 32 ]
+        },
+        "stat_last_ten-23" : {
+          "area" : [ 472, 1114, 42, 32 ]
+        },
+        "stat_home_record-12" : {
+          "area" : [ 544, 675, 40, 32 ]
+        },
+        "stat_away_record-33" : {
+          "area" : [ 584, 1482, 40, 32 ]
+        },
+        "stat_last_ten-22" : {
+          "area" : [ 472, 1082, 42, 32 ]
+        },
+        "stat_home_record-13" : {
+          "area" : [ 544, 739, 40, 24 ]
+        },
+        "stat_away_record-34" : {
+          "area" : [ 584, 1514, 40, 32 ]
+        },
+        "stat_last_ten-25" : {
+          "area" : [ 472, 1210, 42, 24 ]
+        },
+        "stat_last_ten-24" : {
+          "area" : [ 472, 1146, 42, 32 ]
+        },
+        "stat_last_ten-27" : {
+          "area" : [ 472, 1266, 42, 32 ]
+        },
+        "stat_last_ten-26" : {
+          "area" : [ 472, 1234, 42, 32 ]
+        },
+        "stat_last_ten-29" : {
+          "area" : [ 472, 1330, 42, 32 ]
+        },
+        "stat_last_ten-28" : {
+          "area" : [ 472, 1298, 42, 32 ]
+        },
+        "stat_home_record-21" : {
+          "area" : [ 544, 1050, 40, 32 ]
+        },
+        "stat_home_record-22" : {
+          "area" : [ 544, 1082, 40, 32 ]
+        },
+        "stat_home_record-20" : {
+          "area" : [ 544, 1018, 40, 32 ]
+        },
+        "stat_home_record-29" : {
+          "area" : [ 544, 1330, 40, 32 ]
         },
         "stat_last_ten-30" : {
-          "area" : [ 377, 1346, 36, 32 ]
+          "area" : [ 472, 1362, 42, 32 ]
+        },
+        "stat_home_record-27" : {
+          "area" : [ 544, 1266, 40, 32 ]
+        },
+        "stat_home_record-28" : {
+          "area" : [ 544, 1298, 40, 32 ]
         },
         "stat_last_ten-32" : {
-          "area" : [ 377, 1434, 36, 32 ]
+          "area" : [ 472, 1450, 42, 32 ]
+        },
+        "stat_home_record-25" : {
+          "area" : [ 544, 1210, 40, 24 ]
         },
         "stat_last_ten-31" : {
-          "area" : [ 377, 1410, 36, 24 ]
+          "area" : [ 472, 1426, 42, 24 ]
+        },
+        "stat_home_record-26" : {
+          "area" : [ 544, 1234, 40, 32 ]
         },
         "stat_last_ten-34" : {
-          "area" : [ 377, 1498, 36, 32 ]
+          "area" : [ 472, 1514, 42, 32 ]
+        },
+        "stat_home_record-23" : {
+          "area" : [ 544, 1114, 40, 32 ]
         },
         "stat_last_ten-33" : {
-          "area" : [ 377, 1466, 36, 32 ]
+          "area" : [ 472, 1482, 42, 32 ]
+        },
+        "stat_home_record-24" : {
+          "area" : [ 544, 1146, 40, 32 ]
         },
         "stat_last_ten-36" : {
-          "area" : [ 377, 1562, 36, 32 ]
+          "area" : [ 472, 1578, 42, 32 ]
         },
         "stat_last_ten-35" : {
-          "area" : [ 377, 1530, 36, 32 ]
-        },
-        "team_abbreviation-18" : {
-          "area" : [ 40, 1075, 25, 15 ]
-        },
-        "team_abbreviation-19" : {
-          "area" : [ 40, 1107, 26, 15 ]
-        },
-        "team_abbreviation-16" : {
-          "area" : [ 40, 1011, 20, 15 ]
+          "area" : [ 472, 1546, 42, 32 ]
         },
         "nl_conference.name" : {
-          "area" : [ 8, 939, 434, 19 ]
-        },
-        "team_abbreviation-17" : {
-          "area" : [ 40, 1043, 19, 15 ]
-        },
-        "team_abbreviation-14" : {
-          "area" : [ 40, 852, 24, 15 ]
-        },
-        "team_abbreviation-15" : {
-          "area" : [ 40, 884, 20, 15 ]
+          "area" : [ 16, 955, 736, 19 ]
         }
       },
-      "screenshot" : "layout-1-screenshot.png",
+      "screenshot" : "layout-2-screenshot.png",
       "type" : "layout"
     } ]
   }
