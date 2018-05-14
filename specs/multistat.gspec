@@ -14,7 +14,7 @@
       category_mobile-*           .stat-container:not(.hide-for-small-only)
   stat_row_container-*            .multi-stat-row
   rank-*                          .multi-stat-rank
-  team_logo-*                     .team-logo
+  team_logo-*                     .team-logo:not(.header-placeholder)
   team_name_large-*               .team-name div.show-for-large
   team_name_small-*               .team-name div.hide-for-large
   stat_g-*                        .statistic.gamesPlayed
@@ -122,7 +122,7 @@
 
     | stat_row_container-* are aligned vertically above each other with equal distance
     | rank-* are aligned vertically above each other with equal distance
-    | team_logo-* are aligned vertically above each other with equal distance
+    | team_logo-* are aligned vertically above each other with 16px margin
     | every team_logo-* has height 24px and has width 24px
     | &column_g are aligned vertically above each other with equal distance
     | &column_r are aligned vertically above each other with equal distance

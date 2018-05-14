@@ -63,6 +63,15 @@
 
     toggle_container.tab-1:
       below header ~22 px
+      text uppercase is "DIVISION"
+
+    toggle_container.tab-2:
+      below header ~22 px
+      text uppercase is "WILDCARD"
+
+    toggle_container.tab-3:
+      below header ~22 px
+      text uppercase is "LEAGUE"
 
     | toggle_container.tab-* are aligned horizontally next to each other
 
@@ -70,6 +79,7 @@
   @on *
     al_conference:
       above nl_conference
+      aligned vertically all nl_conference
 
     al_conference.name:
       text uppercase is "AMERICAN LEAGUE"
@@ -104,18 +114,20 @@
   @on desktop, tablet
     @for [1 - 29] as i
       full_team_name-${i}:
-        aligned vertically left full_team_name-${i + 1} 1px
+        aligned vertically left full_team_name-${i + 1}
+        centered vertically inside team_row-${i}
 
       team_logo-${i}:
-        aligned vertically all team_logo-${i + 1} 1px
+        aligned vertically all team_logo-${i + 1}
 
   @on mobile
     @for [1 - 29] as i
       team_abbreviation-${i}:
-        aligned vertically left team_abbreviation-${i + 1} 1px
+        aligned vertically left team_abbreviation-${i + 1}
+        centered vertically inside team_row-${i}
 
       team_logo-${i}:
-        aligned vertically all team_logo-${i + 1} 1px
+        aligned vertically all team_logo-${i + 1}
 
 = Stats Table Header =
   @on desktop
