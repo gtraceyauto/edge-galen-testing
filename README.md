@@ -22,10 +22,6 @@ will also report the full path of this driver when you rebuild with `npm rb`.
 
 ### Running the tests ###
 Tests are run using the [Gulp.js](https://gulpjs.com/) task runner.
-Available Widgets so far:
-  * `multistat`
-  * `scoreboard`
-  * `standings`
 
 * To run locally - `gulp test -w=<widgetname>`
     * Tests will be run on Chrome with desktop, tablet and mobile resolutions.
@@ -41,6 +37,11 @@ Available Widgets so far:
 
 ### Test reports ###
 After the tests have run, html reports will be served to (http://localhost:3333/), until the process is stopped in terminal using `Ctrl-C`. They are also stored in the `reports` directory.  Existing test reports can be re-served to localhost with `gulp serve`.
+
+### Available Widgets so far ###
+* `multistat`
+* `scoreboard`
+* `standings`
 
 ### Who do I talk to? ###
 * Tim Lantz (tlantz@stats.com)
