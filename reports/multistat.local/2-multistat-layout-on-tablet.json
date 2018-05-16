@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/multistat.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1526483376618,
+      "time" : 1526486855991,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Header",
@@ -13480,12 +13480,12 @@
         "name" : "css: .player-category-toggle > div.toggle-container > div:nth-child(2)",
         "type" : "text"
       } ],
-      "time" : 1526483376618,
+      "time" : 1526486855991,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/multistat.pitching.gspec included tags: tablet",
       "status" : "info",
-      "time" : 1526483426778,
+      "time" : 1526486902922,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Statistics Table",

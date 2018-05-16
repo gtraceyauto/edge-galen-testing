@@ -33,6 +33,8 @@ Tests are run using the [Gulp.js](https://gulpjs.com/) task runner.
         * `remote` - run the tests on Browserstack w/ the browser-OS combinations defined in the `remote-plaforms.js` file.
         * `grid` - run the tests on a Selenium Grid (must be set up prior) w/ the browser-OS combinations defined in the `grid-platforms.js` file.
 
+* Each test run will test a widget against it's corresponding .gspec file in the `specs` folder for the device resolutions defined in the `devices.js` file.
+
 ### Test reports ###
 After the tests have run, html reports will be served to http://localhost:3333/ for easy viewing, until the process is stopped in terminal using `Ctrl-C`. They are also stored in the `reports` directory.  Existing test reports can be re-served to localhost with `gulp serve`.
 

@@ -25,7 +25,7 @@ gulp.task('clean', function(done) {
   done();
 });
 
-//Task to test Widgets locally
+//Task to test Widgets
 gulp.task('testWidgets', function(done) {
   var files = [];
   var galen = function galen(file, callback) {
