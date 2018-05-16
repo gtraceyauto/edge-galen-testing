@@ -57,19 +57,23 @@
     scorecard.scoreboard_button:
       on top left edge scorecard.event_body 24px right
 
-    scorecard.probables_header:
-      centered horizontally inside scorecard.event_body
-      text uppercase is "PITCHING PROBABLES"
+    @if ${isVisible("scorecard.probables_header")}
+      scorecard.probables_header:
+        centered horizontally inside scorecard.event_body
+        text uppercase is "PITCHING PROBABLES"
 
-    scorecard.prob_pitcher_container-1:
-      centered horizontally inside scorecard.event_body
-      aligned vertically all scorecard.prob_pitcher_container-2
+    @if ${isVisible("scorecard.prob_pitcher_container-1")}
+      scorecard.prob_pitcher_container-1:
+        centered horizontally inside scorecard.event_body
+        aligned vertically all scorecard.prob_pitcher_container-2
 
-    scorecard.prob_team_abbreviation-1:
-      aligned vertically all scorecard.prob_team_abbreviation-2
+    @if ${isVisible("scorecard.prob_team_abbreviation-1")}
+      scorecard.prob_team_abbreviation-1:
+        aligned vertically all scorecard.prob_team_abbreviation-2
 
-    scorecard.prob_pitcher_headshot-1:
-      aligned vertically all scorecard.prob_pitcher_headshot-2
+    @if ${isVisible("scorecard.prob_pitcher_headshot-1")}
+      scorecard.prob_pitcher_headshot-1:
+        aligned vertically all scorecard.prob_pitcher_headshot-2
 
     @if ${isVisible("scorecard.prob_pitcher_name-1")}
       scorecard.prob_pitcher_name-1:

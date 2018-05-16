@@ -10,6 +10,7 @@ var
   jar = require('selenium-server-standalone-jar');
 
 var widgetToTest = argv.w ? argv.w : '*';
+var whereToTest = argv.l ? argv.l : 'local';
 var reportsDir = 'reports';
 var gridHubUrl = 'http://10.203.220.61:4444/grid/register/';
 var parallelTests = 3;
@@ -39,77 +40,7 @@ gulp.task('testWidgets', function(done) {
     });
   };
 
-  return gulp.src([`tests/${widgetToTest}.test.js`])
-    .pipe(tap(function(file) {
-      files.push(file);
-    }))
-    .on('end', function() {
-      async.rejectSeries(files, function(file, finished) {
-          galen(file, finished);
-      }, function(errors) {
-         if (errors && errors.length > 0) {
-            done("Galen reported failed tests: " + (errors.map(function(f) {
-               return f.relative;
-            }).join(", ")));
-         }
-         else {
-            done();
-         }
-      });
-    });
-});
-
-//Task to test Widgets remotely
-gulp.task('testWidgetsRemote', function(done) {
-  var files = [];
-  var galen = function galen(file, callback) {
-    spawn('galen', [
-      'test',
-      file.path,
-      '--htmlreport',
-      reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
-      '--parallel-tests', parallelTests
-    ], {'stdio' : 'inherit'}).on('close', function(code) {
-      callback(code === 0);
-    });
-  };
-
-  return gulp.src([`tests/${widgetToTest}.remote.test.js`])
-    .pipe(tap(function(file) {
-      files.push(file);
-    }))
-    .on('end', function() {
-      async.rejectSeries(files, function(file, finished) {
-          galen(file, finished);
-      }, function(errors) {
-         if (errors && errors.length > 0) {
-            done("Galen reported failed tests: " + (errors.map(function(f) {
-               return f.relative;
-            }).join(", ")));
-         }
-         else {
-            done();
-         }
-      });
-    });
-});
-
-//Task to test Widgets on Selenium Grid
-gulp.task('testWidgetsGrid', function(done) {
-  var files = [];
-  var galen = function galen(file, callback) {
-    spawn('galen', [
-      'test',
-      file.path,
-      '--htmlreport',
-      reportsDir + '/' + file.relative.replace(/\.test.js/, ''),
-      '--parallel-tests', parallelTests
-    ], {'stdio' : 'inherit'}).on('close', function(code) {
-      callback(code === 0);
-    });
-  };
-
-  return gulp.src([`tests/${widgetToTest}.grid.test.js`])
+  return gulp.src([`tests/${widgetToTest}.${whereToTest}.test.js`])
     .pipe(tap(function(file) {
       files.push(file);
     }))
@@ -166,14 +97,4 @@ gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
   done();
 }));
 
-gulp.task('testRemote', gulp.series('clean', 'testWidgetsRemote', 'serve', function(done) {
-  done();
-}));
-
-gulp.task('testGrid', gulp.series('clean', 'testWidgetsGrid', 'serve', function(done) {
-  done();
-}));
-
-gulp.task('t', gulp.series('testWidgets'));
-gulp.task('tr', gulp.series('testWidgetsRemote'));
 gulp.task('default', gulp.series('test'));

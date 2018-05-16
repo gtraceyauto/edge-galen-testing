@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "multistat layout on mobile",
+    "startedAt" : 1526483302511,
+    "endedAt" : 1526483377167,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 1284,
+      "errors" : 4,
+      "warnings" : 0,
+      "total" : 1288
+    },
+    "testId" : "1-multistat-layout-on-mobile",
+    "groups" : [ ],
+    "duration" : 74656,
+    "failed" : true
+  }, {
+    "name" : "multistat layout on tablet",
+    "startedAt" : 1526483302512,
+    "endedAt" : 1526483426778,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 2279,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 2280
+    },
+    "testId" : "2-multistat-layout-on-tablet",
+    "groups" : [ ],
+    "duration" : 124266,
+    "failed" : true
+  }, {
+    "name" : "multistat layout on desktop",
+    "startedAt" : 1526483302511,
+    "endedAt" : 1526483433052,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 2278,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 2280
+    },
+    "testId" : "3-multistat-layout-on-desktop",
+    "groups" : [ ],
+    "duration" : 130541,
+    "failed" : true
+  } ]
+}

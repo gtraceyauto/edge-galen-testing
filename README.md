@@ -17,31 +17,24 @@ This repo contains a set of tests for Widgets using the [Galen Framework](http:/
 
 ### Configuration ###
 In order to run tests locally, in the `galen.config` file you will need to set the
-`$.webdriver.chrome.driver` value to the path of a locally installed instance of Chromedriver.  There is one included in the project @ `<path to project folder>/node_modules/chromedriver/lib/chromedriver/chromedriver`.  The terminal
-will also report the full path of this driver when you rebuild with `npm rb`.
+`$.webdriver.chrome.driver` value to the path of a locally installed instance of Chromedriver.  There is one included in the project @ `<path to project folder>/node_modules/chromedriver/lib/chromedriver/chromedriver`.  The terminal will also report the full path of this driver when you rebuild with `npm rb`.
 
 ### Running the tests ###
 Tests are run using the [Gulp.js](https://gulpjs.com/) task runner.
 
-* To run locally - `gulp test -w=<widgetname>`
-    * Tests will be run on Chrome with desktop, tablet and mobile resolutions.
-    * All available widgets can be run with just `gulp test`.
+* Run the test with the command line - `gulp test -w=<widgetname> -l=<location>`.
+    * `widgetname` is the widget to test.  Leaving this blank will run tests on all available widgets.  Currently available widgets are:
+        * `multistat`
+        * `scoreboard`
+        * `standings`
 
-* To run on Browserstack - `gulp testRemote -w=<widgetname>`
-    * Tests will be run on all browser/os configurations defined in `remote-platforms.js`.
-    * All available widgets can be run with just `gulp testRemote`.
-
-* To run on SeleniumGrid - `gulp testGrid -w=<widgetname>`
-    * Tests will be run on all browser/os configurations defined in `grid-platforms.js`.
-    * All available widgets can be run with just `gulp testGrid`.
+    * `location` is where to run the tests.  Leaving this blank will default to "local". Options are:
+        * `local` - run the tests on your local computer.
+        * `remote` - run the tests on Browserstack w/ the browser-OS combinations defined in the `remote-plaforms.js` file.
+        * `grid` - run the tests on a Selenium Grid (must be set up prior) w/ the browser-OS combinations defined in the `grid-platforms.js` file.
 
 ### Test reports ###
-After the tests have run, html reports will be served to (http://localhost:3333/), until the process is stopped in terminal using `Ctrl-C`. They are also stored in the `reports` directory.  Existing test reports can be re-served to localhost with `gulp serve`.
-
-### Available Widgets so far ###
-* `multistat`
-* `scoreboard`
-* `standings`
+After the tests have run, html reports will be served to http://localhost:3333/ for easy viewing, until the process is stopped in terminal using `Ctrl-C`. They are also stored in the `reports` directory.  Existing test reports can be re-served to localhost with `gulp serve`.
 
 ### Who do I talk to? ###
 * Tim Lantz (tlantz@stats.com)
