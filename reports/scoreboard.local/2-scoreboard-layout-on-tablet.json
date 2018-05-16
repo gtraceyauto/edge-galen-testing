@@ -1,6 +1,6 @@
 {
-  "testId" : "3-scoreboard-layout-on-desktop",
-  "name" : "scoreboard layout on desktop",
+  "testId" : "2-scoreboard-layout-on-tablet",
+  "name" : "scoreboard layout on tablet",
   "report" : {
     "nodes" : [ {
       "name" : "Click snapshotButton on ScoreboardPage with offset [10, 10]",
@@ -9,13 +9,13 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1526504208607,
+      "time" : 1526504208585,
       "type" : "node"
     }, {
-      "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
+      "name" : "Check layout: specs/scoreboard.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1526504215882,
-      "includedTags" : [ "desktop" ],
+      "time" : 1526504215527,
+      "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Scorecard",
         "place" : {
@@ -157,7 +157,7 @@
               "lineNumber" : 88
             },
             "name" : "on top left edge scorecard.event_body 24px right",
-            "errors" : [ "\"scorecard.scoreboard_button\" is 40px right instead of 24px" ],
+            "errors" : [ "\"scorecard.scoreboard_button\" is 28px right instead of 24px" ],
             "highlight" : [ "scorecard.scoreboard_button", "scorecard.event_body" ]
           } ]
         } ],
@@ -342,64 +342,64 @@
       } ],
       "objects" : {
         "scorecard.runs-2" : {
-          "area" : [ 763, 346, 24, 24 ]
+          "area" : [ 220, 346, 24, 24 ]
         },
         "scorecard.team_record-1" : {
-          "area" : [ 518, 370, 45, 15 ]
+          "area" : [ 64, 370, 45, 15 ]
         },
         "scorecard.runs-1" : {
-          "area" : [ 763, 328, 24, 16 ]
+          "area" : [ 220, 328, 24, 16 ]
         },
         "scorecard.runs-3" : {
-          "area" : [ 763, 385, 24, 24 ]
+          "area" : [ 220, 385, 24, 24 ]
         },
         "scorecard.team_logo-2" : {
-          "area" : [ 502, 385, 24, 24 ]
+          "area" : [ 48, 385, 24, 24 ]
         },
         "scorecard.team_logo-1" : {
-          "area" : [ 502, 346, 24, 24 ]
+          "area" : [ 48, 346, 24, 24 ]
         },
         "scorecard.team_record-2" : {
-          "area" : [ 518, 409, 45, 15 ]
+          "area" : [ 64, 409, 45, 15 ]
         },
         "scorecard.errors-2" : {
-          "area" : [ 811, 346, 24, 24 ]
+          "area" : [ 268, 346, 24, 24 ]
         },
         "scorecard.errors-3" : {
-          "area" : [ 811, 385, 24, 24 ]
+          "area" : [ 268, 385, 24, 24 ]
         },
         "scorecard.scoreboard_button" : {
-          "area" : [ 516, 440, 185, 32 ]
+          "area" : [ 51, 440, 138, 32 ]
         },
         "scorecard.team_name-3" : {
-          "area" : [ 526, 385, 46, 24 ]
+          "area" : [ 72, 385, 46, 24 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 526, 346, 69, 24 ]
+          "area" : [ 72, 346, 69, 24 ]
         },
         "scorecard.errors-1" : {
-          "area" : [ 811, 328, 24, 16 ]
+          "area" : [ 268, 328, 24, 16 ]
         },
         "scorecard.prob_pitcher_headshot-1" : {
-          "area" : [ 526, 504, 40, 35 ]
+          "area" : [ 72, 504, 40, 35 ]
         },
         "scorecard.hits-3" : {
-          "area" : [ 787, 385, 24, 24 ]
+          "area" : [ 244, 385, 24, 24 ]
         },
         "scorecard.prob_pitcher_headshot-2" : {
-          "area" : [ 526, 545, 40, 35 ]
+          "area" : [ 72, 545, 40, 35 ]
         },
         "scorecard.hits-1" : {
-          "area" : [ 787, 328, 24, 16 ]
+          "area" : [ 244, 328, 24, 16 ]
         },
         "scorecard.hits-2" : {
-          "area" : [ 787, 346, 24, 24 ]
+          "area" : [ 244, 346, 24, 24 ]
         },
         "scorecard.event_body" : {
-          "area" : [ 476, 320, 465, 456 ]
+          "area" : [ 23, 320, 349, 456 ]
         }
       },
-      "screenshot" : "layout-3-screenshot.png",
+      "screenshot" : "layout-2-screenshot.png",
       "type" : "layout"
     } ]
   }

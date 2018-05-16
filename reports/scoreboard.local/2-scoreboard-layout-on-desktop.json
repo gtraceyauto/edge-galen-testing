@@ -1,5 +1,5 @@
 {
-  "testId" : "3-scoreboard-layout-on-desktop",
+  "testId" : "2-scoreboard-layout-on-desktop",
   "name" : "scoreboard layout on desktop",
   "report" : {
     "nodes" : [ {
@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1526504208607,
+      "time" : 1526502440218,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
       "status" : "error",
-      "time" : 1526504215882,
+      "time" : 1526502447476,
       "includedTags" : [ "desktop" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -69,33 +69,45 @@
             "highlight" : [ "scorecard.team_logo-2", "scorecard.team_logo-1" ]
           } ]
         }, {
+          "name" : "scorecard.team_name-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "height 19px",
+            "errors" : [ "\"scorecard.team_name-1\" height is 16px instead of 19px" ],
+            "highlight" : [ "scorecard.team_name-1" ]
+          } ]
+        }, {
           "name" : "scorecard.team_name-2",
           "specs" : [ {
             "status" : "error",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 55
+              "lineNumber" : 57
             },
             "name" : "height 19px",
             "errors" : [ "\"scorecard.team_name-2\" height is 24px instead of 19px" ],
             "highlight" : [ "scorecard.team_name-2" ]
-          } ]
-        }, {
-          "name" : "scorecard.team_name-3",
-          "specs" : [ {
+          }, {
             "status" : "error",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
               "lineNumber" : 58
             },
-            "name" : "height 19px",
-            "errors" : [ "\"scorecard.team_name-3\" height is 24px instead of 19px" ],
-            "highlight" : [ "scorecard.team_name-3" ]
-          }, {
+            "name" : "aligned vertically left scorecard.team_name-1",
+            "errors" : [ "\"scorecard.team_name-1\" is not aligned vertically left with \"scorecard.team_name-2\". Offset is 40px" ],
+            "highlight" : [ "scorecard.team_name-2", "scorecard.team_name-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_name-3",
+          "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 59
+              "lineNumber" : 62
             },
             "name" : "below scorecard.team_name-2",
             "highlight" : [ "scorecard.team_name-3", "scorecard.team_name-2" ]
@@ -103,7 +115,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 60
+              "lineNumber" : 63
             },
             "name" : "aligned vertically left scorecard.team_name-2",
             "highlight" : [ "scorecard.team_name-3", "scorecard.team_name-2" ]
@@ -114,19 +126,19 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 63
+              "lineNumber" : 66
             },
-            "name" : "below scorecard.team_name-2",
-            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-2" ]
+            "name" : "below scorecard.team_name-1",
+            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
           }, {
             "status" : "error",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 64
+              "lineNumber" : 67
             },
-            "name" : "aligned vertically left scorecard.team_name-2",
-            "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically left with \"scorecard.team_record-1\". Offset is 8px" ],
-            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-2" ]
+            "name" : "aligned vertically left scorecard.team_name-1",
+            "errors" : [ "\"scorecard.team_name-1\" is not aligned vertically left with \"scorecard.team_record-1\". Offset is 32px" ],
+            "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
           } ]
         }, {
           "name" : "scorecard.team_record-2",
@@ -134,19 +146,19 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 67
+              "lineNumber" : 70
             },
-            "name" : "below scorecard.team_name-3",
-            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-3" ]
+            "name" : "below scorecard.team_name-2",
+            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
           }, {
             "status" : "error",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 68
+              "lineNumber" : 71
             },
-            "name" : "aligned vertically left scorecard.team_name-3",
-            "errors" : [ "\"scorecard.team_name-3\" is not aligned vertically left with \"scorecard.team_record-2\". Offset is 8px" ],
-            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-3" ]
+            "name" : "aligned vertically left scorecard.team_name-2",
+            "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically left with \"scorecard.team_record-2\". Offset is 8px" ],
+            "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
           } ]
         }, {
           "name" : "scorecard.scoreboard_button",
@@ -154,7 +166,7 @@
             "status" : "error",
             "place" : {
               "filePath" : "specs/scoreboard.gspec",
-              "lineNumber" : 88
+              "lineNumber" : 74
             },
             "name" : "on top left edge scorecard.event_body 24px right",
             "errors" : [ "\"scorecard.scoreboard_button\" is 40px right instead of 24px" ],
@@ -165,7 +177,7 @@
           "name" : "Pre-game View",
           "place" : {
             "filePath" : "specs/scoreboard.gspec",
-            "lineNumber" : 90
+            "lineNumber" : 76
           },
           "objects" : [ {
             "name" : "scorecard.prob_pitcher_headshot-1",
@@ -173,7 +185,7 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 113
+                "lineNumber" : 99
               },
               "name" : "aligned vertically all scorecard.prob_pitcher_headshot-2",
               "highlight" : [ "scorecard.prob_pitcher_headshot-1", "scorecard.prob_pitcher_headshot-2" ]
@@ -183,7 +195,7 @@
           "name" : "Game-in-progress View",
           "place" : {
             "filePath" : "specs/scoreboard.gspec",
-            "lineNumber" : 160
+            "lineNumber" : 146
           },
           "objects" : [ {
             "name" : "scorecard.runs-2",
@@ -191,7 +203,7 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 164
+                "lineNumber" : 150
               },
               "name" : "aligned vertically all scorecard.runs-1",
               "highlight" : [ "scorecard.runs-2", "scorecard.runs-1" ]
@@ -202,7 +214,7 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 164
+                "lineNumber" : 150
               },
               "name" : "aligned vertically all scorecard.runs-2",
               "highlight" : [ "scorecard.runs-3", "scorecard.runs-2" ]
@@ -213,25 +225,27 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 169
+                "lineNumber" : 155
               },
               "name" : "aligned vertically all scorecard.hits-1",
               "highlight" : [ "scorecard.hits-2", "scorecard.hits-1" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 184
+                "lineNumber" : 170
               },
-              "name" : "aligned horizontally all scorecard.runs-2",
+              "name" : "aligned vertically all scorecard.runs-2",
+              "errors" : [ "\"scorecard.runs-2\" is not aligned vertically all with \"scorecard.hits-2\". Offset is 24px" ],
               "highlight" : [ "scorecard.hits-2", "scorecard.runs-2" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 185
+                "lineNumber" : 171
               },
-              "name" : "aligned horizontally all scorecard.team_name-2",
+              "name" : "aligned vertically all scorecard.team_name-2",
+              "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically all with \"scorecard.hits-2\". Offset is 261px" ],
               "highlight" : [ "scorecard.hits-2", "scorecard.team_name-2" ]
             } ]
           }, {
@@ -240,25 +254,27 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 169
+                "lineNumber" : 155
               },
               "name" : "aligned vertically all scorecard.hits-2",
               "highlight" : [ "scorecard.hits-3", "scorecard.hits-2" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 190
+                "lineNumber" : 176
               },
-              "name" : "aligned horizontally all scorecard.runs-3",
+              "name" : "aligned vertically all scorecard.runs-3",
+              "errors" : [ "\"scorecard.runs-3\" is not aligned vertically all with \"scorecard.hits-3\". Offset is 24px" ],
               "highlight" : [ "scorecard.hits-3", "scorecard.runs-3" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 191
+                "lineNumber" : 177
               },
-              "name" : "aligned horizontally all scorecard.team_name-3",
+              "name" : "aligned vertically all scorecard.team_name-3",
+              "errors" : [ "\"scorecard.team_name-3\" is not aligned vertically all with \"scorecard.hits-3\". Offset is 261px" ],
               "highlight" : [ "scorecard.hits-3", "scorecard.team_name-3" ]
             } ]
           }, {
@@ -267,25 +283,27 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 174
+                "lineNumber" : 160
               },
               "name" : "aligned vertically all scorecard.errors-1",
               "highlight" : [ "scorecard.errors-2", "scorecard.errors-1" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 184
+                "lineNumber" : 170
               },
-              "name" : "aligned horizontally all scorecard.hits-2",
+              "name" : "aligned vertically all scorecard.hits-2",
+              "errors" : [ "\"scorecard.hits-2\" is not aligned vertically all with \"scorecard.errors-2\". Offset is 24px" ],
               "highlight" : [ "scorecard.errors-2", "scorecard.hits-2" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 185
+                "lineNumber" : 171
               },
-              "name" : "aligned horizontally all scorecard.team_name-2",
+              "name" : "aligned vertically all scorecard.team_name-2",
+              "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically all with \"scorecard.errors-2\". Offset is 285px" ],
               "highlight" : [ "scorecard.errors-2", "scorecard.team_name-2" ]
             } ]
           }, {
@@ -294,47 +312,33 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 174
+                "lineNumber" : 160
               },
               "name" : "aligned vertically all scorecard.errors-2",
               "highlight" : [ "scorecard.errors-3", "scorecard.errors-2" ]
-            }, {
-              "status" : "info",
-              "place" : {
-                "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 190
-              },
-              "name" : "aligned horizontally all scorecard.hits-3",
-              "highlight" : [ "scorecard.errors-3", "scorecard.hits-3" ]
-            }, {
-              "status" : "info",
-              "place" : {
-                "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 191
-              },
-              "name" : "aligned horizontally all scorecard.team_name-3",
-              "highlight" : [ "scorecard.errors-3", "scorecard.team_name-3" ]
             } ]
           }, {
             "name" : "scorecard.hits-1",
             "specs" : [ {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 179
+                "lineNumber" : 165
               },
-              "name" : "aligned horizontally all scorecard.runs-1",
+              "name" : "aligned vertically all scorecard.runs-1",
+              "errors" : [ "\"scorecard.runs-1\" is not aligned vertically all with \"scorecard.hits-1\". Offset is 24px" ],
               "highlight" : [ "scorecard.hits-1", "scorecard.runs-1" ]
             } ]
           }, {
             "name" : "scorecard.errors-1",
             "specs" : [ {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
-                "lineNumber" : 179
+                "lineNumber" : 165
               },
-              "name" : "aligned horizontally all scorecard.hits-1",
+              "name" : "aligned vertically all scorecard.hits-1",
+              "errors" : [ "\"scorecard.hits-1\" is not aligned vertically all with \"scorecard.errors-1\". Offset is 24px" ],
               "highlight" : [ "scorecard.errors-1", "scorecard.hits-1" ]
             } ]
           } ]
@@ -368,6 +372,9 @@
         "scorecard.errors-3" : {
           "area" : [ 811, 385, 24, 24 ]
         },
+        "scorecard.team_name-1" : {
+          "area" : [ 486, 328, 277, 16 ]
+        },
         "scorecard.scoreboard_button" : {
           "area" : [ 516, 440, 185, 32 ]
         },
@@ -399,7 +406,7 @@
           "area" : [ 476, 320, 465, 456 ]
         }
       },
-      "screenshot" : "layout-3-screenshot.png",
+      "screenshot" : "layout-2-screenshot.png",
       "type" : "layout"
     } ]
   }

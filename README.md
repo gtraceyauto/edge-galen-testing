@@ -17,19 +17,19 @@ This repo contains a set of tests for Widgets using the [Galen Framework](http:/
 
 ### Configuration ###
 In order to run tests locally, in the `galen.config` file you will need to set the
-`$.webdriver.chrome.driver` value to the path of a locally installed instance of Chromedriver.  There is one included in the project @ `<path to project folder>/node_modules/chromedriver/lib/chromedriver/chromedriver`.  The terminal will also report the full path of this driver when you rebuild with `npm rb`.
+`$.webdriver.chrome.driver` value to the path of a locally installed instance of Chromedriver.  There is one included in the project at `<path to project folder>/node_modules/chromedriver/lib/chromedriver/chromedriver`.  The terminal will also report the full path of this driver when you rebuild with `npm rb`.
 
 ### Running the tests ###
 Tests are run using the [Gulp.js](https://gulpjs.com/) task runner.  Each test run will test a widget against it's corresponding .gspec file in the `specs` folder for the device resolutions defined in the `devices.js` file.
 
-* Run the test with the command line - `gulp test -w=<widgetname> -l=<location>`.
+* Run the test with the command line: `gulp test -w=<widgetname> -l=<location>`.
     * `widgetname` is the widget to test.  Leaving this blank will run tests on all available widgets.  Currently available widgets are:
         * `multistat`
         * `scoreboard`
         * `standings`
 
     * `location` is where to run the tests.  Leaving this blank will default to "local". Options are:
-        * `local` - run the tests on your local computer.
+        * `local` - run the tests on your local computer using Chromedriver.
         * `remote` - run the tests on Browserstack w/ the browser-OS combinations defined in the `remote-plaforms.js` file.
         * `grid` - run the tests on a Selenium Grid (must be set up prior) w/ the browser-OS combinations defined in the `grid-platforms.js` file.
 
