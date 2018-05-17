@@ -20,7 +20,10 @@
       prob_team_abbreviation-*   .team-abbreviation
       prob_pitcher_headshot-*    .headshot-container
       prob_pitcher_name-*        .pitcher-name
-      batting_header             .batting-lineup-header
+      batting_header_title       .batting-lineup-header
+      batting_header_toggle      .toggle-container
+          tab-*                  .toggle
+      batting_header_row         .lineup-container-header-row
       batting_header_hr          .lineup-container-header-row th:nth-child(4)
       batting_header_rbi         .lineup-container-header-row th:nth-child(5)
       batting_header_avg         .lineup-container-header-row th:nth-child(6)
@@ -207,9 +210,25 @@
             scorecard.prob_pitcher_name-1:
               aligned vertically left scorecard.prob_pitcher_name-2
 
-            scorecard.batting_header:
+            scorecard.batting_header_title:
               centered horizontally inside scorecard.event_body
               text uppercase is "BATTING ORDER"
+
+            scorecard.batting_header_toggle:
+              centered horizontally inside scorecard.event_body
+              below scorecard.batting_header_title
+              above scorecard.batting_header_row
+
+            scorecard.batting_header_toggle.tab-1:
+              height 24px
+              width 104px
+              below scorecard.batting_header_title 16px
+              aligned horizontally all scorecard.batting_header_toggle.tab-2
+
+            scorecard.batting_header_toggle.tab-2:
+              height 24px
+              width 104px
+              right-of scorecard.batting_header_toggle.tab-1 0px
 
             @forEach [scorecard.batter_container-*] as item, prev as previousItem
               ${item}:
