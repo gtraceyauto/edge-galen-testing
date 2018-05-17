@@ -14,30 +14,51 @@
       runners_on_base            .runners-on-base-container
       outs_container             .outs-container
       scoreboard_button          .scoreboard-button
+      boxscore_button            .navigation-button.event-link
       probables_header           .pitching-probables-header
       prob_pitcher_container-*   .pitcher-container
       prob_team_abbreviation-*   .team-abbreviation
       prob_pitcher_headshot-*    .headshot-container
       prob_pitcher_name-*        .pitcher-name
       batting_header             .batting-lineup-header
+      batting_header_hr          .lineup-container-header-row th:nth-child(4)
+      batting_header_rbi         .lineup-container-header-row th:nth-child(5)
+      batting_header_avg         .lineup-container-header-row th:nth-child(6)
       batter_container-*         .batter
       batter_slot-*              .batting-slot
       batter_position-*          .position
-      batter_name-*              .batter div.name
-      batter_stat_hr-*           .batter div:nth-child(4)
-      batter_stat_rbi-*          .batter div:nth-child(5)
-      batter_stat_avg-*          .batter div:nth-child(6)
-      current_pitcher_container  .current-pitcher-container
-      current_pitcher_label      .current-pitcher-label
-      current_batter_container   .current-batter-container
-      current_batter_label       .current-batter-label
-      balls_strikes_outs_header  .balls-strikes-outs
+      batter_name-*              .batter a.name
+      batter_stat_hr-*           .batter td:nth-child(4)
+      batter_stat_rbi-*          .batter td:nth-child(5)
+      batter_stat_avg-*          .batter td:nth-child(6)
+      current_pitcher            .current-pitcher-container
+          label                  .current-pitcher-label
+          headshot               .headshot
+          name                   .player-link
+      current_batter             .current-batter-container
+          label                  .current-batter-label
+          headshot               .headshot
+          name                   .player-link
+      bso_field                  .balls-strikes-outs
+      balls                      .balls-strikes-outs div.data-container:nth-child(1)
+          label                  .balls
+          circle-*               .circle
+      strikes                    .balls-strikes-outs div.data-container:nth-child(2)
+          label                  .strikes
+          circle-*               .circle
+      outs                       .balls-strikes-outs div.data-container:nth-child(3)
+          label                  .outs
+          circle-*               .circle
       stats_baseball_field       #stats-baseball-field
 
 @groups
-  rhe_header            scorecard.runs-1, scorecard.hits-1, scorecard.errors-1
-  rhe_team_1            scorecard.runs-2, scorecard.hits-2, scorecard.errors-2
-  rhe_team_2            scorecard.runs-3, scorecard.hits-3, scorecard.errors-3
+  rhe_header                scorecard.runs-1, scorecard.hits-1, scorecard.errors-1
+  rhe_team_1                scorecard.runs-2, scorecard.hits-2, scorecard.errors-2
+  rhe_team_2                scorecard.runs-3, scorecard.hits-3, scorecard.errors-3
+  hr_column                 scorecard.batting_header_hr, scorecard.batter_stat_hr-*
+  rbi_column                scorecard.batting_header_rbi, scorecard.batter_stat_rbi-*
+  avg_column                scorecard.batting_header_avg, scorecard.batter_stat_avg-*
+  balls_strikes_outs_row    scorecard.balls.label, scorecard.balls.circle-*, scorecard.strikes.label, scorecard.strikes.circle-*, scorecard.outs.label, scorecard.outs.circle-*
 
 = Scorecard =
   @on *
@@ -51,143 +72,170 @@
       aligned vertically centered scorecard.team_logo-1
 
     scorecard.scoreboard_button:
+      height 32px
       on top left edge scorecard.event_body 24px right
 
+    @if ${isVisible("scorecard.runners_on_base")}
+        = Game-in-progress View =
+            scorecard.boxscore_button:
+              height 32px
+              aligned horizontally all scorecard.scoreboard_button
+              right-of scorecard.scoreboard_button 8 to 20px
 
-    @if ${isVisible("scorecard.team_name-3")}
-      scorecard.team_name-2:
-        height 19px
+            scorecard.team_name-2:
+              height 19px
 
-      scorecard.team_name-3:
-        height 19px
-        below scorecard.team_name-2
-        aligned vertically left scorecard.team_name-2
+            scorecard.team_name-3:
+              height 19px
+              below scorecard.team_name-2
+              aligned vertically left scorecard.team_name-2
 
-      scorecard.team_record-1:
-        below scorecard.team_name-2
-        aligned vertically left scorecard.team_name-2
+            scorecard.team_record-1:
+              below scorecard.team_name-2
+              aligned vertically left scorecard.team_name-2
 
-      scorecard.team_record-2:
-        below scorecard.team_name-3
-        aligned vertically left scorecard.team_name-3
+            scorecard.team_record-2:
+              below scorecard.team_name-3
+              aligned vertically left scorecard.team_name-3
 
-    @else
-      scorecard.team_name-1:
-        height 19px
-
-      scorecard.team_name-2:
-        height 19px
-        below scorecard.team_name-1
-        aligned vertically left scorecard.team_name-1
-
-      scorecard.team_record-1:
-        below scorecard.team_name-1
-        aligned vertically left scorecard.team_name-1
-
-      scorecard.team_record-2:
-        below scorecard.team_name-2
-        aligned vertically left scorecard.team_name-2
-
-
-    = Pre-game View =
-      @if ${isVisible("scorecard.pitcher_name-1")}
-        scorecard.pitcher_name-1:
-          aligned vertically right scorecard.pitcher_stats-1
-          aligned vertically right scorecard.pitcher_name-2
-          aligned vertically right scorecard.pitcher_stats-2
-
-      @if ${isVisible("scorecard.probables_header")}
-        scorecard.probables_header:
-          centered horizontally inside scorecard.event_body
-          text uppercase is "PITCHING PROBABLES"
-
-      @if ${isVisible("scorecard.prob_pitcher_container-1")}
-        scorecard.prob_pitcher_container-1:
-          centered horizontally inside scorecard.event_body
-          aligned vertically all scorecard.prob_pitcher_container-2
-
-      @if ${isVisible("scorecard.prob_team_abbreviation-1")}
-        scorecard.prob_team_abbreviation-1:
-          aligned vertically all scorecard.prob_team_abbreviation-2
-
-      @if ${isVisible("scorecard.prob_pitcher_headshot-1")}
-        scorecard.prob_pitcher_headshot-1:
-          aligned vertically all scorecard.prob_pitcher_headshot-2
-
-      @if ${isVisible("scorecard.prob_pitcher_name-1")}
-        scorecard.prob_pitcher_name-1:
-          aligned vertically left scorecard.prob_pitcher_name-2
-
-      @if ${isVisible("scorecard.batting_header")}
-        scorecard.batting_header:
-          centered horizontally inside scorecard.event_body
-          text uppercase is "BATTING ORDER"
-
-      @forEach [scorecard.batter_container-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  centered horizontally inside scorecard.event_body
-                  aligned vertically all ${previousItem}
-
-      @forEach [scorecard.batter_slot-*] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [scorecard.runs-*] as item, prev as previousItem
               ${item}:
                   aligned vertically all ${previousItem}
 
-      @forEach [scorecard.batter_position-*] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [scorecard.hits-*] as item, prev as previousItem
               ${item}:
                   aligned vertically all ${previousItem}
 
-      @forEach [scorecard.batter_name-*] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [scorecard.errors-*] as item, prev as previousItem
               ${item}:
                   aligned vertically all ${previousItem}
 
-      @forEach [scorecard.batter_stat_hr-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-      @forEach [scorecard.batter_stat_rbi-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-      @forEach [scorecard.batter_stat_avg-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-    = Game-in-progress View =
-      @forEach [scorecard.runs-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-      @forEach [scorecard.hits-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-      @forEach [scorecard.errors-*] as item, prev as previousItem
-          @if ${isVisible(item)}
-              ${item}:
-                  aligned vertically all ${previousItem}
-
-      @forEach [&rhe_header] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [&rhe_header] as item, prev as previousItem
               ${item}:
                   aligned horizontally all ${previousItem}
 
-      @forEach [&rhe_team_1] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [&rhe_team_1] as item, prev as previousItem
               ${item}:
                   aligned horizontally all ${previousItem}
                   aligned horizontally all scorecard.team_name-2
 
-      @forEach [&rhe_team_2] as item, prev as previousItem
-          @if ${isVisible(item)}
+            @forEach [&rhe_team_2] as item, prev as previousItem
               ${item}:
                   aligned horizontally all ${previousItem}
                   aligned horizontally all scorecard.team_name-3
+
+            scorecard.current_pitcher.label:
+              on top left edge scorecard.event_body 24px right
+              aligned vertically left scorecard.current_batter.label
+              aligned horizontally centered scorecard.current_pitcher.headshot
+
+            scorecard.current_pitcher.headshot:
+              right-of scorecard.current_pitcher.label
+              aligned vertically all scorecard.current_batter.headshot
+              aligned horizontally centered scorecard.current_pitcher.name
+
+            scorecard.current_pitcher.name:
+              right-of scorecard.current_pitcher.headshot
+              aligned vertically left scorecard.current_batter.name
+
+            scorecard.current_batter.label:
+              below scorecard.current_pitcher.label
+              aligned horizontally centered scorecard.current_batter.headshot
+
+            scorecard.current_batter.headshot:
+              below scorecard.current_pitcher.headshot
+              right-of scorecard.current_batter.label
+              aligned horizontally centered scorecard.current_batter.name
+
+            scorecard.current_batter.name:
+              below scorecard.current_pitcher.name
+              right-of scorecard.current_batter.headshot
+
+            scorecard.bso_field:
+              below scorecard.current_batter
+
+            global:
+              count any scorecard.balls.circle-* is 4
+              count any scorecard.strikes.circle-* is 3
+              count any scorecard.outs.circle-* is 3
+
+            @forEach [&balls_strikes_outs_row] as item, prev as previousItem
+              ${item}:
+                  aligned horizontally centered ${previousItem}
+
+            scorecard.stats_baseball_field:
+              below scorecard.bso_field
+              centered horizontally inside scorecard.event_body
+
+    @else
+        = Pre-game View =
+            scorecard.team_name-1:
+              height 19px
+
+            scorecard.team_name-2:
+              height 19px
+              below scorecard.team_name-1
+              aligned vertically left scorecard.team_name-1
+
+            scorecard.team_record-1:
+              below scorecard.team_name-1
+              aligned vertically left scorecard.team_name-1
+
+            scorecard.team_record-2:
+              below scorecard.team_name-2
+              aligned vertically left scorecard.team_name-2
+
+            scorecard.pitcher_name-1:
+              aligned vertically right scorecard.pitcher_stats-1
+              aligned vertically right scorecard.pitcher_name-2
+              aligned vertically right scorecard.pitcher_stats-2
+
+            scorecard.probables_header:
+              centered horizontally inside scorecard.event_body
+              text uppercase is "PITCHING PROBABLES"
+
+            scorecard.prob_pitcher_container-1:
+              centered horizontally inside scorecard.event_body
+              aligned vertically all scorecard.prob_pitcher_container-2
+
+            scorecard.prob_team_abbreviation-1:
+              aligned vertically all scorecard.prob_team_abbreviation-2
+
+            scorecard.prob_pitcher_headshot-1:
+              aligned vertically all scorecard.prob_pitcher_headshot-2
+
+            scorecard.prob_pitcher_name-1:
+              aligned vertically left scorecard.prob_pitcher_name-2
+
+            scorecard.batting_header:
+              centered horizontally inside scorecard.event_body
+              text uppercase is "BATTING ORDER"
+
+            @forEach [scorecard.batter_container-*] as item, prev as previousItem
+              ${item}:
+                  centered horizontally inside scorecard.event_body
+                  aligned vertically all ${previousItem}
+
+            @forEach [scorecard.batter_slot-*] as item, prev as previousItem
+              ${item}:
+                  aligned vertically all ${previousItem}
+
+            @forEach [scorecard.batter_position-*] as item, prev as previousItem
+              ${item}:
+                  aligned vertically all ${previousItem}
+
+            @forEach [scorecard.batter_name-*] as item, prev as previousItem
+              ${item}:
+                  aligned vertically left ${previousItem}
+
+            @forEach [&hr_column] as item, prev as previousItem
+              ${item}:
+                  aligned vertically all ${previousItem}
+
+            @forEach [&rbi_column] as item, prev as previousItem
+              ${item}:
+                  aligned vertically all ${previousItem}
+
+            @forEach [&avg_column] as item, prev as previousItem
+              ${item}:
+                  aligned vertically all ${previousItem}
