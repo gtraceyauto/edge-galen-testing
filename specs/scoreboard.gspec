@@ -210,51 +210,53 @@
             scorecard.prob_pitcher_name-1:
               aligned vertically left scorecard.prob_pitcher_name-2
 
-            scorecard.batting_header_title:
-              centered horizontally inside scorecard.event_body
-              text uppercase is "BATTING ORDER"
+            @if ${isVisible("scorecard.batting_header_title")}
+                = Batting Lineup =
+                    scorecard.batting_header_title:
+                      centered horizontally inside scorecard.event_body
+                      text uppercase is "BATTING ORDER"
 
-            scorecard.batting_header_toggle:
-              centered horizontally inside scorecard.event_body
-              below scorecard.batting_header_title
-              above scorecard.batting_header_row
+                    scorecard.batting_header_toggle:
+                      centered horizontally inside scorecard.event_body
+                      below scorecard.batting_header_title
+                      above scorecard.batting_header_row
 
-            scorecard.batting_header_toggle.tab-1:
-              height 24px
-              width 104px
-              below scorecard.batting_header_title 16px
-              aligned horizontally all scorecard.batting_header_toggle.tab-2
+                    scorecard.batting_header_toggle.tab-1:
+                      height 24px
+                      width 104px
+                      below scorecard.batting_header_title 16px
+                      aligned horizontally all scorecard.batting_header_toggle.tab-2
 
-            scorecard.batting_header_toggle.tab-2:
-              height 24px
-              width 104px
-              right-of scorecard.batting_header_toggle.tab-1 0px
+                    scorecard.batting_header_toggle.tab-2:
+                      height 24px
+                      width 104px
+                      right-of scorecard.batting_header_toggle.tab-1 0px
 
-            @forEach [scorecard.batter_container-*] as item, prev as previousItem
-              ${item}:
-                  centered horizontally inside scorecard.event_body
-                  aligned vertically all ${previousItem}
+                    @forEach [scorecard.batter_container-*] as item, prev as previousItem
+                      ${item}:
+                          centered horizontally inside scorecard.event_body
+                          aligned vertically all ${previousItem}
 
-            @forEach [scorecard.batter_slot-*] as item, prev as previousItem
-              ${item}:
-                  aligned vertically all ${previousItem}
+                    @forEach [scorecard.batter_slot-*] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically all ${previousItem}
 
-            @forEach [scorecard.batter_position-*] as item, prev as previousItem
-              ${item}:
-                  aligned vertically all ${previousItem}
+                    @forEach [scorecard.batter_position-*] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically all ${previousItem}
 
-            @forEach [scorecard.batter_name-*] as item, prev as previousItem
-              ${item}:
-                  aligned vertically left ${previousItem}
+                    @forEach [scorecard.batter_name-*] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically left ${previousItem}
 
-            @forEach [&hr_column] as item, prev as previousItem
-              ${item}:
-                  aligned vertically all ${previousItem}
+                    @forEach [&hr_column] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically all ${previousItem}
 
-            @forEach [&rbi_column] as item, prev as previousItem
-              ${item}:
-                  aligned vertically all ${previousItem}
+                    @forEach [&rbi_column] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically all ${previousItem}
 
-            @forEach [&avg_column] as item, prev as previousItem
-              ${item}:
-                  aligned vertically all ${previousItem}
+                    @forEach [&avg_column] as item, prev as previousItem
+                      ${item}:
+                          aligned vertically all ${previousItem}
