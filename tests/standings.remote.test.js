@@ -13,7 +13,7 @@ this.StandingsPage = function(driver) {
   });
 };
 
-forAll(platforms, function() {
+forAll(supportedPlatforms, function() {
   forAll(devices, function() {
     test(widgetName + ' layout on ${deviceName} - ${browser} ${browserVersion} - ${os} ${osVersion}', function(platform, device) {
       var testName = widgetName + ' layout on ' + device.deviceName;
