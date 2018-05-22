@@ -31,7 +31,7 @@ forAll(platforms, function() {
       resize(driver, device.size);
       scorecardPage.snapshotButton.waitToBeShown('5s');
       scorecardPage.snapshotButton.clickAt(10, 10);
-      if (scorecardPage.runnersOnBaseContainer.isDisplayed()) {
+      if (scorecardPage.runnersOnBaseContainer.exists()) {
         scorecardPage.eventBodyBottom.waitToBeShown('5s');
       } else {
         scorecardPage.mlbPreview.waitToBeShown('5s');

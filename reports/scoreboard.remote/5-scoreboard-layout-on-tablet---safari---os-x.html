@@ -1,6 +1,15 @@
-{
-  "testId" : "2-scoreboard-layout-on-tablet",
-  "name" : "scoreboard layout on tablet",
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "5-scoreboard-layout-on-tablet---safari---os-x",
+  "name" : "scoreboard layout on tablet - safari - OS X",
   "report" : {
     "nodes" : [ {
       "name" : "Click snapshotButton on ScoreboardPage with offset [10, 10]",
@@ -9,12 +18,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527007136584,
+      "time" : 1527008232849,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1527007139755,
+      "time" : 1527008242202,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -278,71 +287,307 @@
       } ],
       "objects" : {
         "scorecard.team_record-1" : {
-          "area" : [ 49, 356, 45, 15 ]
+          "area" : [ 49, 358, 44, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 193, 335, 120, 15 ]
+          "area" : [ 195, 337, 119, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
-          "area" : [ 78, 514, 208, 80 ]
+          "area" : [ 78, 516, 208, 80 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 181, 374, 132, 15 ]
+          "area" : [ 182, 376, 132, 15 ]
         },
         "scorecard.prob_pitcher_container-2" : {
-          "area" : [ 78, 594, 208, 80 ]
+          "area" : [ 78, 596, 208, 80 ]
         },
         "scorecard.team_logo-2" : {
-          "area" : [ 33, 371, 24, 24 ]
+          "area" : [ 33, 373, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 193, 352, 120, 15 ]
+          "area" : [ 195, 354, 119, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 181, 391, 132, 15 ]
+          "area" : [ 182, 393, 132, 15 ]
         },
         "scorecard.team_record-2" : {
-          "area" : [ 49, 395, 45, 15 ]
+          "area" : [ 49, 397, 44, 15 ]
         },
         "scorecard.team_logo-1" : {
-          "area" : [ 33, 332, 24, 24 ]
+          "area" : [ 33, 334, 24, 24 ]
         },
         "scorecard.prob_pitcher_name-2" : {
-          "area" : [ 190, 609, 96, 16 ]
+          "area" : [ 190, 611, 96, 16 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 57, 332, 56, 24 ]
+          "area" : [ 57, 334, 56, 24 ]
         },
         "scorecard.scoreboard_button" : {
-          "area" : [ 29, 426, 145, 32 ]
+          "area" : [ 29, 428, 145, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 57, 371, 41, 24 ]
+          "area" : [ 57, 373, 40, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
-          "area" : [ 78, 525, 48, 21 ]
+          "area" : [ 78, 527, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-1" : {
-          "area" : [ 126, 514, 48, 51 ]
+          "area" : [ 126, 516, 48, 51 ]
         },
         "scorecard.prob_team_abbreviation-2" : {
-          "area" : [ 78, 605, 48, 21 ]
+          "area" : [ 78, 607, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-2" : {
-          "area" : [ 126, 594, 48, 51 ]
+          "area" : [ 126, 596, 48, 51 ]
         },
         "scorecard.event_body" : {
-          "area" : [ 0, 310, 364, 366 ]
+          "area" : [ 0, 312, 364, 365 ]
         },
         "scorecard.prob_pitcher_name-1" : {
-          "area" : [ 190, 529, 96, 16 ]
+          "area" : [ 190, 531, 96, 16 ]
         },
         "scorecard.probables_header" : {
-          "area" : [ 1, 474, 361, 40 ]
+          "area" : [ 1, 476, 362, 40 ]
         }
       },
-      "screenshot" : "layout-2-screenshot.png",
+      "screenshot" : "layout-5-screenshot.png",
       "type" : "layout"
     } ]
   }
-}
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" {{#if screenshot}}data-screenshot="{{screenshot}}"{{/if}}>
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#" title="{{place.filePath}}#{{place.lineNumber}}">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.html">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>scoreboard layout on tablet - safari - OS X</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

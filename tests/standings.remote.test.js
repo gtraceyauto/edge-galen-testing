@@ -15,11 +15,12 @@ this.StandingsPage = function(driver) {
 
 forAll(platforms, function() {
   forAll(devices, function() {
-    test(widgetName + ' layout on ${deviceName} - ${browser} - ${os}', function(platform, device) {
+    test(widgetName + ' layout on ${deviceName} - ${browser} ${browserVersion} - ${os} ${osVersion}', function(platform, device) {
       var testName = widgetName + ' layout on ' + device.deviceName;
       var driver = createGridDriver(config.browserstack.url, {
         desiredCapabilities: {
           browser: platform.browser,
+          browser_version: platform.browserVersion,
           os: platform.os,
           os_version: platform.osVersion,
           name: testName.toString(),

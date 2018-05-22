@@ -1,0 +1,93 @@
+{
+  "tests" : [ {
+    "name" : "scoreboard layout on mobile - IE 11.0 - Windows 7",
+    "startedAt" : 1527008837286,
+    "endedAt" : 1527008916378,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "1-scoreboard-layout-on-mobile---ie-11.0---windows-7",
+    "groups" : [ ],
+    "duration" : 79092,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - IE 11.0 - Windows 7",
+    "startedAt" : 1527008922222,
+    "endedAt" : 1527008988279,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "2-scoreboard-layout-on-tablet---ie-11.0---windows-7",
+    "groups" : [ ],
+    "duration" : 66057,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - IE 11.0 - Windows 7",
+    "startedAt" : 1527008993011,
+    "endedAt" : 1527009062231,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "3-scoreboard-layout-on-desktop---ie-11.0---windows-7",
+    "groups" : [ ],
+    "duration" : 69220,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - safari 11.1 - OS X High Sierra",
+    "startedAt" : 1527009068565,
+    "endedAt" : 1527009084078,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "4-scoreboard-layout-on-mobile---safari-11.1---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 15513,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - safari 11.1 - OS X High Sierra",
+    "startedAt" : 1527009098855,
+    "endedAt" : 1527009114571,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "5-scoreboard-layout-on-tablet---safari-11.1---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 15716,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - safari 11.1 - OS X High Sierra",
+    "startedAt" : 1527009131521,
+    "endedAt" : 1527009150029,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "6-scoreboard-layout-on-desktop---safari-11.1---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 18508,
+    "failed" : true
+  } ]
+}

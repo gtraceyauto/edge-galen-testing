@@ -1,48 +1,48 @@
 {
   "tests" : [ {
     "name" : "scoreboard layout on mobile",
-    "startedAt" : 1526652157390,
-    "endedAt" : 1526652169200,
+    "startedAt" : 1527007127285,
+    "endedAt" : 1527007133842,
     "failed" : true,
     "statistic" : {
-      "passed" : 18,
-      "errors" : 8,
+      "passed" : 21,
+      "errors" : 5,
       "warnings" : 0,
       "total" : 26
     },
     "testId" : "1-scoreboard-layout-on-mobile",
     "groups" : [ ],
-    "duration" : 11810,
+    "duration" : 6557,
     "failed" : true
   }, {
     "name" : "scoreboard layout on tablet",
-    "startedAt" : 1526652157390,
-    "endedAt" : 1526652169466,
+    "startedAt" : 1527007133943,
+    "endedAt" : 1527007139755,
     "failed" : true,
     "statistic" : {
-      "passed" : 18,
-      "errors" : 8,
+      "passed" : 21,
+      "errors" : 5,
       "warnings" : 0,
       "total" : 26
     },
     "testId" : "2-scoreboard-layout-on-tablet",
     "groups" : [ ],
-    "duration" : 12076,
+    "duration" : 5812,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop",
-    "startedAt" : 1526652157390,
-    "endedAt" : 1526652169873,
+    "startedAt" : 1527007139853,
+    "endedAt" : 1527007145197,
     "failed" : true,
     "statistic" : {
-      "passed" : 18,
-      "errors" : 8,
+      "passed" : 21,
+      "errors" : 5,
       "warnings" : 0,
       "total" : 26
     },
     "testId" : "3-scoreboard-layout-on-desktop",
     "groups" : [ ],
-    "duration" : 12483,
+    "duration" : 5344,
     "failed" : true
   } ]
 }

@@ -1,6 +1,6 @@
 {
-  "testId" : "2-scoreboard-layout-on-tablet",
-  "name" : "scoreboard layout on tablet",
+  "testId" : "2-scoreboard-layout-on-tablet---ie---windows",
+  "name" : "scoreboard layout on tablet - IE - Windows",
   "report" : {
     "nodes" : [ {
       "name" : "Click snapshotButton on ScoreboardPage with offset [10, 10]",
@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527007136584,
+      "time" : 1527008038185,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1527007139755,
+      "time" : 1527008103006,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -85,7 +85,7 @@
               "lineNumber" : 79
             },
             "name" : "on top left edge scorecard.event_body 24px right",
-            "errors" : [ "\"scorecard.scoreboard_button\" is 29px right instead of 24px" ],
+            "errors" : [ "\"scorecard.scoreboard_button\" is 27px right instead of 24px" ],
             "highlight" : [ "scorecard.scoreboard_button", "scorecard.event_body" ]
           } ]
         } ],
@@ -278,67 +278,67 @@
       } ],
       "objects" : {
         "scorecard.team_record-1" : {
-          "area" : [ 49, 356, 45, 15 ]
+          "area" : [ 49, 358, 44, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 193, 335, 120, 15 ]
+          "area" : [ 185, 337, 113, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
-          "area" : [ 78, 514, 208, 80 ]
+          "area" : [ 69, 515, 208, 80 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 181, 374, 132, 15 ]
+          "area" : [ 173, 375, 125, 15 ]
         },
         "scorecard.prob_pitcher_container-2" : {
-          "area" : [ 78, 594, 208, 80 ]
+          "area" : [ 69, 595, 208, 80 ]
         },
         "scorecard.team_logo-2" : {
-          "area" : [ 33, 371, 24, 24 ]
+          "area" : [ 33, 372, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 193, 352, 120, 15 ]
+          "area" : [ 185, 353, 113, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 181, 391, 132, 15 ]
+          "area" : [ 173, 392, 125, 15 ]
         },
         "scorecard.team_record-2" : {
-          "area" : [ 49, 395, 45, 15 ]
+          "area" : [ 49, 396, 44, 15 ]
         },
         "scorecard.team_logo-1" : {
-          "area" : [ 33, 332, 24, 24 ]
+          "area" : [ 33, 334, 24, 24 ]
         },
         "scorecard.prob_pitcher_name-2" : {
-          "area" : [ 190, 609, 96, 16 ]
+          "area" : [ 181, 610, 96, 16 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 57, 332, 56, 24 ]
+          "area" : [ 57, 334, 55, 24 ]
         },
         "scorecard.scoreboard_button" : {
-          "area" : [ 29, 426, 145, 32 ]
+          "area" : [ 27, 427, 138, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 57, 371, 41, 24 ]
+          "area" : [ 57, 372, 40, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
-          "area" : [ 78, 525, 48, 21 ]
+          "area" : [ 69, 526, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-1" : {
-          "area" : [ 126, 514, 48, 51 ]
+          "area" : [ 117, 515, 48, 51 ]
         },
         "scorecard.prob_team_abbreviation-2" : {
-          "area" : [ 78, 605, 48, 21 ]
+          "area" : [ 69, 606, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-2" : {
-          "area" : [ 126, 594, 48, 51 ]
+          "area" : [ 117, 595, 48, 51 ]
         },
         "scorecard.event_body" : {
-          "area" : [ 0, 310, 364, 366 ]
+          "area" : [ 0, 312, 348, 365 ]
         },
         "scorecard.prob_pitcher_name-1" : {
-          "area" : [ 190, 529, 96, 16 ]
+          "area" : [ 181, 530, 96, 16 ]
         },
         "scorecard.probables_header" : {
-          "area" : [ 1, 474, 361, 40 ]
+          "area" : [ 1, 475, 345, 40 ]
         }
       },
       "screenshot" : "layout-2-screenshot.png",

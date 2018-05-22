@@ -17,11 +17,12 @@ this.ScorecardPage = function(driver) {
 
 forAll(platforms, function() {
   forAll(devices, function() {
-    test(widgetName + ' layout on ${deviceName} - ${browser} - ${os}', function(platform, device) {
+    test(widgetName + ' layout on ${deviceName} - ${browser} ${browserVersion} - ${os} ${osVersion}', function(platform, device) {
       var testName = widgetName + ' layout on ' + device.deviceName;
       var driver = createGridDriver(config.browserstack.url, {
         desiredCapabilities: {
           browser: platform.browser,
+          browser_version: platform.browserVersion,
           os: platform.os,
           os_version: platform.osVersion,
           name: testName.toString(),
@@ -34,7 +35,7 @@ forAll(platforms, function() {
       resize(driver, device.size);
       scorecardPage.snapshotButton.waitToBeShown('5s');
       scorecardPage.snapshotButton.clickAt(10, 10);
-      if (scorecardPage.runnersOnBaseContainer.isDisplayed()) {
+      if (scorecardPage.runnersOnBaseContainer.exists()) {
         scorecardPage.eventBodyBottom.waitToBeShown('5s');
       } else {
         scorecardPage.mlbPreview.waitToBeShown('5s');
