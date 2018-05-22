@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527007142240,
+      "time" : 1527010420732,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
       "status" : "error",
-      "time" : 1527007145197,
+      "time" : 1527010423460,
       "includedTags" : [ "desktop" ],
       "sections" : [ {
         "name" : "Scorecard",

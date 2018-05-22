@@ -93,7 +93,11 @@ gulp.task('grid-node', function(done) {
 });
 
 //Serialized tasks
-gulp.task('test', gulp.series('clean', 'testWidgets', 'serve', function(done) {
+gulp.task('test', gulp.series('clean', 'testWidgets', function(done) {
+  done();
+}));
+
+gulp.task('testAndReport', gulp.series('clean', 'testWidgets', 'serve', function(done) {
   done();
 }));
 
