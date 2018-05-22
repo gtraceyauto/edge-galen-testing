@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "standings layout on mobile",
+    "startedAt" : 1526672773050,
+    "endedAt" : 1526672811383,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 422,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 429
+    },
+    "testId" : "1-standings-layout-on-mobile",
+    "groups" : [ ],
+    "duration" : 38333,
+    "failed" : true
+  }, {
+    "name" : "standings layout on tablet",
+    "startedAt" : 1526672773054,
+    "endedAt" : 1526672823089,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 607,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 614
+    },
+    "testId" : "2-standings-layout-on-tablet",
+    "groups" : [ ],
+    "duration" : 50035,
+    "failed" : true
+  }, {
+    "name" : "standings layout on desktop",
+    "startedAt" : 1526672773055,
+    "endedAt" : 1526672829623,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 718,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 725
+    },
+    "testId" : "3-standings-layout-on-desktop",
+    "groups" : [ ],
+    "duration" : 56568,
+    "failed" : true
+  } ]
+}

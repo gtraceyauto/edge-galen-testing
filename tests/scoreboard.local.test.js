@@ -7,7 +7,7 @@ var widgetName = widgetToTest.name;
 this.ScorecardPage = function(driver) {
   GalenPages.extendPage(this, driver, 'ScoreboardPage', {
     snapshotButton: '.game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button',
-    inProgressHeader: '.header-team-and-runners-on-base-container',
+    runnersOnBaseContainer: '.runners-on-base-container',
     mlbPreview: '#mlb-game-preview',
     eventBodyBottom: '.event-body-bottom'
   });
@@ -21,7 +21,11 @@ forAll(devices, function() {
     resize(driver, device.size);
     scorecardPage.snapshotButton.waitToBeShown('2s');
     scorecardPage.snapshotButton.clickAt(10, 10);
-    GalenPages.sleep(2000);
+    if (scorecardPage.runnersOnBaseContainer.isDisplayed()) {
+      scorecardPage.eventBodyBottom.waitToBeShown('5s');
+    } else {
+      scorecardPage.mlbPreview.waitToBeShown('5s');
+    }
     checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
   });
 });
