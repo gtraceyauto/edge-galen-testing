@@ -2,7 +2,7 @@
 
 @objects
   widget_container             #mlb-league-standings
-  header                       .header
+  header                       .widget-header
   toggle_container             .toggle-container
       tab-*                    .toggle
   al_conference                #mlb-league-standings div.conference-container:nth-child(3)

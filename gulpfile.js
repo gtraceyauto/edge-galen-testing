@@ -13,7 +13,7 @@ var widgetToTest = argv.w ? argv.w : '*';
 var whereToTest = argv.l ? argv.l : 'local';
 var reportsDir = 'reports';
 var gridHubUrl = 'http://10.203.220.61:4444/grid/register/';
-var parallelTests = 1;
+var parallelTests = whereToTest == 'local' ? 3 : 1;
 
 //Task to erase previous test reports
 gulp.task('clean', function(done) {

@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "scoreboard layout on mobile - Chrome  - Windows 10",
+    "startedAt" : 1527086833259,
+    "endedAt" : 1527086857224,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "1-scoreboard-layout-on-mobile---chrome---windows-10",
+    "groups" : [ ],
+    "duration" : 23965,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - Chrome  - Windows 10",
+    "startedAt" : 1527086862171,
+    "endedAt" : 1527086887459,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "2-scoreboard-layout-on-tablet---chrome---windows-10",
+    "groups" : [ ],
+    "duration" : 25288,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - Chrome  - Windows 10",
+    "startedAt" : 1527086897631,
+    "endedAt" : 1527086926121,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "3-scoreboard-layout-on-desktop---chrome---windows-10",
+    "groups" : [ ],
+    "duration" : 28490,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - FireFox  - Windows 10",
+    "startedAt" : 1527086936130,
+    "endedAt" : 1527086970388,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "4-scoreboard-layout-on-mobile---firefox---windows-10",
+    "groups" : [ ],
+    "duration" : 34258,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - FireFox  - Windows 10",
+    "startedAt" : 1527086976048,
+    "endedAt" : 1527087006525,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "5-scoreboard-layout-on-tablet---firefox---windows-10",
+    "groups" : [ ],
+    "duration" : 30477,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - FireFox  - Windows 10",
+    "startedAt" : 1527087014155,
+    "endedAt" : 1527087047414,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "6-scoreboard-layout-on-desktop---firefox---windows-10",
+    "groups" : [ ],
+    "duration" : 33259,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - IE  - Windows 10",
+    "startedAt" : 1527087053329,
+    "endedAt" : 1527087108788,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "7-scoreboard-layout-on-mobile---ie---windows-10",
+    "groups" : [ ],
+    "duration" : 55459,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - IE  - Windows 10",
+    "startedAt" : 1527087114419,
+    "endedAt" : 1527087169502,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "8-scoreboard-layout-on-tablet---ie---windows-10",
+    "groups" : [ ],
+    "duration" : 55083,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - IE  - Windows 10",
+    "startedAt" : 1527087175077,
+    "endedAt" : 1527087235960,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "9-scoreboard-layout-on-desktop---ie---windows-10",
+    "groups" : [ ],
+    "duration" : 60883,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - Edge  - Windows 10",
+    "startedAt" : 1527087241234,
+    "endedAt" : 1527087265470,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "10-scoreboard-layout-on-mobile---edge---windows-10",
+    "groups" : [ ],
+    "duration" : 24236,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - Edge  - Windows 10",
+    "startedAt" : 1527087278261,
+    "endedAt" : 1527087298682,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "11-scoreboard-layout-on-tablet---edge---windows-10",
+    "groups" : [ ],
+    "duration" : 20421,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - Edge  - Windows 10",
+    "startedAt" : 1527087306824,
+    "endedAt" : 1527087327149,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "12-scoreboard-layout-on-desktop---edge---windows-10",
+    "groups" : [ ],
+    "duration" : 20325,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on mobile - Safari  - OS X High Sierra",
+    "startedAt" : 1527087334755,
+    "endedAt" : 1527087355133,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "13-scoreboard-layout-on-mobile---safari---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 20378,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - Safari  - OS X High Sierra",
+    "startedAt" : 1527087373688,
+    "endedAt" : 1527087398098,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "14-scoreboard-layout-on-tablet---safari---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 24410,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on desktop - Safari  - OS X High Sierra",
+    "startedAt" : 1527087418847,
+    "endedAt" : 1527087443014,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "15-scoreboard-layout-on-desktop---safari---os-x-high-sierra",
+    "groups" : [ ],
+    "duration" : 24167,
+    "failed" : true
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

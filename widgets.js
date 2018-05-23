@@ -4,8 +4,8 @@ function Widget(name, url) {
 }
 
 var widgets = {
-  multistat: new Widget(
-    'multistat',
+  teamstats: new Widget(
+    'teamstats',
     'http://prod-stats-hosted-demo.us-east-1.elasticbeanstalk.com/baseball/mlb/teams/multistat'
   ),
   scoreboard: new Widget(

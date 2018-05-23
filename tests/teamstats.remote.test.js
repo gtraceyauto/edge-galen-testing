@@ -3,11 +3,11 @@ load('/widgets.js');
 load('/remote-platforms.js');
 load('/cloud-service.conf.js');
 
-var widgetToTest = widgets.multistat;
+var widgetToTest = widgets.teamstats;
 var widgetName = widgetToTest.name;
 
-this.MultistatPage = function(driver) {
-  GalenPages.extendPage(this, driver, 'multistat', {
+this.TeamstatsPage = function(driver) {
+  GalenPages.extendPage(this, driver, 'teamstats', {
     mainContainer: '.main-container',
     pitchingTab: '.player-category-toggle > div.toggle-container > div:nth-child(2)'
   });
@@ -29,13 +29,13 @@ forAll(supportedPlatforms, function() {
       });
       session.put('driver', driver);
       driver.get(widgetToTest.url);
-      var multistatPage = new MultistatPage(driver);
+      var teamstatsPage = new TeamstatsPage(driver);
       resize(driver, device.size);
-      multistatPage.mainContainer.waitToBeShown('2s');
+      teamstatsPage.mainContainer.waitToBeShown('2s');
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
-      multistatPage.pitchingTab.clickAt(5, 5);
+      teamstatsPage.pitchingTab.clickAt(5, 5);
       GalenPages.sleep(1000);
-      checkLayout(driver, 'specs/multistat.pitching.gspec', device.tag);
+      checkLayout(driver, 'specs/teamstats.pitching.gspec', device.tag);
     });
   });
 });

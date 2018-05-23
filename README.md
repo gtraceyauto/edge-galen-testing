@@ -24,7 +24,7 @@ Tests are run using the [Gulp.js](https://gulpjs.com/) task runner.  Each test r
 
 * Run the test with the command line: `gulp test -w=<widgetname> -l=<location>`.
     * `widgetname` is the widget to test.  Leaving this blank will run tests on all available widgets.  Currently available widgets are:
-        * `multistat`
+        * `teamstats`
         * `scoreboard`
         * `standings`
 

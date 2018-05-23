@@ -2,7 +2,7 @@
 
 @objects
   widget_container                .shs-mlb-team-multi-stat
-  header                          .header
+  header                          .widget-header
   selection_header                .selection-header
   player_category_toggle          .player-category-toggle
       tab-*                       .toggle

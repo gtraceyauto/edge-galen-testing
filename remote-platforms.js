@@ -15,7 +15,7 @@ var supportedPlatforms = {
   Chrome_Latest_Win10: new Platform('Chrome', '', 'Windows', '10'),
   Firefox_Latest_Win10: new Platform('FireFox', '', 'Windows', '10'),
   IE11_Latest_Wind10: new Platform('IE', '', 'Windows', '10'),
-  Edge_Latest_Win10: new Platform('Edge', '', 'Windows', '10'),
+  Edge_Latest_Win10: new Platform('Edge', '', 'Windows', '10')
   Safari_Latest_MacOS: new Platform('Safari', '', 'OS X', 'High Sierra')
 };
 

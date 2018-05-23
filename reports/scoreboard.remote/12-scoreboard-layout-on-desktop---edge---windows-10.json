@@ -1,0 +1,348 @@
+{
+  "testId" : "12-scoreboard-layout-on-desktop---edge---windows-10",
+  "name" : "scoreboard layout on desktop - Edge  - Windows 10",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Click snapshotButton on ScoreboardPage with offset [10, 10]",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
+        "type" : "text"
+      } ],
+      "time" : 1527087314560,
+      "type" : "node"
+    }, {
+      "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
+      "status" : "error",
+      "time" : 1527087327149,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Scorecard",
+        "place" : {
+          "filePath" : "specs/scoreboard.gspec",
+          "lineNumber" : 66
+        },
+        "objects" : [ {
+          "name" : "scorecard.team_logo-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 69
+            },
+            "name" : "height 24px",
+            "highlight" : [ "scorecard.team_logo-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "width 24px",
+            "highlight" : [ "scorecard.team_logo-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.team_logo-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 73
+            },
+            "name" : "height 24px",
+            "highlight" : [ "scorecard.team_logo-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 74
+            },
+            "name" : "width 24px",
+            "highlight" : [ "scorecard.team_logo-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 75
+            },
+            "name" : "aligned vertically centered scorecard.team_logo-1",
+            "highlight" : [ "scorecard.team_logo-2", "scorecard.team_logo-1" ]
+          } ]
+        }, {
+          "name" : "scorecard.scoreboard_button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 78
+            },
+            "name" : "height 32px",
+            "highlight" : [ "scorecard.scoreboard_button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/scoreboard.gspec",
+              "lineNumber" : 79
+            },
+            "name" : "on top left edge scorecard.event_body 24px right",
+            "errors" : [ "\"scorecard.scoreboard_button\" is 41px right instead of 24px" ],
+            "highlight" : [ "scorecard.scoreboard_button", "scorecard.event_body" ]
+          } ]
+        } ],
+        "sections" : [ {
+          "name" : "Pre-game View",
+          "place" : {
+            "filePath" : "specs/scoreboard.gspec",
+            "lineNumber" : 174
+          },
+          "objects" : [ {
+            "name" : "scorecard.team_name-1",
+            "specs" : [ {
+              "status" : "error",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 176
+              },
+              "name" : "height 19px",
+              "errors" : [ "\"scorecard.team_name-1\" height is 24px instead of 19px" ],
+              "highlight" : [ "scorecard.team_name-1" ]
+            } ]
+          }, {
+            "name" : "scorecard.team_name-2",
+            "specs" : [ {
+              "status" : "error",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 179
+              },
+              "name" : "height 19px",
+              "errors" : [ "\"scorecard.team_name-2\" height is 24px instead of 19px" ],
+              "highlight" : [ "scorecard.team_name-2" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 180
+              },
+              "name" : "below scorecard.team_name-1",
+              "highlight" : [ "scorecard.team_name-2", "scorecard.team_name-1" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 181
+              },
+              "name" : "aligned vertically left scorecard.team_name-1",
+              "highlight" : [ "scorecard.team_name-2", "scorecard.team_name-1" ]
+            } ]
+          }, {
+            "name" : "scorecard.team_record-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 184
+              },
+              "name" : "below scorecard.team_name-1",
+              "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
+            }, {
+              "status" : "error",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 185
+              },
+              "name" : "aligned vertically left scorecard.team_name-1",
+              "errors" : [ "\"scorecard.team_name-1\" is not aligned vertically left with \"scorecard.team_record-1\". Offset is 8px" ],
+              "highlight" : [ "scorecard.team_record-1", "scorecard.team_name-1" ]
+            } ]
+          }, {
+            "name" : "scorecard.team_record-2",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 188
+              },
+              "name" : "below scorecard.team_name-2",
+              "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
+            }, {
+              "status" : "error",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 189
+              },
+              "name" : "aligned vertically left scorecard.team_name-2",
+              "errors" : [ "\"scorecard.team_name-2\" is not aligned vertically left with \"scorecard.team_record-2\". Offset is 8px" ],
+              "highlight" : [ "scorecard.team_record-2", "scorecard.team_name-2" ]
+            } ]
+          }, {
+            "name" : "scorecard.pitcher_name-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 192
+              },
+              "name" : "aligned vertically right scorecard.pitcher_stats-1",
+              "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-1" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 193
+              },
+              "name" : "aligned vertically right scorecard.pitcher_name-2",
+              "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_name-2" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 194
+              },
+              "name" : "aligned vertically right scorecard.pitcher_stats-2",
+              "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-2" ]
+            } ]
+          }, {
+            "name" : "scorecard.probables_header",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 197
+              },
+              "name" : "centered horizontally inside scorecard.event_body",
+              "highlight" : [ "scorecard.probables_header", "scorecard.event_body" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 198
+              },
+              "name" : "text uppercase is \"PITCHING PROBABLES\"",
+              "highlight" : [ "scorecard.probables_header" ]
+            } ]
+          }, {
+            "name" : "scorecard.prob_pitcher_container-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 201
+              },
+              "name" : "centered horizontally inside scorecard.event_body",
+              "highlight" : [ "scorecard.prob_pitcher_container-1", "scorecard.event_body" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 202
+              },
+              "name" : "aligned vertically all scorecard.prob_pitcher_container-2",
+              "highlight" : [ "scorecard.prob_pitcher_container-1", "scorecard.prob_pitcher_container-2" ]
+            } ]
+          }, {
+            "name" : "scorecard.prob_team_abbreviation-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 205
+              },
+              "name" : "aligned vertically all scorecard.prob_team_abbreviation-2",
+              "highlight" : [ "scorecard.prob_team_abbreviation-1", "scorecard.prob_team_abbreviation-2" ]
+            } ]
+          }, {
+            "name" : "scorecard.prob_pitcher_headshot-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 208
+              },
+              "name" : "aligned vertically all scorecard.prob_pitcher_headshot-2",
+              "highlight" : [ "scorecard.prob_pitcher_headshot-1", "scorecard.prob_pitcher_headshot-2" ]
+            } ]
+          }, {
+            "name" : "scorecard.prob_pitcher_name-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/scoreboard.gspec",
+                "lineNumber" : 211
+              },
+              "name" : "aligned vertically left scorecard.prob_pitcher_name-2",
+              "highlight" : [ "scorecard.prob_pitcher_name-1", "scorecard.prob_pitcher_name-2" ]
+            } ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "scorecard.team_record-1" : {
+          "area" : [ 50, 358, 43, 15 ]
+        },
+        "scorecard.pitcher_name-1" : {
+          "area" : [ 294, 337, 122, 15 ]
+        },
+        "scorecard.prob_pitcher_container-1" : {
+          "area" : [ 134, 515, 208, 80 ]
+        },
+        "scorecard.pitcher_name-2" : {
+          "area" : [ 261, 376, 155, 14 ]
+        },
+        "scorecard.prob_pitcher_container-2" : {
+          "area" : [ 134, 595, 208, 80 ]
+        },
+        "scorecard.team_logo-2" : {
+          "area" : [ 34, 373, 24, 24 ]
+        },
+        "scorecard.pitcher_stats-1" : {
+          "area" : [ 294, 354, 122, 15 ]
+        },
+        "scorecard.pitcher_stats-2" : {
+          "area" : [ 261, 392, 155, 15 ]
+        },
+        "scorecard.team_record-2" : {
+          "area" : [ 50, 397, 43, 14 ]
+        },
+        "scorecard.team_logo-1" : {
+          "area" : [ 34, 334, 24, 24 ]
+        },
+        "scorecard.prob_pitcher_name-2" : {
+          "area" : [ 246, 611, 96, 16 ]
+        },
+        "scorecard.team_name-1" : {
+          "area" : [ 58, 334, 104, 24 ]
+        },
+        "scorecard.scoreboard_button" : {
+          "area" : [ 41, 427, 189, 32 ]
+        },
+        "scorecard.team_name-2" : {
+          "area" : [ 58, 373, 60, 24 ]
+        },
+        "scorecard.prob_team_abbreviation-1" : {
+          "area" : [ 134, 526, 48, 22 ]
+        },
+        "scorecard.prob_pitcher_headshot-1" : {
+          "area" : [ 182, 515, 48, 51 ]
+        },
+        "scorecard.prob_team_abbreviation-2" : {
+          "area" : [ 134, 606, 48, 22 ]
+        },
+        "scorecard.prob_pitcher_headshot-2" : {
+          "area" : [ 182, 595, 48, 51 ]
+        },
+        "scorecard.event_body" : {
+          "area" : [ 0, 312, 476, 365 ]
+        },
+        "scorecard.prob_pitcher_name-1" : {
+          "area" : [ 246, 531, 96, 16 ]
+        },
+        "scorecard.probables_header" : {
+          "area" : [ 2, 475, 473, 40 ]
+        }
+      },
+      "screenshot" : "layout-12-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
