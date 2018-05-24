@@ -6,16 +6,11 @@ function Platform(browser, browserVersion, os, osVersion) {
 }
 
 //Refer to https://www.browserstack.com/automate/capabilities to config capabilities
-var platforms = {
-  ie_win_7: new Platform('IE', '11.0', 'Windows', '7'),
-  safari_OSX_highsierra: new Platform('safari', '11.1', 'OS X', 'High Sierra')
-};
-
 var supportedPlatforms = {
   Chrome_Latest_Win10: new Platform('Chrome', '', 'Windows', '10'),
   Firefox_Latest_Win10: new Platform('FireFox', '', 'Windows', '10'),
   IE11_Latest_Wind10: new Platform('IE', '', 'Windows', '10'),
-  Edge_Latest_Win10: new Platform('Edge', '', 'Windows', '10')
+  Edge_Latest_Win10: new Platform('Edge', '', 'Windows', '10'),
   Safari_Latest_MacOS: new Platform('Safari', '', 'OS X', 'High Sierra')
 };
 

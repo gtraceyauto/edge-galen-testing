@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527086954562,
+      "time" : 1527173085073,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: mobile",
       "status" : "error",
-      "time" : 1527086970388,
+      "time" : 1527173101765,
       "includedTags" : [ "mobile" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -186,20 +186,22 @@
               "name" : "aligned vertically right scorecard.pitcher_stats-1",
               "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-1" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
                 "lineNumber" : 193
               },
               "name" : "aligned vertically right scorecard.pitcher_name-2",
+              "errors" : [ "\"scorecard.pitcher_name-2\" is not aligned vertically right with \"scorecard.pitcher_name-1\". Offset is 1px" ],
               "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_name-2" ]
             }, {
-              "status" : "info",
+              "status" : "error",
               "place" : {
                 "filePath" : "specs/scoreboard.gspec",
                 "lineNumber" : 194
               },
               "name" : "aligned vertically right scorecard.pitcher_stats-2",
+              "errors" : [ "\"scorecard.pitcher_stats-2\" is not aligned vertically right with \"scorecard.pitcher_name-1\". Offset is 1px" ],
               "highlight" : [ "scorecard.pitcher_name-1", "scorecard.pitcher_stats-2" ]
             } ]
           }, {
@@ -281,13 +283,13 @@
           "area" : [ 49, 348, 44, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 259, 327, 107, 15 ]
+          "area" : [ 223, 327, 142, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
           "area" : [ 106, 507, 208, 68 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 230, 366, 136, 15 ]
+          "area" : [ 210, 366, 156, 15 ]
         },
         "scorecard.prob_pitcher_container-2" : {
           "area" : [ 106, 575, 208, 68 ]
@@ -296,10 +298,10 @@
           "area" : [ 33, 363, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 259, 344, 107, 15 ]
+          "area" : [ 223, 344, 142, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 230, 383, 136, 15 ]
+          "area" : [ 210, 383, 156, 15 ]
         },
         "scorecard.team_record-2" : {
           "area" : [ 49, 387, 44, 15 ]
@@ -311,13 +313,13 @@
           "area" : [ 218, 591, 96, 17 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 57, 324, 105, 24 ]
+          "area" : [ 57, 324, 52, 24 ]
         },
         "scorecard.scoreboard_button" : {
           "area" : [ 34, 418, 167, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 57, 363, 60, 24 ]
+          "area" : [ 57, 363, 39, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
           "area" : [ 106, 520, 48, 20 ]

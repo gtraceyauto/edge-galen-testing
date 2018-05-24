@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527086908882,
+      "time" : 1527173036641,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
       "status" : "error",
-      "time" : 1527086926121,
+      "time" : 1527173048142,
       "includedTags" : [ "desktop" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -281,13 +281,13 @@
           "area" : [ 49, 356, 45, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 298, 335, 126, 15 ]
+          "area" : [ 256, 335, 168, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
           "area" : [ 138, 514, 208, 80 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 264, 374, 160, 15 ]
+          "area" : [ 241, 374, 183, 15 ]
         },
         "scorecard.prob_pitcher_container-2" : {
           "area" : [ 138, 594, 208, 80 ]
@@ -296,10 +296,10 @@
           "area" : [ 33, 371, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 298, 352, 126, 15 ]
+          "area" : [ 256, 352, 168, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 264, 391, 160, 15 ]
+          "area" : [ 241, 391, 183, 15 ]
         },
         "scorecard.team_record-2" : {
           "area" : [ 49, 395, 45, 15 ]
@@ -311,13 +311,13 @@
           "area" : [ 250, 609, 96, 16 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 57, 332, 106, 24 ]
+          "area" : [ 57, 332, 53, 24 ]
         },
         "scorecard.scoreboard_button" : {
           "area" : [ 41, 426, 193, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 57, 371, 61, 24 ]
+          "area" : [ 57, 371, 40, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
           "area" : [ 138, 525, 48, 21 ]

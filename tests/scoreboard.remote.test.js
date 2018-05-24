@@ -33,12 +33,12 @@ forAll(supportedPlatforms, function() {
       driver.get(widgetToTest.url);
       var scorecardPage = new ScorecardPage(driver);
       resize(driver, device.size);
-      scorecardPage.snapshotButton.waitToBeShown('5s');
+      scorecardPage.snapshotButton.waitToBeShown('20s');
       scorecardPage.snapshotButton.clickAt(10, 10);
       if (scorecardPage.runnersOnBaseContainer.exists()) {
-        scorecardPage.eventBodyBottom.waitToBeShown('5s');
+        scorecardPage.eventBodyBottom.waitToBeShown('20s');
       } else {
-        scorecardPage.mlbPreview.waitToBeShown('5s');
+        scorecardPage.mlbPreview.waitToBeShown('20s');
       }
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
     });

@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527087285845,
+      "time" : 1527173537174,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: tablet",
       "status" : "error",
-      "time" : 1527087298682,
+      "time" : 1527173593183,
       "includedTags" : [ "tablet" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -281,13 +281,13 @@
           "area" : [ 50, 358, 43, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 213, 337, 86, 15 ]
+          "area" : [ 184, 337, 115, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
           "area" : [ 70, 515, 208, 80 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 190, 376, 109, 14 ]
+          "area" : [ 174, 376, 125, 14 ]
         },
         "scorecard.prob_pitcher_container-2" : {
           "area" : [ 70, 595, 208, 80 ]
@@ -296,10 +296,10 @@
           "area" : [ 34, 373, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 213, 354, 86, 15 ]
+          "area" : [ 184, 354, 115, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 190, 392, 109, 15 ]
+          "area" : [ 174, 392, 125, 15 ]
         },
         "scorecard.team_record-2" : {
           "area" : [ 50, 397, 43, 14 ]
@@ -311,13 +311,13 @@
           "area" : [ 182, 611, 96, 16 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 58, 334, 104, 24 ]
+          "area" : [ 58, 334, 52, 24 ]
         },
         "scorecard.scoreboard_button" : {
           "area" : [ 28, 427, 138, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 58, 373, 60, 24 ]
+          "area" : [ 58, 373, 39, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
           "area" : [ 70, 526, 48, 22 ]

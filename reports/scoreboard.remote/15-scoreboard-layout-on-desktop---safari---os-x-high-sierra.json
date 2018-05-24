@@ -9,12 +9,12 @@
         "name" : "css: .game-section-container > div.game-section:nth-child(1) > div.event:nth-child(1) > div > div.event-body > div.event-card-buttons > div.scoreboard-button",
         "type" : "text"
       } ],
-      "time" : 1527087429190,
+      "time" : 1527173753234,
       "type" : "node"
     }, {
       "name" : "Check layout: specs/scoreboard.gspec included tags: desktop",
       "status" : "error",
-      "time" : 1527087443014,
+      "time" : 1527173763924,
       "includedTags" : [ "desktop" ],
       "sections" : [ {
         "name" : "Scorecard",
@@ -85,7 +85,7 @@
               "lineNumber" : 79
             },
             "name" : "on top left edge scorecard.event_body 24px right",
-            "errors" : [ "\"scorecard.scoreboard_button\" is 42px right instead of 24px" ],
+            "errors" : [ "\"scorecard.scoreboard_button\" is 41px right instead of 24px" ],
             "highlight" : [ "scorecard.scoreboard_button", "scorecard.event_body" ]
           } ]
         } ],
@@ -278,70 +278,70 @@
       } ],
       "objects" : {
         "scorecard.team_record-1" : {
-          "area" : [ 490, 358, 44, 15 ]
+          "area" : [ 498, 358, 44, 15 ]
         },
         "scorecard.pitcher_name-1" : {
-          "area" : [ 745, 337, 127, 15 ]
+          "area" : [ 710, 337, 169, 15 ]
         },
         "scorecard.prob_pitcher_container-1" : {
-          "area" : [ 583, 516, 208, 80 ]
+          "area" : [ 590, 516, 208, 80 ]
         },
         "scorecard.pitcher_name-2" : {
-          "area" : [ 711, 376, 161, 15 ]
+          "area" : [ 694, 376, 185, 15 ]
         },
         "scorecard.prob_pitcher_container-2" : {
-          "area" : [ 583, 596, 208, 80 ]
+          "area" : [ 590, 596, 208, 80 ]
         },
         "scorecard.team_logo-2" : {
-          "area" : [ 474, 373, 24, 24 ]
+          "area" : [ 482, 373, 24, 24 ]
         },
         "scorecard.pitcher_stats-1" : {
-          "area" : [ 745, 354, 127, 15 ]
+          "area" : [ 710, 354, 169, 15 ]
         },
         "scorecard.pitcher_stats-2" : {
-          "area" : [ 711, 393, 161, 15 ]
+          "area" : [ 694, 393, 185, 15 ]
         },
         "scorecard.team_record-2" : {
-          "area" : [ 490, 397, 44, 15 ]
+          "area" : [ 498, 397, 44, 15 ]
         },
         "scorecard.team_logo-1" : {
-          "area" : [ 474, 334, 24, 24 ]
+          "area" : [ 482, 334, 24, 24 ]
         },
         "scorecard.prob_pitcher_name-2" : {
-          "area" : [ 695, 611, 96, 16 ]
+          "area" : [ 702, 611, 96, 16 ]
         },
         "scorecard.team_name-1" : {
-          "area" : [ 498, 334, 105, 24 ]
+          "area" : [ 506, 334, 53, 24 ]
         },
         "scorecard.scoreboard_button" : {
-          "area" : [ 483, 428, 196, 32 ]
+          "area" : [ 490, 428, 196, 32 ]
         },
         "scorecard.team_name-2" : {
-          "area" : [ 498, 373, 61, 24 ]
+          "area" : [ 506, 373, 39, 24 ]
         },
         "scorecard.prob_team_abbreviation-1" : {
-          "area" : [ 583, 527, 48, 21 ]
+          "area" : [ 590, 527, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-1" : {
-          "area" : [ 631, 516, 48, 51 ]
+          "area" : [ 638, 516, 48, 51 ]
         },
         "scorecard.prob_team_abbreviation-2" : {
-          "area" : [ 583, 607, 48, 21 ]
+          "area" : [ 590, 607, 48, 21 ]
         },
         "scorecard.prob_pitcher_headshot-2" : {
-          "area" : [ 631, 596, 48, 51 ]
+          "area" : [ 638, 596, 48, 51 ]
         },
         "scorecard.event_body" : {
-          "area" : [ 441, 312, 492, 365 ]
+          "area" : [ 449, 312, 492, 365 ]
         },
         "scorecard.prob_pitcher_name-1" : {
-          "area" : [ 695, 531, 96, 16 ]
+          "area" : [ 702, 531, 96, 16 ]
         },
         "scorecard.probables_header" : {
-          "area" : [ 442, 476, 490, 40 ]
+          "area" : [ 450, 476, 490, 40 ]
         }
       },
-      "screenshot" : "layout-15-screenshot.png",
+      "screenshot" : "layout-14-screenshot.png",
       "type" : "layout"
     } ]
   }

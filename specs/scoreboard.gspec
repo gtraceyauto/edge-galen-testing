@@ -91,7 +91,7 @@
             scorecard.team_name-3:
               height 19px
               below scorecard.team_name-2
-              aligned vertically left scorecard.team_name-2
+              aligned vertically left scorecard.team_name-2 
 
             scorecard.team_record-1:
               below scorecard.team_name-2

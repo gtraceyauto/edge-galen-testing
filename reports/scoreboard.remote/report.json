@@ -1,8 +1,8 @@
 {
   "tests" : [ {
     "name" : "scoreboard layout on mobile - Chrome  - Windows 10",
-    "startedAt" : 1527086833259,
-    "endedAt" : 1527086857224,
+    "startedAt" : 1527172908379,
+    "endedAt" : 1527172936072,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -12,12 +12,12 @@
     },
     "testId" : "1-scoreboard-layout-on-mobile---chrome---windows-10",
     "groups" : [ ],
-    "duration" : 23965,
+    "duration" : 27693,
     "failed" : true
   }, {
     "name" : "scoreboard layout on tablet - Chrome  - Windows 10",
-    "startedAt" : 1527086862171,
-    "endedAt" : 1527086887459,
+    "startedAt" : 1527172943043,
+    "endedAt" : 1527173016259,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -27,12 +27,12 @@
     },
     "testId" : "2-scoreboard-layout-on-tablet---chrome---windows-10",
     "groups" : [ ],
-    "duration" : 25288,
+    "duration" : 73216,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop - Chrome  - Windows 10",
-    "startedAt" : 1527086897631,
-    "endedAt" : 1527086926121,
+    "startedAt" : 1527173022363,
+    "endedAt" : 1527173048142,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -42,27 +42,12 @@
     },
     "testId" : "3-scoreboard-layout-on-desktop---chrome---windows-10",
     "groups" : [ ],
-    "duration" : 28490,
+    "duration" : 25779,
     "failed" : true
   }, {
     "name" : "scoreboard layout on mobile - FireFox  - Windows 10",
-    "startedAt" : 1527086936130,
-    "endedAt" : 1527086970388,
-    "failed" : true,
-    "statistic" : {
-      "passed" : 21,
-      "errors" : 5,
-      "warnings" : 0,
-      "total" : 26
-    },
-    "testId" : "4-scoreboard-layout-on-mobile---firefox---windows-10",
-    "groups" : [ ],
-    "duration" : 34258,
-    "failed" : true
-  }, {
-    "name" : "scoreboard layout on tablet - FireFox  - Windows 10",
-    "startedAt" : 1527086976048,
-    "endedAt" : 1527087006525,
+    "startedAt" : 1527173059061,
+    "endedAt" : 1527173101765,
     "failed" : true,
     "statistic" : {
       "passed" : 19,
@@ -70,14 +55,29 @@
       "warnings" : 0,
       "total" : 26
     },
+    "testId" : "4-scoreboard-layout-on-mobile---firefox---windows-10",
+    "groups" : [ ],
+    "duration" : 42704,
+    "failed" : true
+  }, {
+    "name" : "scoreboard layout on tablet - FireFox  - Windows 10",
+    "startedAt" : 1527173112388,
+    "endedAt" : 1527173202321,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 21,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 26
+    },
     "testId" : "5-scoreboard-layout-on-tablet---firefox---windows-10",
     "groups" : [ ],
-    "duration" : 30477,
+    "duration" : 89933,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop - FireFox  - Windows 10",
-    "startedAt" : 1527087014155,
-    "endedAt" : 1527087047414,
+    "startedAt" : 1527173214205,
+    "endedAt" : 1527173243748,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -87,27 +87,27 @@
     },
     "testId" : "6-scoreboard-layout-on-desktop---firefox---windows-10",
     "groups" : [ ],
-    "duration" : 33259,
+    "duration" : 29543,
     "failed" : true
   }, {
     "name" : "scoreboard layout on mobile - IE  - Windows 10",
-    "startedAt" : 1527087053329,
-    "endedAt" : 1527087108788,
+    "startedAt" : 1527173250304,
+    "endedAt" : 1527173309533,
     "failed" : true,
     "statistic" : {
-      "passed" : 19,
-      "errors" : 7,
+      "passed" : 21,
+      "errors" : 5,
       "warnings" : 0,
       "total" : 26
     },
     "testId" : "7-scoreboard-layout-on-mobile---ie---windows-10",
     "groups" : [ ],
-    "duration" : 55459,
+    "duration" : 59229,
     "failed" : true
   }, {
     "name" : "scoreboard layout on tablet - IE  - Windows 10",
-    "startedAt" : 1527087114419,
-    "endedAt" : 1527087169502,
+    "startedAt" : 1527173316908,
+    "endedAt" : 1527173369045,
     "failed" : true,
     "statistic" : {
       "passed" : 19,
@@ -117,12 +117,12 @@
     },
     "testId" : "8-scoreboard-layout-on-tablet---ie---windows-10",
     "groups" : [ ],
-    "duration" : 55083,
+    "duration" : 52137,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop - IE  - Windows 10",
-    "startedAt" : 1527087175077,
-    "endedAt" : 1527087235960,
+    "startedAt" : 1527173374227,
+    "endedAt" : 1527173444617,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -132,12 +132,12 @@
     },
     "testId" : "9-scoreboard-layout-on-desktop---ie---windows-10",
     "groups" : [ ],
-    "duration" : 60883,
+    "duration" : 70390,
     "failed" : true
   }, {
     "name" : "scoreboard layout on mobile - Edge  - Windows 10",
-    "startedAt" : 1527087241234,
-    "endedAt" : 1527087265470,
+    "startedAt" : 1527173452179,
+    "endedAt" : 1527173517406,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -147,12 +147,12 @@
     },
     "testId" : "10-scoreboard-layout-on-mobile---edge---windows-10",
     "groups" : [ ],
-    "duration" : 24236,
+    "duration" : 65227,
     "failed" : true
   }, {
     "name" : "scoreboard layout on tablet - Edge  - Windows 10",
-    "startedAt" : 1527087278261,
-    "endedAt" : 1527087298682,
+    "startedAt" : 1527173528366,
+    "endedAt" : 1527173593183,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -162,12 +162,12 @@
     },
     "testId" : "11-scoreboard-layout-on-tablet---edge---windows-10",
     "groups" : [ ],
-    "duration" : 20421,
+    "duration" : 64817,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop - Edge  - Windows 10",
-    "startedAt" : 1527087306824,
-    "endedAt" : 1527087327149,
+    "startedAt" : 1527173604428,
+    "endedAt" : 1527173634733,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -177,27 +177,29 @@
     },
     "testId" : "12-scoreboard-layout-on-desktop---edge---windows-10",
     "groups" : [ ],
-    "duration" : 20325,
+    "duration" : 30305,
     "failed" : true
   }, {
     "name" : "scoreboard layout on mobile - Safari  - OS X High Sierra",
-    "startedAt" : 1527087334755,
-    "endedAt" : 1527087355133,
+    "startedAt" : 1527173642526,
+    "endedAt" : 1527173679008,
     "failed" : true,
     "statistic" : {
-      "passed" : 19,
-      "errors" : 7,
+      "passed" : 1,
+      "errors" : 1,
       "warnings" : 0,
-      "total" : 26
+      "total" : 2
     },
     "testId" : "13-scoreboard-layout-on-mobile---safari---os-x-high-sierra",
     "groups" : [ ],
-    "duration" : 20378,
-    "failed" : true
+    "duration" : 36482,
+    "failed" : true,
+    "exceptionMessage" : "JavaScriptException: Error: timeout error waiting for:\n  - mlbPreview on ScoreboardPage should be shown (<cmd>#199)",
+    "exceptionStacktrace" : "org.mozilla.javascript.JavaScriptException: Error: timeout error waiting for:\n  - mlbPreview on ScoreboardPage should be shown (<cmd>#199)\n\tat org.mozilla.javascript.gen._cmd__19._c_anonymous_12(<cmd>:199)\n\tat org.mozilla.javascript.gen._cmd__19.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__19._c_anonymous_47(<cmd>:482)\n\tat org.mozilla.javascript.gen._cmd__19.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__19._c_anonymous_49(<cmd>:485)\n\tat org.mozilla.javascript.gen._cmd__19.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_scoreboard_remote_test_js_20._c_anonymous_4(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/scoreboard.remote.test.js:41)\n\tat org.mozilla.javascript.gen._Users_lantzmbp_Desktop_widgets_galen_testing_tests_scoreboard_remote_test_js_20.call(/Users/lantzmbp/Desktop/widgets/galen-testing/tests/scoreboard.remote.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:35)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:748)\n"
   }, {
     "name" : "scoreboard layout on tablet - Safari  - OS X High Sierra",
-    "startedAt" : 1527087373688,
-    "endedAt" : 1527087398098,
+    "startedAt" : 1527173699269,
+    "endedAt" : 1527173716720,
     "failed" : true,
     "statistic" : {
       "passed" : 19,
@@ -207,12 +209,12 @@
     },
     "testId" : "14-scoreboard-layout-on-tablet---safari---os-x-high-sierra",
     "groups" : [ ],
-    "duration" : 24410,
+    "duration" : 17451,
     "failed" : true
   }, {
     "name" : "scoreboard layout on desktop - Safari  - OS X High Sierra",
-    "startedAt" : 1527087418847,
-    "endedAt" : 1527087443014,
+    "startedAt" : 1527173746511,
+    "endedAt" : 1527173763924,
     "failed" : true,
     "statistic" : {
       "passed" : 21,
@@ -222,7 +224,7 @@
     },
     "testId" : "15-scoreboard-layout-on-desktop---safari---os-x-high-sierra",
     "groups" : [ ],
-    "duration" : 24167,
+    "duration" : 17413,
     "failed" : true
   } ]
 }
