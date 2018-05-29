@@ -3,6 +3,7 @@ var
   del = require('del'),
   tap = require('gulp-tap'),
   index = require('serve-index'),
+  ip = require('ip'),
   serve = require('gulp-serve'),
   spawn = require('cross-spawn'),
   async = require('async'),
@@ -72,6 +73,7 @@ gulp.task('serve', serve({
             'view'       : 'details'
         })(req, res, next);
     },
+    'hostname' : ip.address(),
     'port' : 3333,
     'root' : reportsDir
 }));
@@ -87,7 +89,7 @@ gulp.task('grid-node', function(done) {
     '-jar', jar.path,
     '-role', 'node',
     '-hub', gridHubUrl,
-    '-host', '10.203.225.84'
+    '-host', ip.address()
   ]);
   done();
 });
