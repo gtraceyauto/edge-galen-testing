@@ -25,8 +25,7 @@ forAll(supportedPlatforms, function() {
           browser_version: platform.browserVersion,
           os: platform.os,
           os_version: platform.osVersion,
-          name: testName.toString(),
-          'browserstack.debug': 'true'
+          name: testName.toString()
         }
       });
       session.put('driver', driver);

@@ -4,7 +4,7 @@ var
   tap = require('gulp-tap'),
   index = require('serve-index'),
   serve = require('gulp-serve'),
-  spawn = require('child_process').spawn,
+  spawn = require('cross-spawn'),
   async = require('async'),
   argv = require('yargs').argv,
   jar = require('selenium-server-standalone-jar');
