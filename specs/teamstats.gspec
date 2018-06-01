@@ -57,11 +57,11 @@
 
   @on desktop, tablet
     header:
-      height ~64px
+      height ~40px
 
   @on mobile
     header:
-      height ~40px
+      height ~24px
 
 = Selection Header =
   @on *
@@ -100,15 +100,15 @@
 
       player_category_toggle.tab-1:
         aligned horizontally all conference_toggle.tab-1
-        inside widget_container 16 to 32 px left, ~80 px top
+        inside widget_container 16 to 32 px left, ~56 px top
 
       conference_toggle.tab-3:
-        inside widget_container 16 to 32 px right, ~80 px top
+        inside widget_container 16 to 32 px right, ~56 px top
 
     @on mobile
       player_category_toggle:
         centered horizontally inside widget_container
-        below header ~16px
+        below header ~24px
         aligned vertically centered conference_toggle
 
       conference_toggle:

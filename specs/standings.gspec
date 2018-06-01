@@ -48,12 +48,12 @@
 = Header =
   @on desktop, tablet
     header:
-      height 40 px
+      height ~40 px
       text uppercase is "MLB STANDINGS"
 
   @on mobile
     header:
-      height 24 px
+      height ~24 px
       text uppercase is "MLB STANDINGS"
 
 = Tabs =
@@ -83,7 +83,7 @@
 
     al_conference.name:
       text uppercase is "AMERICAN LEAGUE"
-      below toggle_container.tab-1 ~22 px
+      below toggle_container.tab-1 ~8 px
 
     nl_conference.name:
       text uppercase is "NATIONAL LEAGUE"

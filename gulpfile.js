@@ -18,11 +18,7 @@ var parallelTests = whereToTest == 'local' ? 3 : 1;
 
 //Task to erase previous test reports
 gulp.task('clean', function(done) {
-  if (widgetToTest == '*') {
-    del ([reportsDir]);
-  } else {
-    del([reportsDir + '/' + widgetToTest]);
-  };
+  del([reportsDir + '/' + widgetToTest]);
   done();
 });
 
