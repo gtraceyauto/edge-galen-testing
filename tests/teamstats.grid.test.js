@@ -9,7 +9,8 @@ var gridHubUrl = 'http://10.203.225.18:4444/wd/hub/';
 this.TeamstatsPage = function(driver) {
   GalenPages.extendPage(this, driver, 'teamstats', {
     mainContainer: '.main-container',
-    pitchingTab: '.player-category-toggle > div.toggle-container > div:nth-child(2)'
+    pitchingTab: '.player-category-toggle > div.toggle-container > div:nth-child(2)',
+    eraHeader: '#shs-mlb-team-multi-stat > div > div.main-container > table > thead > tr > th.stat-container.earnedRunAverage'
   });
 };
 
@@ -27,10 +28,10 @@ forAll(platforms, function() {
       driver.get(widgetToTest.url);
       var teamstatsPage = new TeamstatsPage(driver);
       resize(driver, device.size);
-      teamstatsPage.mainContainer.waitToBeShown('2s');
+      teamstatsPage.mainContainer.waitToBeShown('5s');
       checkLayout(driver, 'specs/' + widgetName + '.gspec', device.tag);
       teamstatsPage.pitchingTab.clickAt(5, 5);
-      GalenPages.sleep(1000);
+      teamstatsPage.eraHeader.waitToBeShown('5s');
       checkLayout(driver, 'specs/teamstats.pitching.gspec', device.tag);
     });
   });

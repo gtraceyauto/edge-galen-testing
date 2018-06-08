@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "teamstats layout on mobile",
+    "startedAt" : 1528471474208,
+    "endedAt" : 1528471550446,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 1286,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 1288
+    },
+    "testId" : "1-teamstats-layout-on-mobile",
+    "groups" : [ ],
+    "duration" : 76238,
+    "failed" : true
+  }, {
+    "name" : "teamstats layout on desktop",
+    "startedAt" : 1528471474208,
+    "endedAt" : 1528471595951,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 2278,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 2280
+    },
+    "testId" : "2-teamstats-layout-on-desktop",
+    "groups" : [ ],
+    "duration" : 121743,
+    "failed" : true
+  }, {
+    "name" : "teamstats layout on tablet",
+    "startedAt" : 1528471474208,
+    "endedAt" : 1528471597838,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 2279,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 2280
+    },
+    "testId" : "3-teamstats-layout-on-tablet",
+    "groups" : [ ],
+    "duration" : 123630,
+    "failed" : true
+  } ]
+}
