@@ -5,5 +5,5 @@ function Platform(browser, os) {
 
 var platforms = {
   firefox: new Platform('firefox', 'WINDOWS'),
-  chrome: new Platform('chrome', 'WINDOWS')  
+  chrome: new Platform('chrome', 'WINDOWS')
 }

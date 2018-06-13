@@ -37,11 +37,11 @@
       current_pitcher            .current-pitcher-container
           label                  .current-pitcher-label
           headshot               .headshot
-          name                   .player-link
+          name                   .current-pitcher.player-link
       current_batter             .current-batter-container
           label                  .current-batter-label
           headshot               .headshot
-          name                   .player-link
+          name                   .current-batter.player-link
       bso_field                  .balls-strikes-outs
       balls                      .balls-strikes-outs div.data-container:nth-child(1)
           label                  .balls
@@ -91,7 +91,7 @@
             scorecard.team_name-3:
               height 19px
               below scorecard.team_name-2
-              aligned vertically left scorecard.team_name-2 
+              aligned vertically left scorecard.team_name-2
 
             scorecard.team_record-1:
               below scorecard.team_name-2

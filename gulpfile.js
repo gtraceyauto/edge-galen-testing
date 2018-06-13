@@ -57,7 +57,7 @@ gulp.task('testWidgets', function(done) {
     });
 });
 
-//Task to cast reports to localhost
+//Task to cast reports to local ip
 gulp.task('serve', serve({
     'middleware' : function (req, res, next) {
         index(reportsDir, {
