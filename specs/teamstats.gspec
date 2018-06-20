@@ -122,7 +122,7 @@
 
     | stat_row_container-* are aligned vertically above each other with equal distance
     | rank-* are aligned vertically above each other with equal distance
-    | team_logo-* are aligned vertically above each other with 16px margin
+    | team_logo-* are aligned vertically above each other with 12px margin
     | every team_logo-* has height 24px and has width 24px
     | &column_g are aligned vertically above each other with equal distance
     | &column_r are aligned vertically above each other with equal distance
