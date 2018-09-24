@@ -1,6 +1,6 @@
-# Galen Layout Testing for Widgets #
+# Galen Layout Testing for Edge #
 
-This repo contains a set of tests for Widgets using the [Galen Framework](http://galenframework.com/) and Node.js.  They will test whether a Widget's layout conforms to a given spec sheet and produces highly readable and specific HTML reports.  Additionally the tests can be configured to run across various browser-OS-version combinations (defaults to Chrome), either locally or via the [Browserstack](http://www.browserstack.com) remote testing service.
+This repo contains a set of tests for Edge using the [Galen Framework](http://galenframework.com/) and Node.js.  They will test whether a Widget's layout conforms to a given spec sheet and produces highly readable and specific HTML reports.  Additionally the tests can be configured to run across various browser-OS-version combinations (defaults to Chrome), either locally or via the [Browserstack](http://www.browserstack.com) remote testing service.
 
 ### Prerequisites ###
 * [Node.js](https://nodejs.org/en/)
