@@ -1,0 +1,26 @@
+
+@import galen-extras/galen-extras-rules.gspec
+
+@objects
+  page_header		xpath		//*[@id="root"]/div[2]/div[2]/div[1]
+  team_masthead     xpath       //*[@id="root"]/div[2]/div[2]/div[2]
+  team_big_logo		xpath	    //*[@id="root"]/div[2]/div[2]/div[2]/div[1]/img    
+  team_small_logo1	xpath	    //*[@id="root"]/div[2]/div[2]/div[2]/div[3]/div[2]/div[1]/img
+  team_dropdown		xpath		//*[@id="root"]/div[2]/div[2]/div[2]/div[2]/div/div[1]/span[1]				
+
+
+==Header==
+    team_big_logo: 
+		height ~200px 
+		width ~200px 
+    team_small_logo1:
+   		height ~48px
+   		width ~48px
+	page_header:
+		text uppercase is "TEAM TO ANALYSE"
+	
+  
+==Menus==
+	team_dropdown:
+		contains menu_item
+		   

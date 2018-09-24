@@ -1,0 +1,19 @@
+@import galen-extras/galen-extras-rules.gspec
+
+@objects
+  main_login            	    .login-container
+  stats_header					/html/body/div/div/div[1]/img	
+  login_button					#btn-login    
+
+==Header==
+	@on desktop
+		stats_header: 
+		  height ~65px 
+		  width ~382px    	
+	   
+==Button==
+	@on desktop
+		login_button:
+			height ~40px
+			width ~184px	
+   

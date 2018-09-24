@@ -10,7 +10,7 @@ var
   argv = require('yargs').argv,
   jar = require('selenium-server-standalone-jar');
 
-var widgetToTest = argv.w ? argv.w : '*';
+var moduleToTest = argv.w ? argv.w : '*';
 var whereToTest = argv.l ? argv.l : 'local';
 var reportsDir = 'reports';
 var gridHubUrl = 'http://10.203.220.61:4444/grid/register/';
@@ -18,12 +18,12 @@ var parallelTests = whereToTest == 'local' ? 3 : 1;
 
 //Task to erase previous test reports
 gulp.task('clean', function(done) {
-  del([reportsDir + '/' + widgetToTest]);
+  del([reportsDir + '/' + moduleToTest]);
   done();
 });
 
-//Task to test Widgets
-gulp.task('testWidgets', function(done) {
+//Task to test Edge
+gulp.task('testEdge', function(done) {
   var files = [];
   var galen = function galen(file, callback) {
     spawn('galen', [
@@ -37,7 +37,7 @@ gulp.task('testWidgets', function(done) {
     });
   };
 
-  return gulp.src([`tests/${widgetToTest}.${whereToTest}.test.js`])
+  return gulp.src([`tests/${moduleToTest}.${whereToTest}.test.js`])
     .pipe(tap(function(file) {
       files.push(file);
     }))
@@ -91,11 +91,11 @@ gulp.task('grid-node', function(done) {
 });
 
 //Serialized tasks
-gulp.task('test', gulp.series('clean', 'testWidgets', function(done) {
+gulp.task('test', gulp.series('clean', 'testEdge', function(done) {
   done();
 }));
 
-gulp.task('testAndReport', gulp.series('clean', 'testWidgets', 'serve', function(done) {
+gulp.task('testAndReport', gulp.series('clean', 'testEdge', 'serve', function(done) {
   done();
 }));
 

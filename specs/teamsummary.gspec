@@ -1,0 +1,85 @@
+
+@import galen-extras/galen-extras-rules.gspec
+
+@objects
+  page_header		xpath		//*[@id="root"]/div[2]/div[2]/div[1]
+  team_masthead     xpath       //*[@id="root"]/div[2]/div[2]/div[2]
+  team_big_logo		xpath	    //*[@id="root"]/div[2]/div[2]/div[2]/div[1]/img    
+  team_small_logo1	xpath	    //*[@id="root"]/div[2]/div[2]/div[2]/div[3]/div[2]/div[1]/img
+  competition_logo	xpath		//*[@id="root"]/div[1]/div[1]/div[2]/div/div[1]/span[1]/div/img
+  opp_small_logo	xpath		//*[@id="root"]/div[2]/div[4]/div[3]/div[1]/div/div[2]/div/div[6]/div/img
+  team_dropdown		xpath		//*[@id="root"]/div[2]/div[2]/div[2]/div[2]/div/div[1]/span[1]				
+  team_menu_logos	xpath		//*[@id="root"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[3]/a/div/img	
+  team_menu_items-*	xpath		//*[@id="root"]/div[2]/div[2]/div[2]/div[2]/div/div[2]
+  possession_tile	xpath		//*[@id="root"]/div[2]/div[4]/div[3]/div[1]/div
+  possession_title	xpath		//*[@id="root"]/div[2]/div[4]/div[3]/div[1]/div/div[1]
+  scoring_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[3]/div[2]/div
+  scoring_title		xpath		//*[@id="root"]/div[2]/div[4]/div[3]/div[2]/div/div[1]
+  crosses_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[4]/div[1]/div
+  crosses_title		xpath		//*[@id="root"]/div[2]/div[4]/div[4]/div[1]/div/div[1]
+  corner_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[4]/div[2]/div
+  corner_title		xpath		//*[@id="root"]/div[2]/div[4]/div[4]/div[2]/div/div[1]	
+  saves_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[6]/div[1]/div
+  saves_title		xpath		//*[@id="root"]/div[2]/div[4]/div[6]/div[1]/div/div[1]
+  duels_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[6]/div[2]/div
+  duels_title		xpath		//*[@id="root"]/div[2]/div[4]/div[6]/div[2]/div/div[1]
+  fouls_tile		xpath		//*[@id="root"]/div[2]/div[4]/div[7]/div[1]/div
+  fouls_title		xpath		//*[@id="root"]/div[2]/div[4]/div[7]/div[1]/div/div[1]
+  
+==Header==
+    team_big_logo: 
+		height ~200px 
+		width ~200px 
+    team_small_logo1:
+   		height ~48px
+   		width ~48px
+	page_header:
+		text uppercase is "TEAM TO ANALYSE"
+	  
+==Menus==
+	team_menu_logos:
+		height ~48px
+		width ~48px
+	competition_logo:
+		height ~40px
+		width ~32px
+
+==Tiles==
+	possession_tile:
+		height ~416px
+	possession_title:
+		centered horizontally inside possession_tile
+	opp_small_logo:
+		height ~24px
+		
+	scoring_tile:
+		height ~416px
+	scoring_title:	
+		centered horizontally inside scoring_tile
+		
+	crosses_tile:
+		height ~168px
+	crosses_title:	
+		centered horizontally inside crosses_tile	   
+		
+	corner_tile:
+		height ~168px
+	corner_title:	
+		centered horizontally inside corner_tile	
+		
+	saves_tile:
+		height ~454px
+	saves_title:	
+		centered horizontally inside saves_tile	
+	
+	duels_tile:
+		height ~454px
+	duels_title:	
+		centered horizontally inside duels_tile
+
+	fouls_tile:
+		height ~168px
+	fouls_title:	
+		centered horizontally inside fouls_tile	
+		
+		
